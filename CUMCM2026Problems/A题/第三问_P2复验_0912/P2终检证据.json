@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "P2 final deliverables; hash-compatible cached rebuild, not full PDE rerun",
+  "rebuild_exit": 0,
+  "result3_numeric_values_checked": 72429,
+  "result3_rows": 3449,
+  "time_range_s": [
+    60,
+    206940
+  ],
+  "radius_range_cm": [
+    0,
+    2
+  ],
+  "table5_values_checked": 50,
+  "main_h": 57.4777,
+  "main_Cmax": 0.14999996901343773,
+  "last_h": 57.1731,
+  "all_manifest_hashes_match": true,
+  "rebuilt_workbooks_summary_analysis_equal": true,
+  "visual_inspection": "one color plus two grayscale core figures inspected; labels, line styles, bounds readable",
+  "material_issues": []
+}

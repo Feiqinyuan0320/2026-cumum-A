@@ -1,0 +1,18 @@
+{
+  "stage": "M1",
+  "scope": "第四问候选方案评审；未运行PDE",
+  "status": "PASS",
+  "assumption": "均匀径向材料收缩、初始干物质均匀、有效物性热方程",
+  "full_physical_enthalpy_closure": false,
+  "required_rework": [],
+  "files": {
+    "题目分析报告.md": "a293995e860966d6391c08e5d2d8b34d4f9acf0b7b8674005a845b860a9f8fff",
+    "术语表格.md": "0e84cc9937ff590d2710adc4491a1241b65228a87556e91d63149dade8f4b22b"
+  },
+  "next_stage_checks": [
+    "常半径退化",
+    "无通量常数保持",
+    "干物质加权水分平衡",
+    "表面与域外输出"
+  ]
+}

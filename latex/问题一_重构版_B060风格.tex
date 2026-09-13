@@ -1,0 +1,808 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\geometry{
+  left=2.4cm,
+  right=2.4cm,
+  top=2.4cm,
+  bottom=2.4cm
+}
+\setlength{\parindent}{2em}
+\linespread{1.22}
+\captionsetup{font=small}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+
+\newcommand{\dif}{\mathrm{d}}
+
+\begin{document}
+
+\section{问题一：预热平衡阶段的径向热质传递模型}
+
+\subsection{问题分析}
+
+问题一研究烘干初期 $1800~\mathrm{s}$ 内圆柱形药材内部温度与水分浓度的空间分布。
+热风干燥本质上是同时发生的传热与传质过程：外界热空气通过药材表面对流换热，
+热量进一步由表层向内部传导；与此同时，表面水分不断向环境迁移，
+在药材内部形成水分梯度，从而驱动内部水分向表面扩散。
+王乐意等对中药材干燥技术的综述指出，中药材干燥包含内部水分向表面扩散的“导湿”
+以及表面水分汽化脱除的“给湿”两个基本环节，两者受外部干燥条件和材料自身性质共同影响
+\cite{wang2024}。
+
+题目要求给出多个径向位置处的瞬时温度与水分浓度，因此仅描述药材平均状态的集中参数模型
+不能直接满足要求，需要建立包含空间分布的非稳态模型。
+考虑药材为长圆柱形，且题目所给位置均以距中心轴线的径向距离表示，
+本文以圆柱中段为代表区域，将三维热质传递过程简化为一维径向问题。
+
+对于温度场，根据能量守恒与 Fourier 导热定律建立圆柱坐标下的非稳态导热模型；
+对于水分场，采用有效扩散思想，以 Fick 型扩散方程描述内部水分迁移。
+Da Silva 等针对圆柱形物料干燥建立了一维圆柱坐标热质传递模型，
+采用第三类边界条件描述表面对流交换，并使用全隐式有限体积法进行数值求解
+\cite{dasilva2014}。
+其模型结构与本题的几何形状及边界形式具有较强对应性，因此本文借鉴该类模型的物理框架，
+并结合题目给定的材料参数及外界条件建立问题一的基础模型。
+
+问题一中 $\rho$、$c_p$、$k$ 均由附录2给定为常数，
+水分扩散系数仅依赖局部含水率。
+因此本问首先建立固定几何、常热物性条件下的基础模型，并暂不计蒸发潜热对温度场的反馈。
+该模型主要用于刻画预热阶段的基本径向传递规律，并作为问题二变物性耦合模型的基础。
+
+\subsection{模型假设}
+
+在不改变题目给定参数体系的前提下，作如下假设：
+
+\begin{enumerate}
+    \item 药材宏观上视为均质、各向同性的连续介质，初始温度与初始干基含水率在空间上均匀；
+    \item 前 $1800~\mathrm{s}$ 内圆柱长度和半径保持不变，尺寸收缩留待问题四处理；
+    \item 以圆柱中段为代表区域，忽略端面附近的轴向传热传质效应，仅考虑径向变化；
+    \item 附录2给出的密度、比热容和导热系数在问题一中取常数；
+    \item 附件1中的烘房水分浓度作为表面传质过程的等效外界水分驱动力；
+    \item 暂不考虑蒸发潜热、水分迁移携带显热、辐射换热及内部热源对温度场的反馈。
+\end{enumerate}
+
+其中，第5条属于题设参数体系下的宏观等效边界处理；
+第6条用于限定问题一基础模型的复杂度，并不意味着蒸发潜热在所有实际干燥过程中均可忽略。
+已有圆柱物料干燥研究表明，潜热在部分材料的温度预测中可能具有显著影响
+\cite{dasilva2014}。
+
+\subsection{主要符号与材料参量}
+
+\begin{table}[H]
+\centering
+\caption{问题一主要几何参数与材料参量}
+\begin{tabular}{clcl}
+\toprule
+符号 & 物理意义 & 数值或关系式 & 单位\\
+\midrule
+$L$ & 药材长度 & $0.25$ & m\\
+$R$ & 药材半径 & $0.02$ & m\\
+$T_0$ & 初始温度 & $28$ & $^\circ$C\\
+$C_0$ & 初始干基含水率 & $2.55$ & kg/kg\\
+$\rho$ & 密度 & $820$ & kg/m$^3$\\
+$c_p$ & 比热容 & $2600$ & J/(kg$\cdot$K)\\
+$k$ & 导热系数 & $0.36$ & W/(m$\cdot$K)\\
+$h_T$ & 对流换热系数 & $25$ & W/(m$^2\cdot$K)\\
+$h_m$ & 等效对流传质系数 & $8\times10^{-7}$ & m/s\\
+$D(C)$ & 有效水分扩散系数 &
+$7\times10^{-9}\exp(-0.89/C)$ & m$^2$/s\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{一维径向模型的合理性}
+
+药材长度与半径之比为
+\begin{equation}
+\frac{L}{R}=\frac{0.25}{0.02}=12.5,
+\end{equation}
+两端总面积与侧面积之比为
+\begin{equation}
+\frac{2\pi R^2}{2\pi RL}
+=\frac{R}{L}
+=0.08.
+\end{equation}
+因此，对于远离端面的主体区域，侧表面与外界之间的热质交换更值得优先刻画。
+与此同时，题目要求的空间位置均以距中心轴线的距离表示，说明径向分布是本问的主要考察对象。
+由此取
+\begin{equation}
+T=T(r,t),\qquad C=C(r,t),\qquad 0\le r\le R.
+\end{equation}
+
+为进一步判断是否可以将药材简化为空间均匀的集中参数系统，
+计算初始传热 Biot 数。由题给参数
+\begin{equation}
+Bi_T=\frac{h_TR}{k}
+=\frac{25\times0.02}{0.36}
+\approx1.389.
+\end{equation}
+初始有效水分扩散系数为
+\begin{equation}
+D(C_0)
+=
+7\times10^{-9}\exp\left(-\frac{0.89}{2.55}\right)
+\approx4.94\times10^{-9}\ \mathrm{m^2/s},
+\end{equation}
+在题目采用的等效传质边界口径下，
+\begin{equation}
+Bi_C=\frac{h_mR}{D(C_0)}
+\approx3.24.
+\end{equation}
+二者均明显大于集中参数法常用的 $Bi<0.1$ 判据，
+说明药材内部温度和水分梯度不可忽略，因此保留径向空间分布是必要的。
+
+需要说明的是，上述一维化针对圆柱中段建立，并不意味着端面附近不存在二维传递效应；
+其适用范围将在后文讨论。
+
+\subsection{径向传热与水分扩散控制方程}
+
+\subsubsection{非稳态导热方程}
+
+根据能量守恒和 Fourier 导热定律，药材内部满足
+\begin{equation}
+\boxed{
+\rho c_p\frac{\partial T}{\partial t}
+=
+\frac{1}{r}
+\frac{\partial}{\partial r}
+\left(
+rk\frac{\partial T}{\partial r}
+\right)
+}
+\qquad
+0<r<R,\quad 0<t\le1800~\mathrm{s}.
+\label{eq:q1_heat}
+\end{equation}
+
+定义热扩散率
+\begin{equation}
+\alpha=\frac{k}{\rho c_p},
+\end{equation}
+代入题给参数得到
+\begin{equation}
+\alpha
+=
+\frac{0.36}{820\times2600}
+\approx1.6886\times10^{-7}\ \mathrm{m^2/s}.
+\end{equation}
+
+问题一中 $k$ 为常数，因此式~\eqref{eq:q1_heat} 可等价写为
+\begin{equation}
+\frac{\partial T}{\partial t}
+=
+\alpha
+\left(
+\frac{\partial^2T}{\partial r^2}
++
+\frac1r\frac{\partial T}{\partial r}
+\right).
+\end{equation}
+本文仍以守恒形式式~\eqref{eq:q1_heat} 为主，以便与问题二的变物性模型保持统一。
+
+\subsubsection{有效水分扩散方程}
+
+题目中的水分浓度 $C$ 为干基含水率，即水质量与干物质质量之比。
+在固定几何、静止干物质骨架的有效扩散近似下，
+内部复杂的液态水迁移、毛细作用等机制由宏观有效扩散系数统一表征，
+则水分场满足
+\begin{equation}
+\boxed{
+\frac{\partial C}{\partial t}
+=
+\frac1r
+\frac{\partial}{\partial r}
+\left[
+rD(C)
+\frac{\partial C}{\partial r}
+\right]
+}
+\qquad
+0<r<R,\quad 0<t\le1800~\mathrm{s},
+\label{eq:q1_mass}
+\end{equation}
+其中
+\begin{equation}
+D(C)
+=
+7\times10^{-9}
+\exp\left(-\frac{0.89}{C}\right)
+\ \mathrm{m^2/s}.
+\end{equation}
+
+由于 $D$ 随局部含水率变化，
+计算中保留 $D(C)$ 位于通量散度内部，
+避免将其错误视为常数而遗漏非线性扩散效应。
+
+\subsection{初始条件与边界条件}
+
+初始时刻药材内部状态均匀：
+\begin{equation}
+T(r,0)=28^\circ\mathrm C,
+\qquad
+C(r,0)=2.55,
+\qquad
+0\le r\le R.
+\end{equation}
+
+圆柱轴线 $r=0$ 为对称面：
+\begin{equation}
+\left.\frac{\partial T}{\partial r}\right|_{r=0}=0,
+\qquad
+\left.\frac{\partial C}{\partial r}\right|_{r=0}=0.
+\label{eq:q1_axis}
+\end{equation}
+该条件在有限体积离散中可使轴心控制体内侧界面面积自然趋于零，
+从而避免直接处理圆柱坐标在 $r=0$ 处的形式奇点。
+
+记表面温度为 $T_s(t)=T(R,t)$。
+药材表面与烘房空气之间采用第三类换热边界：
+\begin{equation}
+\boxed{
+-k
+\left.
+\frac{\partial T}{\partial r}
+\right|_{r=R}
+=
+h_T\left[T_s(t)-T_\infty(t)\right]
+}
+\label{eq:q1_heat_bc}
+\end{equation}
+其中 $h_T=25~\mathrm{W/(m^2\cdot K)}$。
+当 $T_\infty>T_s$ 时，式~\eqref{eq:q1_heat_bc} 表示净热量由烘房空气流入药材。
+
+记表面含水率为 $C_s(t)=C(R,t)$。
+在等效外界浓度假设下，表面传质边界为
+\begin{equation}
+\boxed{
+-D(C_s)
+\left.
+\frac{\partial C}{\partial r}
+\right|_{r=R}
+=
+h_m\left[C_s(t)-C_\infty(t)\right]
+}
+\label{eq:q1_mass_bc}
+\end{equation}
+其中 $h_m=8\times10^{-7}~\mathrm{m/s}$。
+当 $C_s>C_\infty$ 时，对应水分由药材内部向外迁移。
+
+附件1中的烘房水分浓度与药材干基含水率并非严格相同的热力学浓度定义，
+本文依据题目给定的传质系数将其作为等效外界浓度驱动力，
+因此式~\eqref{eq:q1_mass_bc} 属于题设条件下的宏观经验型 Robin 边界。
+
+\subsection{外界时变条件的连续化处理}
+
+附件1以 $60~\mathrm{s}$ 为间隔给出烘房温度 $T_\infty(t)$ 和水分浓度 $C_\infty(t)$。
+为获得任意计算时刻的连续边界输入，对相邻采样时刻 $\tau_j,\tau_{j+1}$ 采用分段线性插值：
+\begin{equation}
+B(t)
+=
+B(\tau_j)
++
+\frac{t-\tau_j}{\tau_{j+1}-\tau_j}
+\left[
+B(\tau_{j+1})-B(\tau_j)
+\right],
+\qquad
+\tau_j\le t\le\tau_{j+1},
+\label{eq:q1_interp}
+\end{equation}
+其中 $B$ 可代表 $T_\infty$ 或 $C_\infty$。
+
+需要区分三种时间尺度：$60~\mathrm{s}$ 是外界数据采样间隔，
+$1~\mathrm{s}$ 是题目要求的结果输出间隔，
+而数值积分步长 $\Delta t$ 则由离散误差控制，三者并不等价。
+
+\subsection{有限体积离散与非线性求解}
+
+式~\eqref{eq:q1_heat}--\eqref{eq:q1_mass} 同时包含圆柱几何项、时变 Robin 边界，
+且水分扩散系数随含水率变化。
+在本题给定的时变外部条件下难以获得可直接用于指定时空点计算的解析解，
+因此采用数值方法求解。
+
+有限体积法直接对控制体进行积分，
+使离散方程保持“储存量变化 = 界面净通量”的守恒结构，
+并便于处理第三类边界条件。
+Da Silva 等在类似圆柱物料热质传递模型中采用了全隐式有限体积方法
+\cite{dasilva2014}。
+因此本文采用径向有限体积法，并使用后向 Euler 全隐式时间推进。
+
+\subsubsection{空间控制体}
+
+将 $0\le r\le R$ 划分为 $N$ 个均匀环形控制体。
+第 $i$ 个控制体的体积和界面面积分别为
+\begin{align}
+V_i
+&=
+\pi L
+\left(
+r_{i+1/2}^{2}-r_{i-1/2}^{2}
+\right),\\
+A_{i\pm1/2}
+&=
+2\pi Lr_{i\pm1/2}.
+\end{align}
+
+\IfFileExists{问题1_有限体积离散示意图_论文风格.png}{
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.84\textwidth]{问题1_有限体积离散示意图_论文风格.png}
+    \caption{圆柱药材径向有限体积离散示意图}
+    \label{fig:q1_fvm}
+\end{figure}
+}{
+\begin{figure}[H]
+\centering
+\fbox{\parbox[c][4cm][c]{0.82\textwidth}{\centering
+此处插入“问题1\_有限体积离散示意图\_论文风格.png”}}
+\caption{圆柱药材径向有限体积离散示意图}
+\end{figure}
+}
+
+定义沿径向向外的热通量与等效水分通量
+\begin{equation}
+q=-k\frac{\partial T}{\partial r},
+\qquad
+f=-D(C)\frac{\partial C}{\partial r}.
+\end{equation}
+
+对控制体积分并采用后向 Euler 格式：
+\begin{equation}
+\rho c_pV_i
+\frac{T_i^{n+1}-T_i^n}{\Delta t}
+=
+A_{i-1/2}q_{i-1/2}^{n+1}
+-
+A_{i+1/2}q_{i+1/2}^{n+1},
+\end{equation}
+\begin{equation}
+V_i
+\frac{C_i^{n+1}-C_i^n}{\Delta t}
+=
+A_{i-1/2}f_{i-1/2}^{n+1}
+-
+A_{i+1/2}f_{i+1/2}^{n+1}.
+\end{equation}
+
+温度内部界面通量为
+\begin{equation}
+q_{i+1/2}^{n+1}
+=
+-k
+\frac{
+T_{i+1}^{n+1}-T_i^{n+1}
+}{\Delta r}.
+\end{equation}
+由于第一问 $k$ 为常数，温度方程形成线性三对角方程组，可直接使用 Thomas 追赶法求解。
+
+水分内部界面通量为
+\begin{equation}
+f_{i+1/2}^{n+1}
+=
+-D_{i+1/2}^{n+1}
+\frac{
+C_{i+1}^{n+1}-C_i^{n+1}
+}{\Delta r}.
+\end{equation}
+考虑相邻控制体的局部扩散阻力，界面扩散系数采用调和平均
+\begin{equation}
+\boxed{
+D_{i+1/2}
+=
+\frac{
+2D(C_i)D(C_{i+1})
+}{
+D(C_i)+D(C_{i+1})
+}
+}.
+\end{equation}
+该形式等价于将界面两侧半控制体的扩散阻力串联，
+适用于扩散系数存在明显空间差异的情况。
+
+\subsubsection{表面 Robin 边界的半控制体处理}
+
+对于最外层控制体中心 $P$，其距真实表面为 $\Delta r/2$。
+从控制体中心到烘房环境需依次经过内部半单元传递阻力与外部对流阻力，
+因此温度边界可写为
+\begin{equation}
+q_R
+=
+\frac{
+T_P-T_\infty
+}{
+\dfrac{\Delta r}{2k}
++\dfrac1{h_T}
+},
+\end{equation}
+并由
+\begin{equation}
+q_R=h_T(T_s-T_\infty)
+\end{equation}
+反算表面温度
+\begin{equation}
+T_s
+=
+T_\infty+\frac{q_R}{h_T}.
+\end{equation}
+
+同理，水分边界写为
+\begin{equation}
+f_R
+=
+\frac{
+C_P-C_\infty
+}{
+\dfrac{\Delta r}{2D_s}
++\dfrac1{h_m}
+},
+\end{equation}
+其中
+\begin{equation}
+D_s=D(C_s),
+\qquad
+C_s=C_\infty+\frac{f_R}{h_m}.
+\end{equation}
+由于 $D_s$ 依赖未知表面含水率 $C_s$，表面边界本身同样具有非线性。
+
+\subsubsection{Picard 非线性迭代}
+
+问题一中的非线性来自 $D=D(C)$。
+在每一新时间层令
+\begin{equation}
+C^{(0)}=C^n.
+\end{equation}
+第 $m$ 次 Picard 迭代依次完成：
+根据 $C^{(m)}$ 更新各控制体及表面的扩散系数，
+组装水分三对角方程组，
+求得 $C^{(m+1)}$，
+再更新表面含水率并检查
+\begin{equation}
+\max
+\left\{
+\left\|C^{(m+1)}-C^{(m)}\right\|_\infty,
+\left|C_s^{(m+1)}-C_s^{(m)}\right|
+\right\}
+<\varepsilon.
+\end{equation}
+最终取
+\begin{equation}
+\varepsilon=10^{-10}.
+\end{equation}
+在最终计算中，单个时间层最多经过4次 Picard 迭代即可满足收敛要求。
+
+\subsection{数值可靠性检验}
+
+最终计算采用
+\begin{equation}
+N=1600,\qquad
+\Delta r=1.25\times10^{-5}\ \mathrm m
+=0.00125\ \mathrm{cm},
+\end{equation}
+\begin{equation}
+\Delta t=0.015625\ \mathrm{s},
+\qquad
+\varepsilon=10^{-10}.
+\end{equation}
+
+为避免将“结果保留四位小数”误认为数值误差已经足够小，
+本文分别检验空间网格、时间步长和 Picard 迭代容限对结果的影响。
+以题目规定的7个时刻和5个径向位置组成输出集合 $\mathcal S$，
+定义
+\begin{equation}
+E_T
+=
+\max_{(r,t)\in\mathcal S}
+\left|
+T^{(a)}(r,t)-T^{(b)}(r,t)
+\right|,
+\end{equation}
+\begin{equation}
+E_C
+=
+\max_{(r,t)\in\mathcal S}
+\left|
+C^{(a)}(r,t)-C^{(b)}(r,t)
+\right|.
+\end{equation}
+
+\begin{table}[H]
+\centering
+\caption{问题一数值离散误差检验}
+\begin{tabular}{lccc}
+\toprule
+检验项目 & 对比设置 & $E_T$/($^\circ$C) & $E_C$/(kg/kg)\\
+\midrule
+空间网格细化
+& $N=800\rightarrow1600,\ \Delta t=0.125$ s
+& $1.02\times10^{-6}$
+& $1.522\times10^{-5}$\\
+时间步细化
+& $0.03125\rightarrow0.015625$ s，$N=1600$
+& $2.986\times10^{-5}$
+& $6.39\times10^{-6}$\\
+Picard 容差收紧
+& $10^{-8}\rightarrow10^{-10}$
+& $0$
+& $2.15\times10^{-13}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+空间、时间和非线性迭代误差均明显低于最终结果显示精度所对应的量级，
+说明采用的数值设置能够满足问题一的输出要求。
+
+进一步利用有限体积全域求和后的通量抵消性质进行离散平衡检验。
+最终计算中的最大相对热量方程离散平衡残差为
+\begin{equation}
+\varepsilon_T^{\mathrm{bal}}
+=
+3.919\times10^{-7},
+\end{equation}
+水分输运离散平衡残差为
+\begin{equation}
+\varepsilon_C^{\mathrm{bal}}
+=
+3.103\times10^{-11}.
+\end{equation}
+
+上述检验用于验证所建立离散模型的数值闭合性和求解稳定性，
+并不等同于利用实验观测验证真实药材内部温度或水分浓度。
+
+\subsection{计算结果与物理解释}
+
+\subsubsection{温度分布}
+
+\begin{table}[H]
+\centering
+\caption{30 min 内药材径向温度分布（$^\circ$C）}
+\label{tab:q1_temp}
+\begin{tabular}{rrrrrr}
+\toprule
+时间/s & 0 cm & 0.5 cm & 1.0 cm & 1.5 cm & 2.0 cm\\
+\midrule
+100  & 28.0001 & 28.0003 & 28.0040 & 28.0327 & 28.1801\\
+300  & 28.0408 & 28.0635 & 28.1514 & 28.3681 & 28.8489\\
+600  & 28.4534 & 28.5361 & 28.8040 & 29.3159 & 30.1652\\
+900  & 29.3243 & 29.4583 & 29.8755 & 30.6162 & 31.7304\\
+1200 & 30.5427 & 30.7098 & 31.2224 & 32.1126 & 33.4277\\
+1500 & 31.9957 & 32.1868 & 32.7660 & 33.7463 & 35.1203\\
+1800 & 33.5754 & 33.7720 & 34.3642 & 35.3621 & 36.7856\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\IfFileExists{问题1_径向温度分布_重算.png}{
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{问题1_径向温度分布_重算.png}
+    \caption{不同预热时刻的径向温度分布}
+\end{figure}
+}{
+\begin{figure}[H]
+\centering
+\fbox{\parbox[c][4cm][c]{0.82\textwidth}{\centering
+此处插入“问题1\_径向温度分布\_重算.png”}}
+\caption{不同预热时刻的径向温度分布}
+\end{figure}
+}
+
+随预热时间增加，各径向位置温度均持续升高，
+且药材表面温度始终高于内部。
+初期温升主要集中在近表层区域，随后热扰动逐渐向中心传播。
+在 $1800~\mathrm{s}$ 时，中心温度为
+\begin{equation}
+T(0,1800)=33.5754^\circ\mathrm C,
+\end{equation}
+表面温度为
+\begin{equation}
+T(R,1800)=36.7856^\circ\mathrm C,
+\end{equation}
+两者温差为
+\begin{equation}
+\Delta T=3.2102^\circ\mathrm C.
+\end{equation}
+说明30 min 后药材仍未达到完全热平衡，但热影响已深入圆柱主体区域。
+
+\subsubsection{水分浓度分布}
+
+\begin{table}[H]
+\centering
+\caption{30 min 内药材径向水分浓度分布（kg/kg，干基）}
+\label{tab:q1_moist}
+\begin{tabular}{rrrrrr}
+\toprule
+时间/s & 0 cm & 0.5 cm & 1.0 cm & 1.5 cm & 2.0 cm\\
+\midrule
+100  & 2.5500 & 2.5500 & 2.5500 & 2.5500 & 2.2470\\
+300  & 2.5500 & 2.5500 & 2.5500 & 2.5492 & 2.0508\\
+600  & 2.5500 & 2.5500 & 2.5500 & 2.5353 & 1.8770\\
+900  & 2.5500 & 2.5500 & 2.5497 & 2.5045 & 1.7547\\
+1200 & 2.5500 & 2.5500 & 2.5482 & 2.4646 & 1.6586\\
+1500 & 2.5500 & 2.5499 & 2.5445 & 2.4206 & 1.5787\\
+1800 & 2.5500 & 2.5497 & 2.5383 & 2.3755 & 1.5102\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\IfFileExists{问题1_径向水分浓度分布_重算.png}{
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{问题1_径向水分浓度分布_重算.png}
+    \caption{不同预热时刻的径向水分浓度分布}
+\end{figure}
+}{
+\begin{figure}[H]
+\centering
+\fbox{\parbox[c][4cm][c]{0.82\textwidth}{\centering
+此处插入“问题1\_径向水分浓度分布\_重算.png”}}
+\caption{不同预热时刻的径向水分浓度分布}
+\end{figure}
+}
+
+与温度场相比，水分场在同一时间范围内表现出更明显的近表面局部变化。
+在 $1800~\mathrm{s}$ 时，中心含水率仍约为
+\begin{equation}
+C(0,1800)\approx2.5500,
+\end{equation}
+而表面含水率已下降至
+\begin{equation}
+C(R,1800)=1.5102,
+\end{equation}
+二者相差约
+\begin{equation}
+\Delta C\approx1.0398\ \mathrm{kg/kg}.
+\end{equation}
+说明短时预热阶段水分损失主要发生在近表层区域，
+内部水分尚未充分迁移至中心。
+
+\subsubsection{时空演化特征}
+
+\IfFileExists{问题1_温度时空云图.png}{
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{问题1_温度时空云图.png}
+    \caption{问题一温度场时空分布}
+\end{figure}
+}{
+\begin{figure}[H]
+\centering
+\fbox{\parbox[c][4cm][c]{0.82\textwidth}{\centering
+此处插入“问题1\_温度时空云图.png”}}
+\caption{问题一温度场时空分布}
+\end{figure}
+}
+
+温度时空分布显示，药材表层首先响应烘房环境变化，
+随后热影响逐渐向轴心传播。
+随着时间增加，径向温差逐步缩小，呈现典型的非稳态径向导热特征。
+
+\IfFileExists{问题1_水分浓度时空云图.png}{
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{问题1_水分浓度时空云图.png}
+    \caption{问题一水分浓度时空分布}
+\end{figure}
+}{
+\begin{figure}[H]
+\centering
+\fbox{\parbox[c][4cm][c]{0.82\textwidth}{\centering
+此处插入“问题1\_水分浓度时空云图.png”}}
+\caption{问题一水分浓度时空分布}
+\end{figure}
+}
+
+水分浓度时空分布则显示，低含水区域由外表面逐渐向内部扩展，
+但在 $1800~\mathrm{s}$ 内尚未显著影响轴心位置，
+说明水分扩散具有比热传导更长的响应时间尺度。
+
+\subsection{特征尺度分析}
+
+为解释温度场与水分场表现出的明显差异，
+分别估计1800 s 内的热扩散与水分扩散特征长度。
+
+热扩散特征长度为
+\begin{equation}
+\ell_T\sim\sqrt{\alpha t}
+=
+\sqrt{
+1.6886\times10^{-7}\times1800
+}
+\approx1.74\ \mathrm{cm}.
+\end{equation}
+该值已接近药材半径 $R=2~\mathrm{cm}$，
+因此30 min 内热量可以影响圆柱大部分径向区域。
+
+以初始水分扩散系数估计
+\begin{equation}
+\ell_C
+\sim
+\sqrt{D(C_0)t}
+=
+\sqrt{
+4.94\times10^{-9}\times1800
+}
+\approx0.30\ \mathrm{cm}.
+\end{equation}
+其仅约占半径的15\%，因此低含水区仍主要集中在表层。
+
+由此有
+\begin{equation}
+\ell_T\gg\ell_C.
+\end{equation}
+特征尺度估计与数值结果相互印证：
+预热阶段表现出明显的“热量先深入、水分后迁移”特征。
+中药材干燥研究也指出，内部水分迁移和表面给湿受到不同因素控制，
+且随着干燥过程推进，其主导阻力会发生变化\cite{wang2024}。
+
+\subsection{模型适用范围与不足}
+
+本模型主要描述既定题设参数下圆柱中段的径向预热响应，其适用范围受到以下因素限制：
+
+\begin{enumerate}
+    \item 一维模型忽略端面附近的轴向传热传质效应，因此不能描述圆柱端部的局部二维场；
+    \item 烘房水分浓度被作为等效传质驱动力使用，未进一步引入空气相湿度、水活度或吸附等温线；
+    \item 基础模型暂未将蒸发潜热反馈引入能量方程，该处理属于模型简化而非普适结论；
+    \item 问题一固定圆柱几何尺寸，不描述失水造成的收缩，尺寸变化将在问题四中进一步处理。
+\end{enumerate}
+
+数值收敛与离散平衡检验能够验证所建立有限体积模型的计算质量，
+但不能代替真实内部温度和含水率观测所提供的实验验证。
+
+\subsection{向问题二的模型递进}
+
+问题一在固定几何、常热物性和暂不计蒸发潜热反馈的条件下，
+建立了圆柱药材径向传热--传质基础模型。
+计算表明，在短时预热阶段，热量与水分迁移已经表现出明显不同的时间尺度。
+
+然而，完整烘干过程持续时间远长于问题一的30 min。
+随着药材持续失水，其密度、比热容、导热系数以及有效水分扩散能力均会发生变化，
+因此问题一的常物性模型更适合作为基础传递框架，而不宜直接用于完整烘干全过程。
+
+题目附录3进一步给出了
+\begin{equation}
+\rho(C),\qquad
+c_p(C),\qquad
+k(C),\qquad
+D(C,T)
+\end{equation}
+的状态相关经验关系。
+因此，问题二将在保留问题一一维径向有限体积框架的基础上解除常物性假设，
+引入状态相关物性及温度--水分双向耦合，从而形成
+\begin{equation}
+\boxed{
+M_1:\ \text{固定几何、常物性基础模型}
+}
+\quad\Longrightarrow\quad
+\boxed{
+M_2:\ \text{固定几何、变物性热质耦合模型}
+}.
+\end{equation}
+
+\begin{thebibliography}{9}
+
+\bibitem{wang2024}
+王乐意, 李长河, 刘明政, 等.
+中药材干燥技术与装备研究现状[J].
+农业工程学报, 2024, 40(2): 1--28.
+DOI: 10.11975/j.issn.1002-6819.202306104.
+
+\bibitem{dasilva2014}
+DA SILVA W P, E SILVA C M D P S, GAMA F J A.
+Estimation of thermo-physical properties of products with cylindrical shape during drying:
+The coupling between mass and heat[J].
+Journal of Food Engineering, 2014, 141: 65--73.
+DOI: 10.1016/j.jfoodeng.2014.05.010.
+
+\end{thebibliography}
+
+\end{document}

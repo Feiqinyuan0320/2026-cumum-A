@@ -1,0 +1,44 @@
+\documentclass[UTF8,12pt,a4paper]{ctexart}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词：}#1}
+
+% 这是无官方 LaTeX 模板时的构建基线，不替代当届官方规则。
+\title{预热阶段药材温度与含水率的变化}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+针对药材预热阶段的径向状态变化，采用一维圆柱导热与非线性水分扩散模型，
+以烘房环境数据构造表面边界输入，并用有限体积法求解。
+本文件保留第一问的模型、计算设置及已有结果，供后续正文组织与排版使用。
+\keywords{药材干燥；径向传递；有限体积法}
+\end{abstract}
+
+\clearpage
+\input{sections/problem1}
+
+\begin{thebibliography}{9}
+\bibitem{wang2024}
+王乐意，李长河，刘明政，等.
+中药材干燥技术与装备研究现状[J]. 农业工程学报，2024，40(2)：1--28.
+DOI: \href{https://doi.org/10.11975/j.issn.1002-6819.202306104}{10.11975/j.issn.1002-6819.202306104}.
+\bibitem{dasilva2014}
+Da Silva W P, e Silva C M D P S, Gama F J A.
+Estimation of thermo-physical properties of products with cylindrical shape during drying:
+The coupling between mass and heat[J]. Journal of Food Engineering, 2014, 141:65--73.
+DOI: \href{https://doi.org/10.1016/j.jfoodeng.2014.05.010}{10.1016/j.jfoodeng.2014.05.010}.
+\end{thebibliography}
+
+\clearpage
+\appendix
+\input{appendices/q1_numerics}
+\end{document}

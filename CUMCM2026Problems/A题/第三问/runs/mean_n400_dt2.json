@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "mode": "case",
+    "n": 400,
+    "dt": 2.0,
+    "early_dt": 0.0625,
+    "end": 1800,
+    "extension": "mean",
+    "label": "mean_n400_dt2"
+  },
+  "input_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+  "solver_sha256": "e186dfda286785b4283cbc9192f0b307526688df6b4180e0870ef4efd9d04b36",
+  "n": 400,
+  "early_dt": 0.0625,
+  "q2_sha256": "71814b154fd4f45e8bce6862c21d32f9e6342871653ef590948079a2d25fe835",
+  "runtime_s": 27.534614042000612,
+  "tail_T_C": [
+    49.99893442622951,
+    0.04998754098360656
+  ],
+  "tail_rule": "arithmetic mean of 61 nodes from 10800 through 14400 s inclusive",
+  "regression": {},
+  "stats": [
+    59.0,
+    9.999988337394683e-11,
+    3.749458635359279e-15,
+    3.378263896265046e-23,
+    0.0,
+    0.0,
+    98490.0,
+    0.052662248211308625
+  ],
+  "stats_definition": [
+    "max_iterations",
+    "max_final_Picard_difference",
+    "max_absolute_heat_discrete_balance_W",
+    "max_absolute_reduced_water_discrete_balance_m3_per_s",
+    "max_C_time_increase",
+    "max_C_outward_increase",
+    "step_count",
+    "minimum_C"
+  ],
+  "event": [
+    207724.9013671875,
+    207724.90234375,
+    207725.04,
+    0.1499999602128302,
+    0.0
+  ],
+  "event_definition": [
+    "last_non_dry_time_s",
+    "first_dry_time_s",
+    "reported_time_s_rounded_hours_upward",
+    "maximum_reconstructed_C_at_reported_time",
+    "radius_of_maximum_m"
+  ],
+  "output_rows": 3463,
+  "last_output_s": 207780.0
+}

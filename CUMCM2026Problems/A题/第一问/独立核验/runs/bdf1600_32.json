@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "n": 1600,
+    "dt": 0.03125,
+    "end": 1800,
+    "scheme": "bdf2",
+    "boundary": "integrated",
+    "tol": 1e-10,
+    "label": "bdf1600_32",
+    "equilibrium": false
+  },
+  "runtime_s": 6.320088863372803,
+  "input": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/附件/烘干初期各时间点烘房温度和水分浓度.xlsx",
+  "input_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+  "source_sha256": "f628a1be89482abd52535989716429dbaffb1761cf7e1662e16b8c9eedf44dcc",
+  "metrics_columns": [
+    "max_absolute_global_balance",
+    "max_relative_global_balance",
+    "max_relative_equation_residual",
+    "max_absolute_surface_flux_residual"
+  ],
+  "relative_balance_definition": "abs(sum(storage)+A*flux)/max(sum(abs(storage)),abs(A*flux),1e-30*2*pi*L)",
+  "storage_definition": "capacity*V*(a0*(new-old)-(a0-1)*(old-previous))/dt; a0=1 BE, 1.5 BDF2",
+  "heat_balance_unit": "W",
+  "water_balance_unit": "m^3/s times kg_water/kg_dry; multiply rho_d to obtain kg_water/s",
+  "heat_metrics": [
+    1.6044195090839705e-14,
+    1.9611540711282078e-12,
+    1.3206104716563845e-07,
+    9.947598300641403e-14
+  ],
+  "water_metrics": [
+    5.301275652600533e-22,
+    8.443901016352108e-15,
+    1.6030549849471476e-10,
+    1.6093625997831706e-20
+  ],
+  "max_picard_iterations": 4,
+  "range_Tmin_Tmax_Cmin_Cmax": [
+    28.0,
+    36.78556057365736,
+    1.5102340242226198,
+    2.55
+  ],
+  "max_violations_T_time_drop_C_time_rise_T_radial_drop_C_radial_rise_Ts_above_ambient_Cs_above_last": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

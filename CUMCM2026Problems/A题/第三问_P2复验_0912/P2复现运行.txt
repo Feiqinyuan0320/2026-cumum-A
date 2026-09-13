@@ -1,0 +1,2 @@
+{"reported_drying_h": 57.4777, "result3_rows": 3449, "boundary_effect_s": -1096.5869140625, "workbook_readback": "PASS"}
+

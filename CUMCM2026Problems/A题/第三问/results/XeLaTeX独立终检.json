@@ -1,0 +1,20 @@
+{
+  "scope": "第三问LaTeX章节及4页PDF",
+  "W1": "PASS",
+  "W2": "PASS",
+  "pages": 4,
+  "figures": 3,
+  "tables": 2,
+  "display_equations": 7,
+  "engine": "xelatex",
+  "build_exit_code": 0,
+  "warnings": [],
+  "visual_pages_reviewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "findings": [],
+  "source_archive": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/第三问_XeLaTeX源码.zip"
+}

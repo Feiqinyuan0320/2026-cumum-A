@@ -1,0 +1,5 @@
+
+--- figures ---
+  [WARN] 未识别的扩展名: .
+  >>> verdict: WARN
+

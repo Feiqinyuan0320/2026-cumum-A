@@ -1,0 +1,89 @@
+{
+  "query": "Computational modelling transport phenomena convective drying prunes",
+  "cross_validated": [],
+  "openalex_only": [],
+  "anysearch_only": [
+    {
+      "title": "Computational modelling of the transport phenomena occurring during convective drying of prunes",
+      "authors": [
+        "Henry Sabarez"
+      ],
+      "year": 2012,
+      "citations": 84,
+      "doi": "10.1016/j.jfoodeng.2012.02.021",
+      "abstract": null,
+      "sources": [
+        "anysearch"
+      ],
+      "cross_validated": false,
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1016/j.jfoodeng.2012.02.021"
+    },
+    {
+      "title": "Modelling of moisture migration during convective drying of pineapple slice considering non-isotropic shrinkage and variable transport properties",
+      "authors": [
+        "Poonam Rani",
+        "Punyadarshini Punam Tripathy"
+      ],
+      "year": 2020,
+      "citations": 47,
+      "doi": "10.1007/s13197-020-04407-4",
+      "abstract": null,
+      "sources": [
+        "anysearch"
+      ],
+      "cross_validated": false,
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1007/s13197-020-04407-4"
+    },
+    {
+      "title": "A review on computational fluid dynamics simulation methods for different convective drying applications",
+      "authors": [],
+      "year": null,
+      "citations": 0,
+      "doi": "10.2298/tsci220225070o",
+      "abstract": null,
+      "sources": [
+        "anysearch"
+      ],
+      "cross_validated": false,
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.2298/tsci220225070o"
+    },
+    {
+      "title": "Combined Convective and Microwave Drying of Grapes",
+      "authors": [],
+      "year": null,
+      "citations": 0,
+      "doi": "10.1080/07373939508917001",
+      "abstract": null,
+      "sources": [
+        "anysearch"
+      ],
+      "cross_validated": false,
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1080/07373939508917001"
+    }
+  ],
+  "stats": {
+    "openalex_total": 0,
+    "anysearch_total": 10,
+    "cross_validated": 0,
+    "openalex_unique": 0,
+    "anysearch_unique": 6,
+    "filtered_irrelevant": 4,
+    "collapsed_duplicates": 0
+  }
+}

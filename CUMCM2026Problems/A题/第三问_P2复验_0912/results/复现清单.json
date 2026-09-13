@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-11T13:17:16.507477+00:00",
+  "random_seed": 0,
+  "input_files": [
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/附件/烘干初期各时间点烘房温度和水分浓度.xlsx",
+      "sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+      "bytes": 16586
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第二问/result2.xlsx",
+      "sha256": "71814b154fd4f45e8bce6862c21d32f9e6342871653ef590948079a2d25fe835",
+      "bytes": 2497070
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/solve_q3.py",
+      "sha256": "e186dfda286785b4283cbc9192f0b307526688df6b4180e0870ef4efd9d04b36",
+      "bytes": 13655
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/deliver_q3.py",
+      "sha256": "d3910647f49e167bbe27a8ed5700bae3578d4e37a756c1a940f35865f7054b11",
+      "bytes": 17454
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/reproduce_q3.py",
+      "sha256": "b39d2bdf115501f37d9edf19a879ebc70ed078c1c1ab2418595a7bdcb270d8b1",
+      "bytes": 1726
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/utils/plot_style.py",
+      "sha256": "f3de0a0c858d6018310d7e461574697a4cec7b28e5e20b8ccdaa7749772147e2",
+      "bytes": 17160
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/runs/mean_n3200_dt0p5.npz",
+      "sha256": "7840e1859713b86cab64f36b495d3daf9b4fb4bc0e246242cff34dd4c58fbbb4",
+      "bytes": 662073
+    },
+    {
+      "path": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/runs/last_n3200_dt0p5.npz",
+      "sha256": "03a3ea2e639eecba7c7a76263aa7651e7e16839ab438bdabcc8a676ced145e64",
+      "bytes": 665915
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.9",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "numba": "0.62.1",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.10.6"
+    }
+  },
+  "key_parameters": {
+    "N": 3200,
+    "dt_0_3h_s": 0.0625,
+    "dt_after_3h_s": 0.5,
+    "threshold": 0.15,
+    "event_bracket_s": 0.001,
+    "boundary": "3-4h mean; last-value sensitivity",
+    "randomness": "none"
+  },
+  "reproduce_command": "/opt/anaconda3/bin/python reproduce_q3.py"
+}

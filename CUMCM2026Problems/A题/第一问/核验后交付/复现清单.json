@@ -1,0 +1,26 @@
+{
+  "input_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+  "final_settings": {
+    "n": 6400,
+    "dt": 0.0078125,
+    "end": 1800,
+    "scheme": "bdf2",
+    "boundary": "integrated",
+    "tol": 1e-10,
+    "label": "bdf6400_128",
+    "equilibrium": false
+  },
+  "data_cells_per_sheet": 37800,
+  "numeric_output_format": "0.0000",
+  "paper_excel_consistency": "all 70 exact after rounding",
+  "files": {
+    "核验后交付/result1.xlsx": "3b0a889af304b289a5e6899072cc4edf42b7e052134b5b36ac1760abb34d3dfe",
+    "核验后交付/问题一正文与分析.md": "d62855e19f9488b71be6300a2e4edf7d7834d0f99d80be646deac0abbc47c98b",
+    "核验后交付/核验结论与交接说明.md": "263aafd38924967f8dbfb442b799a4983bffcadb9ea95618db40b7e9512ddeec",
+    "独立核验/verify_q1.py": "f628a1be89482abd52535989716429dbaffb1761cf7e1662e16b8c9eedf44dcc",
+    "独立核验/compare_q1.py": "f4389e72ff2721c332077b25a41e32d746bd1a5be5ada9b84f2b5347c2806e92",
+    "独立核验/build_delivery.py": "7d7be1da3ac0cd19a626ab846500dfdc7daeaf06067b7eb3e8f6f616123d5867",
+    "独立核验/runs/bdf6400_128.npz": "0e72fa1f24c5e971eb2ff62a35f694644eae6aad15315f549f1b45198dcbaddc",
+    "独立核验/runs/bdf6400_128.json": "7a770c1042af81840937fd1f34ea6c4e45af3256d9a2ef0a1ec0d4300ae8a28a"
+  }
+}

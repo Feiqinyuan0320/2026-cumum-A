@@ -1,0 +1,82 @@
+{
+  "settings": {
+    "mode": "smoke",
+    "n": 400,
+    "dt": 1.0,
+    "early_dt": 0.0625,
+    "end": 1800.0,
+    "extension": "mean",
+    "label": "smoke1800"
+  },
+  "input_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+  "solver_sha256": "e186dfda286785b4283cbc9192f0b307526688df6b4180e0870ef4efd9d04b36",
+  "n": 400,
+  "early_dt": 0.0625,
+  "q2_sha256": "71814b154fd4f45e8bce6862c21d32f9e6342871653ef590948079a2d25fe835",
+  "runtime_s": 5.718444167003327,
+  "tail_T_C": [
+    49.99893442622951,
+    0.04998754098360656
+  ],
+  "tail_rule": "arithmetic mean of 61 nodes from 10800 through 14400 s inclusive",
+  "regression": {
+    "T": {
+      "max_abs_vs_rounded_workbook": 4.999910598968427e-05,
+      "rounded_mismatches": 0,
+      "paper_mismatches": 0,
+      "paper_values": [
+        [
+          32.1893,
+          32.3822,
+          32.966,
+          33.9609,
+          35.4131
+        ]
+      ]
+    },
+    "C": {
+      "max_abs_vs_rounded_workbook": 4.9999945620715636e-05,
+      "rounded_mismatches": 0,
+      "paper_mismatches": 0,
+      "paper_values": [
+        [
+          2.5499,
+          2.5489,
+          2.5256,
+          2.3257,
+          1.6486
+        ]
+      ]
+    }
+  },
+  "stats": [
+    4.0,
+    9.990630545075874e-11,
+    9.068458094822443e-15,
+    5.717061978294692e-23,
+    0.0,
+    0.0,
+    28800.0,
+    1.6486228819818711
+  ],
+  "stats_definition": [
+    "max_iterations",
+    "max_final_Picard_difference",
+    "max_absolute_heat_discrete_balance_W",
+    "max_absolute_reduced_water_discrete_balance_m3_per_s",
+    "max_C_time_increase",
+    "max_C_outward_increase",
+    "step_count",
+    "minimum_C"
+  ],
+  "event": null,
+  "event_definition": [
+    "last_non_dry_time_s",
+    "first_dry_time_s",
+    "reported_time_s_rounded_hours_upward",
+    "maximum_reconstructed_C_at_reported_time",
+    "radius_of_maximum_m"
+  ],
+  "output_rows": 1800,
+  "last_output_s": 1800.0
+}

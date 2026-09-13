@@ -1,0 +1,54 @@
+{
+  "gate": "P2",
+  "scope": "第四问6组归档、工作簿/表6、3张英文图及灰度版；不重跑全程PDE",
+  "status": "PASS",
+  "input_snapshot": {
+    "solver_sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89",
+    "manifest_sha256": "4795ff71cd354a36df75b4d94fd4c4a2c7a4ae5b80cd524bee4806e815bff215",
+    "summary_sha256": "a7500314c74f0442999b35f9ddf98f9f2975cd99c34402411982bd550abe5953",
+    "result4_sha256": "931390b1ebd76a7cdc687112ae4ee5e05d88c5ea5498f3d1d75c54fd532fbe68"
+  },
+  "evidence": {
+    "command": "/opt/anaconda3/bin/python reproduce_q4.py",
+    "cwd": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问",
+    "exit_code": 0,
+    "mode": "哈希核对归档 + 新运行短测试 + 从全精度归档核对工作簿与表6；没有再次运行全程",
+    "files_hashed": 41,
+    "cases": 6,
+    "result4_rows": 3066,
+    "moisture_columns": 21,
+    "outside_domain_blanks": 20099,
+    "numeric_cells_four_decimals": true,
+    "formula_cells": 0,
+    "equal_surface_at_36h_C": 0.055953396413758995,
+    "event_main": [
+      183940.1748046875,
+      183940.17578125,
+      183940.19999999998,
+      0.14999998712725104,
+      0.0
+    ],
+    "event_Cmax": 0.14999998712725104,
+    "fixed_drying_h": 129.8592,
+    "matched_comparison_settings": [
+      "n",
+      "dt",
+      "early_dt",
+      "extension",
+      "material constitutive functions"
+    ],
+    "shrink_grid_difference_s": 21.5263671875,
+    "shrink_timestep_difference_s": 1.21875,
+    "figure_visual_inspection": "全部3张彩色PNG与对应3张灰度PNG已实际查看；标签未截断，数据与图义一致，灰度线型可区分。",
+    "figure_scope": "用户确认的3张，分别raw/process/result，不扩大到9张。"
+  },
+  "findings": {
+    "P0": [],
+    "P1": [],
+    "P2": [
+      "过程图中虚线阈值未在图例单列，正文中文图注应明确其为C=0.15；不需要为此改图。",
+      "小时四位小数是显示格式；固定半径粗细组同时改网格与步长，不宜声称纯空间收敛。"
+    ]
+  },
+  "rework": "无必须返工；可进入证据大纲验收。"
+}

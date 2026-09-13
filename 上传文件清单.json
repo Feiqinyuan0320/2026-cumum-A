@@ -1,0 +1,2610 @@
+{
+  "repository": "Feiqinyuan0320/2026-cumum-A",
+  "snapshot_date": "2026-09-13",
+  "source_folders": [
+    "CUMCM2026Problems",
+    "latex"
+  ],
+  "file_count": 498,
+  "bytes": 204640124,
+  "files": [
+    {
+      "path": "CUMCM2026Problems/A题/A题.md",
+      "bytes": 7710,
+      "sha256": "80d8f5990b7cf73c74fa0a29d4d019aa0dfbdd867448212359490ed02539e34b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/A题.pdf",
+      "bytes": 553320,
+      "sha256": "052d8014bff5727c019b72e44fdffaf5c145ce04050dd938baaf3527db331736"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/A题_assets/page-1.png",
+      "bytes": 258809,
+      "sha256": "0686df6f401a273ac41334e6eb231cc246aa67793ddebd84def63fad2b1098ae"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/A题_assets/page-2.png",
+      "bytes": 222237,
+      "sha256": "054605e5a9cfd003624ca70b2035b1a4bb4719cfb76517aa380dbd1f77faf119"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/A题_assets/page-3.png",
+      "bytes": 274307,
+      "sha256": "eded0fa5ed71bfb9fe5822644edda1d8aa7dd0b07e88dc3e5f55e9e38a367b9b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/A题_assets/page-4.png",
+      "bytes": 123774,
+      "sha256": "672ba209bf238401d08f76bc9e6f15e14813a28ade6a1f5966c685989c465ba9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/参考论文/2025国赛B题/2025B_论文源文.md",
+      "bytes": 62440,
+      "sha256": "3ce88fea5b7526b21ae12e8e4c58845ce8170211c87208f97725aee2b74ca888"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/参考论文/2025国赛B题/2025B_论文源文.tex",
+      "bytes": 74567,
+      "sha256": "7170a892b27d1e6f1ebfcba93c290bb46b4f5259d7cd35260a5634243dc24a32"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/参考论文/2025国赛B题/结构借鉴与本题章节安排.md",
+      "bytes": 9947,
+      "sha256": "ec0fbb8f1e5c96b1cac2fd8889ab3132f407b9007dc6cb3ace05ef346f5a7184"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/A题第二问_Astra_AI交接_20260911.md",
+      "bytes": 6545,
+      "sha256": "501eca07801d92576c6de5457ef55860090afc2bd6e4eae7657132c3f1f62c12"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/appendices/q1_numerics.tex",
+      "bytes": 1703,
+      "sha256": "f01d9a79068495ad5aaeec1af8b1f99ab8b40ad5d6a88cd47313bbc6b28d55fe"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/build/main.pdf",
+      "bytes": 167467,
+      "sha256": "63b7e0decbe842f6b6912c22b4fd4eea8c7378e695d3d10c84b58eb31d44f682"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/latex-project.json",
+      "bytes": 589,
+      "sha256": "c7113f92e2ee3c1cc30b8c11713712b403294b4156c138633087d75b58328104"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/main.tex",
+      "bytes": 1602,
+      "sha256": "fe8eceedcb590bb9b75623b5297f2211687b0bf7a85aa927083c5be319185efb"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/references.bib",
+      "bytes": 86,
+      "sha256": "67979e407a1ac6cd11dfdaf1fc32e1012c0941be0189fe3dc892da6aa3d1ef46"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/sections/problem1.tex",
+      "bytes": 6857,
+      "sha256": "ed444d57b83f28c664b3c88c37af817fff14b5261a1c8954749444737b8083e8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/tables/moisture.tex",
+      "bytes": 678,
+      "sha256": "88c65a7fd91f4991feb158ed0bdb6d0068e137ab1f4bfc5cd59a62eecb479517"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/tables/refinement.tex",
+      "bytes": 465,
+      "sha256": "d6ab86b44d5b02ce773b876c68c4c9c9847a21164ca989d796a3080f33998703"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX结构稿/tables/temperature.tex",
+      "bytes": 713,
+      "sha256": "7df58cea7b2de288f6edf5967dd6a62f75ba8d117d37d53d869a375154a43c8f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX编译说明.md",
+      "bytes": 1393,
+      "sha256": "781335b78dcf65d63506fb97d8b263054f349f1ba7103b8a72a6bf78d32e2081"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/LaTeX试编译记录.json",
+      "bytes": 18969,
+      "sha256": "d4ffe2799a5d9aabdf29d08b4988f3ac45b42c01a04014f760e7876b2e6bdb6a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/result1.xlsx",
+      "bytes": 390349,
+      "sha256": "64ab15f76afef8daf4c7733c4dee198a52277f5ddc495a7e9a40be226827f466"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/使用指南.md",
+      "bytes": 3442,
+      "sha256": "5d985445c23ea480a5a5481b0a74196fc8f0dbce5ba04bb5600b4e549f1abbf2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/全文获取进展.json",
+      "bytes": 718,
+      "sha256": "bb9f9bdb73fb23d2b94202cae99480ef7f1841b544de4df5afae5cca3a382ac5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/文献元数据核验.json",
+      "bytes": 54336,
+      "sha256": "b6d66099d47e090d43d6d748a19dfaa47ab877f43006b953bea9a19911eafe26"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/文献全文/中药材干燥技术与装备研究现状.pdf",
+      "bytes": 1904169,
+      "sha256": "4beca0c77feeb6836fa9cc0fb46222fff9d16889237a07bb34de2b48e071700d"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/文献检索原始记录.json",
+      "bytes": 8456,
+      "sha256": "af74469ff707dca12c26b918dcc38f8e7f922682babb085f7aa1addb77f704ff"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/术语表格.md",
+      "bytes": 3668,
+      "sha256": "76b0e6262fad994bb18e138291b080cf1140136950bd39f7a4f0d3ad1b9c18ef"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验与入库记录.json",
+      "bytes": 984,
+      "sha256": "32798d629e46b913cfc396d53cef75b1f707fcd5159c461858f4e08c6c77da13"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验后交付/result1.xlsx",
+      "bytes": 378762,
+      "sha256": "3b0a889af304b289a5e6899072cc4edf42b7e052134b5b36ac1760abb34d3dfe"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验后交付/result1_70点.xlsx",
+      "bytes": 6423,
+      "sha256": "80e3f04a51baf0732fac0c1994d0af873c7a16cbf30359f9ab37b899e6798895"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验后交付/复现清单.json",
+      "bytes": 1311,
+      "sha256": "72c345ade2382e0759872b7fc73b344af728f2f6465bbf735d9520541a2f15ac"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验后交付/核验结论与交接说明.md",
+      "bytes": 4490,
+      "sha256": "263aafd38924967f8dbfb442b799a4983bffcadb9ea95618db40b7e9512ddeec"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/核验后交付/问题一正文与分析.md",
+      "bytes": 15572,
+      "sha256": "d62855e19f9488b71be6300a2e4edf7d7834d0f99d80be646deac0abbc47c98b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/检索页面/cn_review.html",
+      "bytes": 911515,
+      "sha256": "b4aff8822f0cb6001fe3fb38fbc497c8013c413d5b4af3f7522a255909200ddc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/检索页面/cnki_hotair.html",
+      "bytes": 98991,
+      "sha256": "e7257e30051ebddf0109eca480e267b66d240be4a531930222d734136051ac69"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/build_delivery.py",
+      "bytes": 18176,
+      "sha256": "7d7be1da3ac0cd19a626ab846500dfdc7daeaf06067b7eb3e8f6f616123d5867"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/compare_q1.py",
+      "bytes": 5919,
+      "sha256": "f4389e72ff2721c332077b25a41e32d746bd1a5be5ada9b84f2b5347c2806e92"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/reproduce.py",
+      "bytes": 896,
+      "sha256": "5dc1f6d1a220a3979c78c7a87296f5d43e81abcfe38a848119b7ab2c0ec493ae"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf1600_32.json",
+      "bytes": 1609,
+      "sha256": "b45ac055a59466eee04cd052eb3d074906e5d10efc17c2905f02d42c19132054"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf1600_32.npz",
+      "bytes": 468420,
+      "sha256": "beb38f59096a2f44fdee50b41f282847e6f039eae1d85c95bcf32a55e7089ed4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf1600_64.json",
+      "bytes": 1610,
+      "sha256": "c7b59b77414294ac6ab6bdf0a5ab52ddd821dbb03874780bd50ee15254d470bd"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf1600_64.npz",
+      "bytes": 468010,
+      "sha256": "0567ba3312c6ba7d2a2fe2832b151b3ffe9a0d3cbc7eb022ff24a81fa681c4ff"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf3200_128.json",
+      "bytes": 1611,
+      "sha256": "508627aa3371cfd434cb6bdc760edb317c97a78e83071b60ff3d1be6b801bc14"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf3200_128.npz",
+      "bytes": 467638,
+      "sha256": "b612973f7832878164cb9c3f7533adc11b878649e3b276b88f95ae7a9bc9615a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf3200_64.json",
+      "bytes": 1610,
+      "sha256": "729770f3fcbd6c1132df70df4a5e836ce46ac3da595f082d22dd7f938351c299"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf3200_64.npz",
+      "bytes": 468175,
+      "sha256": "02cf6c3bced469d9893ee3f3bf1b35fd629bb4d48e097137bd2cee6f7affd734"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf6400_128.json",
+      "bytes": 1613,
+      "sha256": "7a770c1042af81840937fd1f34ea6c4e45af3256d9a2ef0a1ec0d4300ae8a28a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf6400_128.npz",
+      "bytes": 467935,
+      "sha256": "0e72fa1f24c5e971eb2ff62a35f694644eae6aad15315f549f1b45198dcbaddc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf800_32.json",
+      "bytes": 1606,
+      "sha256": "2a08042e8014a060d6fcdb7c4d232955a372a6db5c173abfad0161f13095fc59"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/bdf800_32.npz",
+      "bytes": 468292,
+      "sha256": "c9edfc29bda6cedcec660c5035411b90c1b100607f0a6b3ac9e8d4bc83b69079"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/be1600_128.json",
+      "bytes": 1606,
+      "sha256": "f1329841fe8841cc112fc19c0b4d7fbe120666dbd41e9d2c14301fe74c9be826"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/be1600_128.npz",
+      "bytes": 467653,
+      "sha256": "efe65dab26703b4eb7b9c69a9687e3af48c8c64680e72f70a442603498f878b4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/be1600_64.json",
+      "bytes": 1605,
+      "sha256": "183111364f03d3056a68f8b61922953115b018c01f7419b76abc731f78919a2c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/be1600_64.npz",
+      "bytes": 468078,
+      "sha256": "133fbc9c519e9eb069004521ee8a37ec3df70f8b7e14432e2907249030b656b8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/heat_reference.npz",
+      "bytes": 265559,
+      "sha256": "540a4308386f106ae809b3a5e0493b834e577245100d9d663b66e12ce04f2e6d"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_equilibrium.json",
+      "bytes": 1433,
+      "sha256": "89f15cb112597958b1af5bd1cdb573b06459df5267735424644e676c2f7c9ea8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_equilibrium.npz",
+      "bytes": 1174,
+      "sha256": "4b32301894feb4eb2bace9c23c18c6bbece4fbd285403726d2d41701ddcdd497"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_final.json",
+      "bytes": 1616,
+      "sha256": "174ed8e6c01cdd0a431f4614ed300a87aea66bcbd1256dee5b37fb591e623d85"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_final.npz",
+      "bytes": 467935,
+      "sha256": "0e72fa1f24c5e971eb2ff62a35f694644eae6aad15315f549f1b45198dcbaddc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_integrated.json",
+      "bytes": 1613,
+      "sha256": "aa3e55d24007838ca1b6f0252a1956b79cdf00f1cc8cd477f689d9bbd436eead"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_integrated.npz",
+      "bytes": 1916,
+      "sha256": "3fcd5ea8551834fb1e1314fba322b18847c289b73df0dc3036cf5f623fa592ba"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_smoke.json",
+      "bytes": 1599,
+      "sha256": "dac4519dccc3fd3c2f89fc18f10a86f946efd1068b22ec0bbcd880de57db1e5b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/reviewer_smoke.npz",
+      "bytes": 1960,
+      "sha256": "9d5460605eb70f927b69db0e0cb96556e79aebe7ee98fa444a157260628cb783"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/smoke.json",
+      "bytes": 1589,
+      "sha256": "0db233e1b9f49ca9ec2cc6fbff84e0a27901fabe452876b9335a7a559bd9c558"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/runs/smoke.npz",
+      "bytes": 16628,
+      "sha256": "02b75b6b732af5fe6205203372d57ac9908341829fb2e0c31eb6020775337504"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/verify_q1.py",
+      "bytes": 9915,
+      "sha256": "f628a1be89482abd52535989716429dbaffb1761cf7e1662e16b8c9eedf44dcc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/核验数据.json",
+      "bytes": 32443,
+      "sha256": "5844cf9201215783e88fc497673e28702d6553042b28ff77e0c436041414e8bd"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/独立核验/比较摘要.txt",
+      "bytes": 14996,
+      "sha256": "bcfff78245716844039cbe159a03886c752b58c94ddd95331696f44ee5eeb653"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/第一问复现清单_重算.json",
+      "bytes": 865,
+      "sha256": "1d49a04edac359dc9dd1ca7788f372e7d74deca23b56f0c7cdc798187c938c66"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/第一问正文.md",
+      "bytes": 13251,
+      "sha256": "e2365ac8b8a185d4fc187addf67c5a6f1c943abdf085bfee275f6932592b4020"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/第一问结构调整_交接给Sol.md",
+      "bytes": 8229,
+      "sha256": "e3b840336311bc056871415f463389ba9a0bb1a2a141302698ebec624a424e6a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/第一问计算结果与写作手交接_重算.md",
+      "bytes": 4073,
+      "sha256": "3bf93a097951dc15694f9612dd86e91a6a1df2f35ac1814b28219a19db01073c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/输入核验记录.json",
+      "bytes": 2545,
+      "sha256": "35f77d92a2fa036f21d7234bc4bbd06da723c90852d12d598c3f3d3147d6eb9e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_圆柱径向有限体积离散示意图.png",
+      "bytes": 190928,
+      "sha256": "19ebb87873becb8a6f73dcf79b168961bd0d35d35725c983bb59bee15d0bfe69"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_径向水分浓度分布_重算.png",
+      "bytes": 147756,
+      "sha256": "12c1829fc5ca3a9ad63c9f859cdc2dd7a63c3afbc0bdb4aee6de13766612e540"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_径向温度分布_重算.png",
+      "bytes": 111023,
+      "sha256": "e0df6649900a0013445390e1e34ea15c5d8dcedb8334d4ba3fd872dfe100e973"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_有限体积离散示意图_论文风格.pdf",
+      "bytes": 38936,
+      "sha256": "8c934fa11d28941822804c59027a895ae830f2b9d85726e10f17b40c177d702f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_有限体积离散示意图_论文风格.png",
+      "bytes": 318825,
+      "sha256": "202be89fa71ae61a5ccd6a380bc0b98e7f557100fcb2fb2f49b001f1923d26e0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_有限体积离散示意图_论文风格.svg",
+      "bytes": 28691,
+      "sha256": "1689e5d9e77c449fe7360c8a63d7dac4fc31efaef1ebac7bf462b0350dd683fb"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_水分浓度时空云图.png",
+      "bytes": 84837,
+      "sha256": "9b2e3e768f926f84fb479e0bd3c180c6928e0b4bf14e4c7fdf4f3525cc6eae1b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题1_温度时空云图.png",
+      "bytes": 90029,
+      "sha256": "9c7a2317b9fc039d58476e16f61e557d36c5555a245ef2f5057a3f18f8cf8815"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题一二.docx",
+      "bytes": 677916,
+      "sha256": "dea2c5501e036ad67f38216280a91dd888913fd0ce5cb6a240bf227de7f1da01"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/问题一正文与分析.pdf",
+      "bytes": 191250,
+      "sha256": "69f848f14dbb7e3eb1ed5a19e2808a46c9bc914a2552282bb163d463d1190d69"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第一问/题目分析报告.md",
+      "bytes": 17088,
+      "sha256": "23ecd14b847717872cdd48980016a2ec92035a2c50a63abcceb0b14a5aa34581"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/main.build.json",
+      "bytes": 1977,
+      "sha256": "145aec0879afe4f809965bae7b766900b40d40efd9f28f24c05275d429db032b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/main.log",
+      "bytes": 40523,
+      "sha256": "8771d3f9cfc8f47de6088c8bca75cb2b3ca6da94d095e50b4bcc10599fceb586"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/main.pdf",
+      "bytes": 222315,
+      "sha256": "6f337ce26ac46dd226b5f8a84f20d1518e5ff63c93c547153536973ff78d9388"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/english-page-1.png",
+      "bytes": 393161,
+      "sha256": "e87fb46121d0b9d6e3fc8310e836b0f9c8e7fa4639a6412df4ff87c6490e602a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/english-page-2.png",
+      "bytes": 272111,
+      "sha256": "490022a3aa93d3023babe94d3fd212f31eb8805f59eea33d3da47f41ca4ff2b5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/english-page-3.png",
+      "bytes": 253419,
+      "sha256": "a7eeb3b94edc98e1a02b0b519777cdf0652331f39edd1350eef111f4b10d5d04"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/english-page-4.png",
+      "bytes": 79313,
+      "sha256": "03ae106f023a320bec64fd9cd3e517590cf88ae4d4787e9f1b573929a8beb435"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/page-1.png",
+      "bytes": 426513,
+      "sha256": "c8942ecabbdfc39a7ef1b9483716d16d66cccf1bf43e82d08dbc1db70b0f0552"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/page-2.png",
+      "bytes": 292888,
+      "sha256": "82bbb451936bb0610e8c353680998e2baaf8f348d9a7e9d714511af77c8c9087"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/page-3.png",
+      "bytes": 271994,
+      "sha256": "be8cac9f2674ae4ef487c8e06d7fdea9c0b76824e871e84a6d6b10f692966053"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/page-4.png",
+      "bytes": 141414,
+      "sha256": "db6365068da6995582fda62fb3de76b9b59bdacd391c087740927267e5b637e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/polished-page-1.png",
+      "bytes": 337113,
+      "sha256": "86b5ed935e67f5556496778f052330d575262638590557ec747b502fc5ac9d56"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/polished-page-2.png",
+      "bytes": 240767,
+      "sha256": "61096ff878bb987b41f89b4eb87d9b13ead505f82699903bdea0e732679e6b8b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/polished-page-3.png",
+      "bytes": 222911,
+      "sha256": "b66edd6c287c8778002928c847b21568831161b3e0d55a909625632e9e528086"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/build/preview/polished-page-4.png",
+      "bytes": 69486,
+      "sha256": "e3a0ef05d4036e5398500e35e89f51e939d9dc5ac6d72ef4a3354334d52736d9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/figs/process_q3_全域达标与边界延拓.pdf",
+      "bytes": 13703,
+      "sha256": "78a2e0b4f4ec3c2bc4e2c389eb8bb485cd77131dd964d450cb05b145c1f0d33e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/figs/process_q3_结束时间收敛比较.pdf",
+      "bytes": 11988,
+      "sha256": "baf0ac13674aff4f0fbf3e372c20107146597cf6ef1f09ff915637418796178b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/figs/result_q3_代表半径含水率.pdf",
+      "bytes": 13731,
+      "sha256": "8ce95933c3124d578154668cf8f30d5f59f6eef6835ed1ed15a64028562eccf5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/latex-project.json",
+      "bytes": 1808,
+      "sha256": "0c0ab5cd5c61e83551da99a42b421539a1c5e19b28fd97cd398ec445a2d84b16"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/main.tex",
+      "bytes": 623,
+      "sha256": "2ad88cfd0d8422ea19a86cd03af16f262c63309dc4d44e8f1e012ff7679644f8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/references.bib",
+      "bytes": 66,
+      "sha256": "c85fa9f8c7cdb3b0c8c2f394bebd7624f6ff5abdd6bac5b4f43b58e67ee7c222"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/tables/table5.tex",
+      "bytes": 776,
+      "sha256": "a0903cccc035621da0c7b77028d6ac26fd01ede8556c9ac92baa13dffd10a8a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/LaTeX/第三问正文.tex",
+      "bytes": 8479,
+      "sha256": "695f887082ba2c1cb9b233ff74767632f462ec07aabcadb007b02e7e60e30744"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/XeLaTeX编译与合并说明.md",
+      "bytes": 1673,
+      "sha256": "27d01f5ec6baafe9adb8b7be71d6108dd942ead92cd1c2914fb8e7583d3c4341"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/deliver_q3.py",
+      "bytes": 17258,
+      "sha256": "1ac07c31aca956b2e858146e12749968577c99aa13aa62034ba5e6aea0246769"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/_qa/process_q3_全域达标与边界延拓_grayscale.png",
+      "bytes": 131943,
+      "sha256": "1245f2a7262bcffdabb1fa7bed16171ad864389ccfb6646a4a90dc8d15a362c9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/_qa/process_q3_结束时间收敛比较_grayscale.png",
+      "bytes": 96062,
+      "sha256": "ae0781a064a99177f100dd48a24170a5e81b870a2b6c49b9107a4d057c531dda"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/_qa/result_q3_代表半径含水率_grayscale.png",
+      "bytes": 144108,
+      "sha256": "b00da8593330c8ea845cc5712a5c4687df0560b9f694f93b95cad141af778f18"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_全域达标与边界延拓.pdf",
+      "bytes": 13703,
+      "sha256": "78a2e0b4f4ec3c2bc4e2c389eb8bb485cd77131dd964d450cb05b145c1f0d33e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_全域达标与边界延拓.png",
+      "bytes": 134766,
+      "sha256": "7b9b2d78df1867eef1ae348396b65b7c82ebf8af291960ba0ab38945eba79a4e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_全域达标与边界延拓.svg",
+      "bytes": 12995,
+      "sha256": "4542bce8cbb72b52fb923f16026a33d3f2363ce74fae0bc02f193df16ba611a0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_结束时间收敛比较.pdf",
+      "bytes": 11988,
+      "sha256": "baf0ac13674aff4f0fbf3e372c20107146597cf6ef1f09ff915637418796178b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_结束时间收敛比较.png",
+      "bytes": 96498,
+      "sha256": "8425044c0a88786a9ba1a685209e5d6bd261f266cc071acf2b06a33e0474e91a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/process_q3_结束时间收敛比较.svg",
+      "bytes": 10877,
+      "sha256": "5c2b7cf78fed836d01570c31745571c657be330b329d214b4f32b265d6c5f1e8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/result_q3_代表半径含水率.pdf",
+      "bytes": 13731,
+      "sha256": "8ce95933c3124d578154668cf8f30d5f59f6eef6835ed1ed15a64028562eccf5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/result_q3_代表半径含水率.png",
+      "bytes": 154682,
+      "sha256": "327baba6598e8e7c22e2e33adb92e194efbc4566f8bc211978ac0ddfbffd9cfa"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/figures/result_q3_代表半径含水率.svg",
+      "bytes": 17395,
+      "sha256": "6a345c5ec4d71e55253393783351ae94b04469d56cd0768692d09998b4c49a4a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/reproduce_q3.py",
+      "bytes": 1726,
+      "sha256": "b39d2bdf115501f37d9edf19a879ebc70ed078c1c1ab2418595a7bdcb270d8b1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX润色版校验.json",
+      "bytes": 4401,
+      "sha256": "650fc3d0b001daa113debabc6faceb7804a2cf3b647fa92fae9019dfa61b807c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX润色版终检.json",
+      "bytes": 339,
+      "sha256": "2a3640a57e59e7838e7faa61ccdc47e39d00da199f1dc7b7160c9bc1dfcd7546"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX独立终检.json",
+      "bytes": 413,
+      "sha256": "cd0ce18f37df13be51b36f92d7fdd35d5a1d41598646c946909f5457a0ac19c3"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX章节校验.json",
+      "bytes": 4615,
+      "sha256": "14137a9abc8b043309e7c9cab3ffb337de1295c9989640466872b009c1f57261"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX英文图版校验.json",
+      "bytes": 4454,
+      "sha256": "aad9e678049c813663cf13137c7058899bfc5e492b02c1bd092172b2695052c7"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/XeLaTeX英文图版终检.json",
+      "bytes": 579,
+      "sha256": "d1334904a3d59bc3af628ed71e9f573a0dd02946fdb551035600db8a4da34612"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/result3.xlsx",
+      "bytes": 352964,
+      "sha256": "96a610e90ddf2ee06cc17ed66fd96d1e0f55c2eb529fc8dfd6fc339941095393"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/交付核验记录.md",
+      "bytes": 1974,
+      "sha256": "88735b62c030d94305eebab33a60b2b85be72dd3bde79209a2c25e1cae43e6a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/图像审计.json",
+      "bytes": 1192,
+      "sha256": "ac811eebebef9d3f5b87c7e70aa01a7e750779ba2c152ed7fa95e1d7505410f5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/图文件检查.txt",
+      "bytes": 72,
+      "sha256": "9a88da8a7b53a72ac8034585b22e30139d6c8ddab544b7e92968a413d1211259"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/复现清单.json",
+      "bytes": 2614,
+      "sha256": "f061d5034cea9482e2954d86a3c0c046ba5b8a5468299d2176a3310a833d71ef"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/绘图数据.csv",
+      "bytes": 456640,
+      "sha256": "ea3d159f05a7ed839a67f15f6cc8295d9c0c025b59a73988d9e19261a74e8743"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/绘图数据剖析.json",
+      "bytes": 8839,
+      "sha256": "c33cdf7ecfd65ee35894b09e29a79351a1770a5758e8ee0d8ae05537dc5d4de2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/表5_水分浓度.md",
+      "bytes": 632,
+      "sha256": "7a140118c990f74bbcbd2e341eab1cbbd1bffeacf926c9a22b11932cf612adc9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/表5_水分浓度.tex",
+      "bytes": 776,
+      "sha256": "a0903cccc035621da0c7b77028d6ac26fd01ede8556c9ac92baa13dffd10a8a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/表5_水分浓度.xlsx",
+      "bytes": 5476,
+      "sha256": "4b9aefe9b60ce059d5797050d02f63cf7c933d15957928f77c5f1e17f10a1855"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/计算摘要.json",
+      "bytes": 7080,
+      "sha256": "fd3e0aec26c2dd8c10259e5fe031819011489ff3db05cea9401043a9f78396c8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/results/计算方案比较.csv",
+      "bytes": 1013,
+      "sha256": "07f7ac6a8258e44525f0bdcecb193346313999361a0c1e87f415e02c9b6918f6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/last_n3200_dt0p5.json",
+      "bytes": 1415,
+      "sha256": "b59a7de86b698b2e1dd54a33d32af4fbab9da7c96d0779da1cc7f8d0127a56af"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/last_n3200_dt0p5.npz",
+      "bytes": 665915,
+      "sha256": "03a3ea2e639eecba7c7a76263aa7651e7e16839ab438bdabcc8a676ced145e64"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n1600_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "05f54b6fc551978dd3d4d6637ac7b7e8c7f3ed9b95a9d0c233bb2f2c956690d2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n1600_dt0p5.npz",
+      "bytes": 651540,
+      "sha256": "42610fbe169b641e91de09825118ee23e2e3e0bbc53ca09ab61c91dbf96e8422"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n3200_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "2e2929fcf5bfbca73d4f6239c0deb5b81289aa9cf2ebee4d9bc739afee455127"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n3200_dt0p5.npz",
+      "bytes": 662073,
+      "sha256": "7840e1859713b86cab64f36b495d3daf9b4fb4bc0e246242cff34dd4c58fbbb4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n3200_dt1.json",
+      "bytes": 1473,
+      "sha256": "4e690eea419aafe09a22f956c79546fd5b4c655a89b9b85a8aedab4cb72ef98c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n3200_dt1.npz",
+      "bytes": 660412,
+      "sha256": "9c677fc77f7b7bfb1e2e6a68438bcda3df12741d643239a076924968e2fda321"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "5747d96905e7e49a68514f48281a3cebd46ec2501332a52d798906e68cde9923"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt0p5.npz",
+      "bytes": 645524,
+      "sha256": "f11530ae0ad061a008fc96dcde98cf839e424fcdce2340a04d7fc935c250870a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt1.json",
+      "bytes": 1468,
+      "sha256": "7d6b7d7ee92215590cd9c68183ffcc2a030414fc79c590fb727101997188ca2c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt1.npz",
+      "bytes": 645087,
+      "sha256": "6b354b528f4ee37a406f8ba00755f66775f82ad097f19b44480231bea539936a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt2.json",
+      "bytes": 1468,
+      "sha256": "23f539eee37f43ea9ec821cc47474a34d45b8ad237ed97268ee5b0d5589d2369"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n400_dt2.npz",
+      "bytes": 645083,
+      "sha256": "c427b12af6c289c33669a366b19d5233e806ef16286ead563a7c282435b8aaca"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n800_dt0p5.json",
+      "bytes": 1470,
+      "sha256": "2dfafa4822c42d9eed0649acadfc7866923d133983539524a5db9a2f2f97aae6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/mean_n800_dt0p5.npz",
+      "bytes": 646232,
+      "sha256": "11c39f4d1f6bfdf9f1eea53d4048af4b8c3e244606a2f517377a07cc8aefefe4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n1600_dt0.0625.json",
+      "bytes": 200,
+      "sha256": "cbc80bca9490a728e5e48520b1336ca9f728f892ef8c84629877a999f3e2e79b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n1600_dt0.0625.npz",
+      "bytes": 3132868,
+      "sha256": "365e04c99f20f09ede43a1d59f5d6ef1a2f55ed6a15caaae630e70c45e1b6d51"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n3200_dt0.0625.json",
+      "bytes": 200,
+      "sha256": "10bf431c23361d70a196d2d2a8a479a0cd7d255e407836179196fe19410cf188"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n3200_dt0.0625.npz",
+      "bytes": 3152844,
+      "sha256": "1508da6a5b68c745eef1bf1795f7e7579dd99de9fc4dd7c967138d094313efd0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n400_dt0.0625.json",
+      "bytes": 199,
+      "sha256": "c6afce9a7f454d2edb3583b33c3c0e64a4ff0a1f6bb29d496b75e72c9064f136"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n400_dt0.0625.npz",
+      "bytes": 3117136,
+      "sha256": "d9a634f55c5261a04ffff8ff8921cbb14f7d3438bfab87ab85b91b58c2702c82"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n800_dt0.0625.json",
+      "bytes": 199,
+      "sha256": "821ba01f1689199856cf212c9311e7bbd5f50cb72a8a6a63e27c49d9f01dd3f1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/prefix_n800_dt0.0625.npz",
+      "bytes": 3122535,
+      "sha256": "7632a986c7408a23af0758102ab36aa169d50ecef77fb3dccdaab523b26912c0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/q2_regression.json",
+      "bytes": 3060,
+      "sha256": "c8a14be17ab1cfe9590aea4d0b3c3c1326418b8deb7781aeb3e655ca2c9a21a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/q2_regression.npz",
+      "bytes": 3120761,
+      "sha256": "c355256f85c8edff75fa864c020408ffa61788d37c7b3ff8de7cece6d38ae18f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/reviewer_invariants.json",
+      "bytes": 905,
+      "sha256": "e48fcdc08f4ed0ce2eea3996b8584959b1205ed20fe2ca38cce18c13763a0c38"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/reviewer_smoke.json",
+      "bytes": 1696,
+      "sha256": "2e8ef4027689235dd1136bf891b2b15d2d80ba88243b1ff6552157ebdcf0ddec"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/reviewer_smoke.npz",
+      "bytes": 16526,
+      "sha256": "8740351b87496e19a0e55d7601d5d652a61defcdcd72d1abb57f4275c82b3cca"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/smoke1800.json",
+      "bytes": 1934,
+      "sha256": "9db7115f2bc9e6217c0acd13de00bbea98302430a5a65b153764a36c22b56392"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/runs/smoke1800.npz",
+      "bytes": 492671,
+      "sha256": "28982afb94c451e32243bb1fb6c7b157beb3670a7848c52bb8c7a606e86f2338"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/solve_q3.py",
+      "bytes": 13655,
+      "sha256": "e186dfda286785b4283cbc9192f0b307526688df6b4180e0870ef4efd9d04b36"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/utils/plot_style.py",
+      "bytes": 17160,
+      "sha256": "f3de0a0c858d6018310d7e461574697a4cec7b28e5e20b8ccdaa7749772147e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/交付与复现说明.md",
+      "bytes": 2353,
+      "sha256": "7b1abb5d58ff8a3bb44b5d2706be9b05cf8819579704f7f5c9dccba944e6c3ec"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/使用指南.md",
+      "bytes": 3442,
+      "sha256": "5d985445c23ea480a5a5481b0a74196fc8f0dbce5ba04bb5600b4e549f1abbf2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/模型与计算约定.md",
+      "bytes": 3565,
+      "sha256": "9aed8b8ca11f0fd84e5b5ff2265e14fa7b9359d99f01a90fd45aa22ee0ac534b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/LaTeX_Finder_metadata_0",
+      "bytes": 8196,
+      "sha256": "4c973516196ec383d12054d2bff09dd20e8ea11c23622bd6fd0e667d7e8397e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_全域达标与边界延拓.pdf",
+      "bytes": 29240,
+      "sha256": "e8a79ffed51bff0820f6baecaf0214b50d29d2f74fa97a32679ce35948bade98"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_全域达标与边界延拓.png",
+      "bytes": 123585,
+      "sha256": "29db85629b2fd6ea8176e0f61eecc0da9ee1e3b0a8c8a604028263ae3cb06d63"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_全域达标与边界延拓.svg",
+      "bytes": 12987,
+      "sha256": "927d6387f9f5efb7558cc716e00734a40dd3b387855dfb990b3972ff05c56be8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_结束时间收敛比较.pdf",
+      "bytes": 25603,
+      "sha256": "134456a09b1bc69f09fd9f063f6eca88731128ad46e40520342be6e5361f450c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_结束时间收敛比较.png",
+      "bytes": 96259,
+      "sha256": "3e3af151764fca5c0d9b8b3dc73fd7358dbb1b1aaeb6883012670e83799970e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/process_q3_结束时间收敛比较.svg",
+      "bytes": 10940,
+      "sha256": "94ce34ae08c3f7fc064296aba420fd65cb4e25a16a1996ff1853360280cb79db"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/result_q3_代表半径含水率.pdf",
+      "bytes": 23461,
+      "sha256": "839064d19a2c756d68e57e312256ec204c945da6acbc7449cdacc54a2fe2e439"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/result_q3_代表半径含水率.png",
+      "bytes": 144277,
+      "sha256": "0d29c05ca92127610779dc614931fab232b77db72fcdbdca825dcac76bcf1d66"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/版本留存/中文图版/result_q3_代表半径含水率.svg",
+      "bytes": 17475,
+      "sha256": "5ca6f1cf6e543ce0217fb3dfe4f8e8ccbaad8b7240bdddc11f117d1ec4f19c00"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问.build.json",
+      "bytes": 1977,
+      "sha256": "145aec0879afe4f809965bae7b766900b40d40efd9f28f24c05275d429db032b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问.pdf",
+      "bytes": 222315,
+      "sha256": "6f337ce26ac46dd226b5f8a84f20d1518e5ff63c93c547153536973ff78d9388"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_XeLaTeX源码.zip",
+      "bytes": 80658,
+      "sha256": "4ff21f11548edeb9d1e05e1f5f815db8cb4a4f9abfd761433bd2349e8412e195"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_XeLaTeX源码_润色版.zip",
+      "bytes": 42024,
+      "sha256": "36e266980c9e4b1b360391d2b7ea2a7c02fda4fe2ea25204e15a29e64898bcea"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_XeLaTeX源码_英文图版.zip",
+      "bytes": 41975,
+      "sha256": "dfb08ac0dc425b222d8fa44bfba7e58df1379c98d2756d41d6ac14bd37a4f9bc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_完整章节_润色版.build.json",
+      "bytes": 1977,
+      "sha256": "145aec0879afe4f809965bae7b766900b40d40efd9f28f24c05275d429db032b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_完整章节_第一版.build.json",
+      "bytes": 1977,
+      "sha256": "70bc919e5055b14cb35467c21820a269282817e6d98b6b2e8852edf8330afb72"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_完整章节_第一版.pdf",
+      "bytes": 268607,
+      "sha256": "dffeab3b110b105b1d4b74c6d76f6ebdb7774d45e6f4e75fdb4889fbbfa206e6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_完整章节_英文图版.build.json",
+      "bytes": 1980,
+      "sha256": "5616bade283f90aba4b584f32d564aee44be2be087a67e0430ceac60c3a82206"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问_完整章节_英文图版.pdf",
+      "bytes": 224108,
+      "sha256": "fcb6bded710f46ebd2cbf6d05ec63ce75c31a93eeecf3fd6762f88be07383605"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问/第三问结果与分析.md",
+      "bytes": 6303,
+      "sha256": "37ffc5884b3a80e1985f13f20375ef65ee1757b0720f619126a7028932434048"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/A题第四问_建模思路_Astra评审版.md",
+      "bytes": 22357,
+      "sha256": "6e71c67ab1aaa98ccbf8632d596118e525b9260ee8d87ba6da9a6026233fb219"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/P2复现运行.txt",
+      "bytes": 122,
+      "sha256": "3be3d37b5b6f7d231f15b8e837b852f82479d4d279fa7faed24d0cb9befc26ad"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/P2终检证据.json",
+      "bytes": 622,
+      "sha256": "28852a418781bfba8d84aca10ae2cac5270a3694d0c7ed408ea5a8fc68e2222a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/deliver_q3.py",
+      "bytes": 17454,
+      "sha256": "d3910647f49e167bbe27a8ed5700bae3578d4e37a756c1a940f35865f7054b11"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/_qa/process_q3_全域达标与边界延拓_grayscale.png",
+      "bytes": 121357,
+      "sha256": "f8351ad70ea5bc67df66d22e8d3b27dd2d2f66abe567af5d2562a1c5fd928ff7"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/_qa/process_q3_结束时间收敛比较_grayscale.png",
+      "bytes": 95829,
+      "sha256": "8b919819d92c27b0d8b2bf8a9017512ac336fce3261b8b9cab0dac7f88a47a3f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/_qa/result_q3_代表半径含水率_grayscale.png",
+      "bytes": 134596,
+      "sha256": "2a7dc509f457b9af22f7212bc6a9bdf20a496fc75c64cf54e19878a177a70e30"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_全域达标与边界延拓.pdf",
+      "bytes": 29240,
+      "sha256": "e6237966623c82c4135efd104303bab0dfdc02f84609f22efdf10db2b156cff1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_全域达标与边界延拓.png",
+      "bytes": 123585,
+      "sha256": "29db85629b2fd6ea8176e0f61eecc0da9ee1e3b0a8c8a604028263ae3cb06d63"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_全域达标与边界延拓.svg",
+      "bytes": 12987,
+      "sha256": "fa0ba9581a3a3ad184a9e3c4d4d25e0f209c18b818af4523659521885c06633d"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_结束时间收敛比较.pdf",
+      "bytes": 25603,
+      "sha256": "c322ca2b2375bf6250d2c875f92e0e58b0db8dee29b57bfe0c6828ae8c894449"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_结束时间收敛比较.png",
+      "bytes": 96259,
+      "sha256": "3e3af151764fca5c0d9b8b3dc73fd7358dbb1b1aaeb6883012670e83799970e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/process_q3_结束时间收敛比较.svg",
+      "bytes": 10940,
+      "sha256": "76b6dc4ccc94ff66f0d3c382823095cc3136c2d2c3f044b76dcd1f92b01d9f25"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/result_q3_代表半径含水率.pdf",
+      "bytes": 23461,
+      "sha256": "1b8e60c53f839d26e97078f0e68958581c4fa305e880bfb5e5577e252e8f4c70"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/result_q3_代表半径含水率.png",
+      "bytes": 144277,
+      "sha256": "0d29c05ca92127610779dc614931fab232b77db72fcdbdca825dcac76bcf1d66"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/figures/result_q3_代表半径含水率.svg",
+      "bytes": 17475,
+      "sha256": "00c1638e331cfae8439453d6dedc4337becaaf70cbb6b4f74ec675c62a957ab3"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/reproduce_q3.py",
+      "bytes": 1726,
+      "sha256": "b39d2bdf115501f37d9edf19a879ebc70ed078c1c1ab2418595a7bdcb270d8b1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/result3.xlsx",
+      "bytes": 352965,
+      "sha256": "f05c324fce44854fcf9ecf7cf79f334ee6d00721ca17fe3c9ecfd1f960de593b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/图像审计.json",
+      "bytes": 1192,
+      "sha256": "ac811eebebef9d3f5b87c7e70aa01a7e750779ba2c152ed7fa95e1d7505410f5"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/图文件检查.txt",
+      "bytes": 72,
+      "sha256": "9a88da8a7b53a72ac8034585b22e30139d6c8ddab544b7e92968a413d1211259"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/复现清单.json",
+      "bytes": 2479,
+      "sha256": "6f08faede03863b571de7f9106a383e8491a3d4112c0ef22089538bef908df16"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/绘图数据.csv",
+      "bytes": 456640,
+      "sha256": "ea3d159f05a7ed839a67f15f6cc8295d9c0c025b59a73988d9e19261a74e8743"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/绘图数据剖析.json",
+      "bytes": 8853,
+      "sha256": "bd7dd41ed73080943662986188b3b2a997e14484803f721a55e99490c50a72c3"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/表5_水分浓度.md",
+      "bytes": 632,
+      "sha256": "7a140118c990f74bbcbd2e341eab1cbbd1bffeacf926c9a22b11932cf612adc9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/表5_水分浓度.tex",
+      "bytes": 776,
+      "sha256": "a0903cccc035621da0c7b77028d6ac26fd01ede8556c9ac92baa13dffd10a8a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/表5_水分浓度.xlsx",
+      "bytes": 5477,
+      "sha256": "266f42dfd30a9a8e35bf003bdd7dc8afa1bef2907c8869bc0483bc3188284909"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/计算摘要.json",
+      "bytes": 7080,
+      "sha256": "fd3e0aec26c2dd8c10259e5fe031819011489ff3db05cea9401043a9f78396c8"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/results/计算方案比较.csv",
+      "bytes": 1013,
+      "sha256": "07f7ac6a8258e44525f0bdcecb193346313999361a0c1e87f415e02c9b6918f6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/last_n3200_dt0p5.json",
+      "bytes": 1415,
+      "sha256": "b59a7de86b698b2e1dd54a33d32af4fbab9da7c96d0779da1cc7f8d0127a56af"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/last_n3200_dt0p5.npz",
+      "bytes": 665915,
+      "sha256": "03a3ea2e639eecba7c7a76263aa7651e7e16839ab438bdabcc8a676ced145e64"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n1600_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "05f54b6fc551978dd3d4d6637ac7b7e8c7f3ed9b95a9d0c233bb2f2c956690d2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n1600_dt0p5.npz",
+      "bytes": 651540,
+      "sha256": "42610fbe169b641e91de09825118ee23e2e3e0bbc53ca09ab61c91dbf96e8422"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n3200_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "2e2929fcf5bfbca73d4f6239c0deb5b81289aa9cf2ebee4d9bc739afee455127"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n3200_dt0p5.npz",
+      "bytes": 662073,
+      "sha256": "7840e1859713b86cab64f36b495d3daf9b4fb4bc0e246242cff34dd4c58fbbb4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n3200_dt1.json",
+      "bytes": 1473,
+      "sha256": "4e690eea419aafe09a22f956c79546fd5b4c655a89b9b85a8aedab4cb72ef98c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n3200_dt1.npz",
+      "bytes": 660412,
+      "sha256": "9c677fc77f7b7bfb1e2e6a68438bcda3df12741d643239a076924968e2fda321"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt0p5.json",
+      "bytes": 1472,
+      "sha256": "5747d96905e7e49a68514f48281a3cebd46ec2501332a52d798906e68cde9923"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt0p5.npz",
+      "bytes": 645524,
+      "sha256": "f11530ae0ad061a008fc96dcde98cf839e424fcdce2340a04d7fc935c250870a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt1.json",
+      "bytes": 1468,
+      "sha256": "7d6b7d7ee92215590cd9c68183ffcc2a030414fc79c590fb727101997188ca2c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt1.npz",
+      "bytes": 645087,
+      "sha256": "6b354b528f4ee37a406f8ba00755f66775f82ad097f19b44480231bea539936a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt2.json",
+      "bytes": 1468,
+      "sha256": "23f539eee37f43ea9ec821cc47474a34d45b8ad237ed97268ee5b0d5589d2369"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n400_dt2.npz",
+      "bytes": 645083,
+      "sha256": "c427b12af6c289c33669a366b19d5233e806ef16286ead563a7c282435b8aaca"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n800_dt0p5.json",
+      "bytes": 1470,
+      "sha256": "2dfafa4822c42d9eed0649acadfc7866923d133983539524a5db9a2f2f97aae6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/mean_n800_dt0p5.npz",
+      "bytes": 646232,
+      "sha256": "11c39f4d1f6bfdf9f1eea53d4048af4b8c3e244606a2f517377a07cc8aefefe4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n1600_dt0.0625.json",
+      "bytes": 200,
+      "sha256": "cbc80bca9490a728e5e48520b1336ca9f728f892ef8c84629877a999f3e2e79b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n1600_dt0.0625.npz",
+      "bytes": 3132868,
+      "sha256": "365e04c99f20f09ede43a1d59f5d6ef1a2f55ed6a15caaae630e70c45e1b6d51"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n3200_dt0.0625.json",
+      "bytes": 200,
+      "sha256": "10bf431c23361d70a196d2d2a8a479a0cd7d255e407836179196fe19410cf188"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n3200_dt0.0625.npz",
+      "bytes": 3152844,
+      "sha256": "1508da6a5b68c745eef1bf1795f7e7579dd99de9fc4dd7c967138d094313efd0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n400_dt0.0625.json",
+      "bytes": 199,
+      "sha256": "c6afce9a7f454d2edb3583b33c3c0e64a4ff0a1f6bb29d496b75e72c9064f136"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n400_dt0.0625.npz",
+      "bytes": 3117136,
+      "sha256": "d9a634f55c5261a04ffff8ff8921cbb14f7d3438bfab87ab85b91b58c2702c82"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n800_dt0.0625.json",
+      "bytes": 199,
+      "sha256": "821ba01f1689199856cf212c9311e7bbd5f50cb72a8a6a63e27c49d9f01dd3f1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/prefix_n800_dt0.0625.npz",
+      "bytes": 3122535,
+      "sha256": "7632a986c7408a23af0758102ab36aa169d50ecef77fb3dccdaab523b26912c0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/q2_regression.json",
+      "bytes": 3060,
+      "sha256": "c8a14be17ab1cfe9590aea4d0b3c3c1326418b8deb7781aeb3e655ca2c9a21a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/q2_regression.npz",
+      "bytes": 3120761,
+      "sha256": "c355256f85c8edff75fa864c020408ffa61788d37c7b3ff8de7cece6d38ae18f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/reviewer_invariants.json",
+      "bytes": 905,
+      "sha256": "e48fcdc08f4ed0ce2eea3996b8584959b1205ed20fe2ca38cce18c13763a0c38"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/reviewer_smoke.json",
+      "bytes": 1696,
+      "sha256": "2e8ef4027689235dd1136bf891b2b15d2d80ba88243b1ff6552157ebdcf0ddec"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/reviewer_smoke.npz",
+      "bytes": 16526,
+      "sha256": "8740351b87496e19a0e55d7601d5d652a61defcdcd72d1abb57f4275c82b3cca"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/smoke1800.json",
+      "bytes": 1934,
+      "sha256": "9db7115f2bc9e6217c0acd13de00bbea98302430a5a65b153764a36c22b56392"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/runs/smoke1800.npz",
+      "bytes": 492671,
+      "sha256": "28982afb94c451e32243bb1fb6c7b157beb3670a7848c52bb8c7a606e86f2338"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/solve_q3.py",
+      "bytes": 13655,
+      "sha256": "e186dfda286785b4283cbc9192f0b307526688df6b4180e0870ef4efd9d04b36"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/utils/plot_style.py",
+      "bytes": 17160,
+      "sha256": "f3de0a0c858d6018310d7e461574697a4cec7b28e5e20b8ccdaa7749772147e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/交付与复现说明.md",
+      "bytes": 2353,
+      "sha256": "7b1abb5d58ff8a3bb44b5d2706be9b05cf8819579704f7f5c9dccba944e6c3ec"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/使用指南.md",
+      "bytes": 3442,
+      "sha256": "5d985445c23ea480a5a5481b0a74196fc8f0dbce5ba04bb5600b4e549f1abbf2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/模型与计算约定.md",
+      "bytes": 3565,
+      "sha256": "9aed8b8ca11f0fd84e5b5ff2265e14fa7b9359d99f01a90fd45aa22ee0ac534b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第三问_P2复验_0912/第三问结果与分析.md",
+      "bytes": 6303,
+      "sha256": "37ffc5884b3a80e1985f13f20375ef65ee1757b0720f619126a7028932434048"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_C_map.png",
+      "bytes": 77668,
+      "sha256": "ceb31afebc4e697c1f81a71a22c421be2b6699c7bde6b2c1a1fce97640f7618e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_C_map.svg",
+      "bytes": 4193991,
+      "sha256": "ea268f87bd57d7cce2ba4226b89775353b8240f28070c03120fcba2a85da40e1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_C_profiles.png",
+      "bytes": 173397,
+      "sha256": "4779590cf533a64fe3c0235b517504b7a4566fa08a0bf635b19968376443aa11"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_C_profiles.svg",
+      "bytes": 50347,
+      "sha256": "be0f0ee4bdb15c1a9d16c30bdf955629849736fa8500aa1438f0fb88c65cac68"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_FVM.png",
+      "bytes": 53346,
+      "sha256": "b9f3d5230cacc0b4c8c1f5458ff6a6b30b29454d12adf949622c0be10c93d427"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_FVM.svg",
+      "bytes": 30953,
+      "sha256": "9cce1781653258eaf84569a22112d53ea52da365fc7e22c008605120fad873a2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_T_map.png",
+      "bytes": 100696,
+      "sha256": "34672df2028812d9b7dfe6c38c85e19430069d8581df9f267dbd80f29dab7314"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_T_map.svg",
+      "bytes": 4195203,
+      "sha256": "8c65f1fc097e699232119143f5cb230c8c5ad9e261622800348b9d1c42d8df8e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_T_profiles.png",
+      "bytes": 138351,
+      "sha256": "8d41468e8328e69b107e98664e0664ee4ce6f581558fd90ccbc90bfd3d813498"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_T_profiles.svg",
+      "bytes": 48631,
+      "sha256": "8c79cbb88139aea14e75c577ca97b244dd42098561f1c26b9fbf9f1f28d9622e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_scales.png",
+      "bytes": 45154,
+      "sha256": "2d183c0268838b66cce61422c54aac31d98d40f729218ba4f948f858815d94a0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q1_scales.svg",
+      "bytes": 23006,
+      "sha256": "25dd3e21641e4ce0542e7c463f09de0b055a96b4c1fc1806525b548d4cf02682"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_C_map.png",
+      "bytes": 107094,
+      "sha256": "e4deca69b7519989c4f6c1d88e8431701e98589b721a99d12febbcabfd10ae9a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_C_map.svg",
+      "bytes": 4194438,
+      "sha256": "eb852882c7e9f5260081319eb07f0e05425722cca6536d9f3babbfd322ce37ea"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_C_profiles.png",
+      "bytes": 199752,
+      "sha256": "1accd22e8dd2019675edf83cfef2e37af9b34ba7db7925cc05a45ae1158c5c80"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_C_profiles.svg",
+      "bytes": 49233,
+      "sha256": "7a97c5ebe19a0a0d9699947b04430be2b823d20f2984a686748428e4010752e4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_T_map.png",
+      "bytes": 86917,
+      "sha256": "dda56266e4a63bab71cc05d5776b4b67e5ce66d172a06fca319d15c873c59bda"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_T_map.svg",
+      "bytes": 4193211,
+      "sha256": "fe7f5681298c7b222f88e63f559db484152c257dc384b0a070920d7de135cec1"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_T_profiles.png",
+      "bytes": 105061,
+      "sha256": "6d5ad989f98197589a2c0fedc9867d1c60c68af5de46d68fb8463dae709f5985"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_T_profiles.svg",
+      "bytes": 46949,
+      "sha256": "4c3e64537cbad5102642ab82a589f5dc27d2729ac0afde36012c34d04b898e96"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_coupling.png",
+      "bytes": 81106,
+      "sha256": "4de4028ac692cb77842021936a25935148b69b1b2d67c771ff0564b373f9da01"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/Fig_Q2_coupling.svg",
+      "bytes": 25133,
+      "sha256": "fd3352f89dc3da97e643cd695af3c4653a7b290126c5ad0bf11840f989c63cc6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures/README.txt",
+      "bytes": 530,
+      "sha256": "49e7f9d9b944032cc535e30f1944702e4fcf15bd638da6b57d9b31b732937efc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/Q1_Q2_redesigned_figures.zip",
+      "bytes": 2160383,
+      "sha256": "52068a48ab992ac35cf548f264a16ba5e73cc884fa973389ceae1b030b63e50f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/result2.xlsx",
+      "bytes": 2497070,
+      "sha256": "71814b154fd4f45e8bce6862c21d32f9e6342871653ef590948079a2d25fe835"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/入选文献与入库状态.json",
+      "bytes": 8454,
+      "sha256": "30cd3fb79e47f18dbeb18bd1340c431c469ab0bd05d0be63312cdf73843000ff"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/双引擎检索_西梅变物性.json",
+      "bytes": 2403,
+      "sha256": "4406329c3f5aa23588dea2f6329b9773e26479c9e905044fb7a5fe76eb0c4da0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/双引擎检索_西梅变物性日志.txt",
+      "bytes": 47,
+      "sha256": "a1256f9aab48340a1a40b758489405f0bbf9b4ed285260523ac235da0f81279f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/双引擎检索原始结果.json",
+      "bytes": 10774,
+      "sha256": "42d20f09a07d360aa73ec45ecbe43f4495ebdc832bdfc7bff537a49326755ec2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/文献全文/DaSilva2014_圆柱干燥变物性与热质耦合.md",
+      "bytes": 47436,
+      "sha256": "2a983a23066ff835f88f6b587d75930b4527bafeeed189ee99d19fbf605fa588"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/文献全文/DaSilva2014_圆柱干燥变物性与热质耦合.pdf",
+      "bytes": 1463945,
+      "sha256": "33389c7c51e13bbaaf87e4b79c0063cbf54bef49525726c668986a1a286b597a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/文献全文/中药材干燥技术与装备研究现状.md",
+      "bytes": 177374,
+      "sha256": "6d3f7641fc1a63d3e0e60a18ff7ac661c9919fb15647d92bfa5e4e62b7e9a947"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/文献全文/中药材干燥技术与装备研究现状.pdf",
+      "bytes": 1904169,
+      "sha256": "4beca0c77feeb6836fa9cc0fb46222fff9d16889237a07bb34de2b48e071700d"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/新增文献元数据.json",
+      "bytes": 1550,
+      "sha256": "424b73af0b379cffbb89428a57e2c38556d7264782e2c34eb090f08abc992c48"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/第二问.v1.md",
+      "bytes": 14652,
+      "sha256": "29c13151e03772fcfc8c65ea77cbc96e9eb060cf1a62381d8dad52525cbc499e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/第二问文献检索与阅读笔记.md",
+      "bytes": 11186,
+      "sha256": "52ddedc756d91a3e79951bc5db497ac9978eb5679a15d342b74f9e4e7639e901"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/转交网页版_第二问上下文.md",
+      "bytes": 10356,
+      "sha256": "8270245675cbae9ad8d61beb8148a8486412e908f3a9c68576b551192cd2f47a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第二问/问题一二.v1.md",
+      "bytes": 20668,
+      "sha256": "f7dba6b4b9e4127486a1def9b6fd208580a4c33ea416f3c80f7c1b94457c6928"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/build/main.build.json",
+      "bytes": 1966,
+      "sha256": "c5d82eb27f5ad6d85baf8cf3faef8083c6c98cee0bcd3afd5928ddf901c49979"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/build/main.log",
+      "bytes": 40509,
+      "sha256": "c5d925c06ddc72c6f06e07a7d199a3280edfcc8a094a458651710912e2ac84b3"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/build/main.pdf",
+      "bytes": 253703,
+      "sha256": "a9ed6e4d46232753fd3e507c08dfe402557b22f1976c5e5506f5d2e55fbde397"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/figs/process_q4_材料位置含水率.pdf",
+      "bytes": 14197,
+      "sha256": "5eba5a02f578c27819ce2903cab3e28cfc761199286379b7d69d73dcb84de996"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/figs/raw_q4_实测半径与插值.pdf",
+      "bytes": 13189,
+      "sha256": "f6849573d8effe50db7590e7f28b58f5a20fd23b29ebb5266c107ce3c7c9dcc2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/figs/result_q4_收缩与固定半径比较.pdf",
+      "bytes": 12135,
+      "sha256": "b84cb6bb07c8465b89efe039af992ac9247166d2e5b76d82b45bc72853687301"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/latex-project.json",
+      "bytes": 1794,
+      "sha256": "042ea4358fa787dfa0e411bf001a6cd2df9c16186ab8b23f57f165821f7bee7f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/main.tex",
+      "bytes": 670,
+      "sha256": "c5a21c5fc734d4facb419b38e70569b5d1299335fc38bffa1ec1653a00551d7a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/references.bib",
+      "bytes": 66,
+      "sha256": "c85fa9f8c7cdb3b0c8c2f394bebd7624f6ff5abdd6bac5b4f43b58e67ee7c222"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/tables/table6.tex",
+      "bytes": 654,
+      "sha256": "720471c15fb390f6824e58c60f6eab71eff4391e89ea3d9a558dad149ffe647b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/LaTeX/第四问正文.tex",
+      "bytes": 11180,
+      "sha256": "98be6b4e1bfae766a3caa8633b461f65df9d1b08a138c9ef6f28dcb42669b65e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/deliver_q4.py",
+      "bytes": 11809,
+      "sha256": "a0a04fecf91db85d96dbaa50ffd35b24155329f4579a6509770c5d0e182b1493"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/export_chapter_q4.py",
+      "bytes": 3987,
+      "sha256": "8a171ec1f34c206604df3cd9d9a8f5cfb9ee8198ec85d87c7b854866e2c54f60"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/_qa/process_q4_材料位置含水率_grayscale.png",
+      "bytes": 161746,
+      "sha256": "ef5d7bd86fac0e24f686dd6316a77d7c545dcf2ae489eadde07f95e5501a95f3"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/_qa/raw_q4_实测半径与插值_grayscale.png",
+      "bytes": 81509,
+      "sha256": "34fe9637113dcd20b89d389e69304b1e41ca3cb27c97ef39ca341cfbc1b1d4b0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/_qa/result_q4_收缩与固定半径比较_grayscale.png",
+      "bytes": 63847,
+      "sha256": "5a7f50229f1873720db5905ce2e57f80f84a6986d0af8067370b488c9c430e84"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/process_q4_材料位置含水率.pdf",
+      "bytes": 14197,
+      "sha256": "5eba5a02f578c27819ce2903cab3e28cfc761199286379b7d69d73dcb84de996"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/process_q4_材料位置含水率.png",
+      "bytes": 172797,
+      "sha256": "85472c4d638d0673019f7be2db381ba6df1a40354ce0e7da6d43bb5441189ba0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/process_q4_材料位置含水率.svg",
+      "bytes": 17393,
+      "sha256": "3fb4bdfd42d2c4f3445bab38dedff4fd97b2a3ef8655d0063fcdf495c16d214c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/raw_q4_实测半径与插值.pdf",
+      "bytes": 13189,
+      "sha256": "f6849573d8effe50db7590e7f28b58f5a20fd23b29ebb5266c107ce3c7c9dcc2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/raw_q4_实测半径与插值.png",
+      "bytes": 82767,
+      "sha256": "8e2eb106436e163cfd559ec6df7abe78aa3dab245197fdeba34b68dbd37af270"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/raw_q4_实测半径与插值.svg",
+      "bytes": 30592,
+      "sha256": "0102854df7c792860dd11da4636a8487f240a120809350e3cdbd9ec43e79f4b6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/result_q4_收缩与固定半径比较.pdf",
+      "bytes": 12135,
+      "sha256": "b84cb6bb07c8465b89efe039af992ac9247166d2e5b76d82b45bc72853687301"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/result_q4_收缩与固定半径比较.png",
+      "bytes": 63829,
+      "sha256": "308652ac7d5d73a4dab7e2588214c8330517aca140be39f66bef2088bb66b879"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/figures/result_q4_收缩与固定半径比较.svg",
+      "bytes": 7501,
+      "sha256": "354adca4a4f42d201b6b9292a686a66cb105cb6cc39ad29e2508ebd2b76b1583"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/freeze_q4.py",
+      "bytes": 2127,
+      "sha256": "5fc8d8d17df4e9c4458f297811b466af96647087d4f0c5f667136768a90bb93c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/reproduce_q4.py",
+      "bytes": 4109,
+      "sha256": "63e7908ba5bdbc410f35482e4f961f545ca5b13ce3b298df59e0e79f16a19219"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/result4.xlsx",
+      "bytes": 298706,
+      "sha256": "931390b1ebd76a7cdc687112ae4ee5e05d88c5ea5498f3d1d75c54fd532fbe68"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/图表契约.json",
+      "bytes": 1333,
+      "sha256": "d55237016c8d8ac1cc1934e0320af31d27da9183cf6aa8cad43b5bb8e30908e9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/复现清单.json",
+      "bytes": 6881,
+      "sha256": "4795ff71cd354a36df75b4d94fd4c4a2c7a4ae5b80cd524bee4806e815bff215"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/绘图数据.csv",
+      "bytes": 432539,
+      "sha256": "5aea15acb76492d5ac7061aea9df5bddf8c5da4d1b157c7f2ebf665c7d10162a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/绘图数据剖析.json",
+      "bytes": 10989,
+      "sha256": "35d0af301020b7af4110f8c00f8d6c26127d9fd720bf6287b2fcf6cc7a394909"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/表6_水分浓度.md",
+      "bytes": 491,
+      "sha256": "37974eda36fe4bc4d1397e5fd96f8dfb396df82d8ef0f10270010419ab25443a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/表6_水分浓度.tex",
+      "bytes": 654,
+      "sha256": "720471c15fb390f6824e58c60f6eab71eff4391e89ea3d9a558dad149ffe647b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/表6_水分浓度.xlsx",
+      "bytes": 5260,
+      "sha256": "510bc47950be16fc1dac0e6ed3892acf7987e020fa2759b141a542baa2b61faa"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/计算摘要.json",
+      "bytes": 4489,
+      "sha256": "a7500314c74f0442999b35f9ddf98f9f2975cd99c34402411982bd550abe5953"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/results/计算方案比较.csv",
+      "bytes": 675,
+      "sha256": "b5be1bdc2ae09beb9a078a5f6de7b87b0e652df8642ef5c567777350b9309c28"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/fixed_n1600_dt0p5.json",
+      "bytes": 1635,
+      "sha256": "71fed0b645b268cae6545f4d43c8f4da340163b90b2ee6287039037e66efbdb4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/fixed_n1600_dt0p5.npz",
+      "bytes": 1744947,
+      "sha256": "a674ed08d470f131b6beaf005c1ede7bc76c5de519daf5eedf5a6f70da317def"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/fixed_n400_dt1.json",
+      "bytes": 1621,
+      "sha256": "199906c8793ff87ee1169355e4788aca01ad45317a1f9d7413ef7a79b4acf04e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/fixed_n400_dt1.npz",
+      "bytes": 1738212,
+      "sha256": "9b1b2f0d1724a10905fe2ed522b572b7bf5a9689eefb817859ea78a4f3cad228"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_fixed_mean_n1600_dt0.0625.json",
+      "bytes": 339,
+      "sha256": "a77f7b79ce5e55c1724076751b8311a00dd2d88dfc0831d8c4a05f1a6c857917"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_fixed_mean_n1600_dt0.0625.npz",
+      "bytes": 90842,
+      "sha256": "69ed5a22d1072d6364dededa121a099cb27e0b4a61dac44c50a834161bf147f9"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_fixed_mean_n400_dt0.0625.json",
+      "bytes": 338,
+      "sha256": "e234ced412d90dde42d5f0e924a5c7ba46e051773e432204db47a50033938916"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_fixed_mean_n400_dt0.0625.npz",
+      "bytes": 75439,
+      "sha256": "27d3e135e824b855da46f4713e3da1dcd3df5db329aab91296cf464b1ee57f32"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n1600_dt0.0625.json",
+      "bytes": 340,
+      "sha256": "28266ed56e9c136725ec13bd271025d70cb4205d5697d3240d0ae3e8417f04e4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n1600_dt0.0625.npz",
+      "bytes": 87594,
+      "sha256": "49127bbe2bbf99079958206cd8a83db0c10b3ed8599bdd2631e6819cb9d17a66"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n400_dt0.0625.json",
+      "bytes": 339,
+      "sha256": "ff0ca1546a1aab91da52a30ba8afdb913322793a449496ebedf28800e0c27fca"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n400_dt0.0625.npz",
+      "bytes": 72004,
+      "sha256": "857f17f9ed2c547fd2b4ccbd5ee78f0ecb3327ab6c61e8ff8ac92555d0091b8b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n800_dt0.0625.json",
+      "bytes": 339,
+      "sha256": "e9fa047a667e1031a0345b1158701ffedddb0396d3f753341ab16913f6bf9e9a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/prefix_shrink_mean_n800_dt0.0625.npz",
+      "bytes": 77273,
+      "sha256": "aad8197d3068e8fa3a461102372cbc959f741c02598b31414993652ad7909aee"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/reviewer_smoke60.json",
+      "bytes": 1519,
+      "sha256": "68480770a2e5a2d1878ed457f1fab211767a9a12dcf32a623aaa97f6327edc1f"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/reviewer_smoke60.npz",
+      "bytes": 10762,
+      "sha256": "94c50425edf104bd43314c6e8bd33e7837b361463055733bc369f4f55e14c97c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n1600_dt0p5.json",
+      "bytes": 1636,
+      "sha256": "050b749fca17255d696a5f9b3cd23034e0badad4438dbf3f890a9625b6dbb762"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n1600_dt0p5.npz",
+      "bytes": 597440,
+      "sha256": "649951bacb029a1d3cb5f841e10e21b3dd55beab7e542e07a5867ef8c07cd29c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n400_dt1.json",
+      "bytes": 1621,
+      "sha256": "f4fc0f455ce7eaa52e5b0f799832e90cfd7bc890a5a509c04a86f693e89edfa0"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n400_dt1.npz",
+      "bytes": 589399,
+      "sha256": "0488014746a6f6113e5a409ef961642eee5c23e2d76f556b621db13e3ae2696b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n800_dt0p5.json",
+      "bytes": 1625,
+      "sha256": "7aceebd424a89d6383f0241fb078458b39a26c991a755d488080d92a0001dd48"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n800_dt0p5.npz",
+      "bytes": 592048,
+      "sha256": "594d2424bae1ea66b21f074be1ebded2e661655b60b5181afe4c92b76a799b8a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n800_dt1.json",
+      "bytes": 1631,
+      "sha256": "7ae19d53aa339f0de4b4fdd0d3b89e05943ea57e6150fdf7f845831819194e0e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/shrink_n800_dt1.npz",
+      "bytes": 591530,
+      "sha256": "135cf7550da100cf5f7888cac3df63e7de63c748f5627053aa8db2aceb5e0a36"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/smoke1800.json",
+      "bytes": 1517,
+      "sha256": "957561a0959b04eb0469ee32d3f5829da10daeced84b9600486760c08558cb5e"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/runs/smoke1800.npz",
+      "bytes": 21995,
+      "sha256": "bcc470e1450239b8c764ff20f3a055ecdb75ced8d4cf3da60847f5f56b656712"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/solve_q4.py",
+      "bytes": 15261,
+      "sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/utils/plot_style.py",
+      "bytes": 17160,
+      "sha256": "f3de0a0c858d6018310d7e461574697a4cec7b28e5e20b8ccdaa7749772147e2"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/verify_q4.py",
+      "bytes": 3807,
+      "sha256": "7f2b5f10648e84e78585eeba2494a771266d3f5af93d9fb8474d72e3b3bf0d73"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/交付说明.md",
+      "bytes": 3451,
+      "sha256": "a60807ce4f332b49f4be4afd211d6dce8123a07aec50972e2f2f65fe024c0914"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/术语表格.md",
+      "bytes": 1793,
+      "sha256": "0e84cc9937ff590d2710adc4491a1241b65228a87556e91d63149dade8f4b22b"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/M1评审.json",
+      "bytes": 606,
+      "sha256": "66f4e40cdb9a1d30aa6ddf176007305895f8cdacc4f2072e7fd23b721a9c3834"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/P1独立测试.py",
+      "bytes": 6786,
+      "sha256": "ed5573c9bbbaa9fc7c1538ea7ca25764bc19c15fb0cad4ce45014f98d95e082a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/P1评审.json",
+      "bytes": 2358,
+      "sha256": "d923ed26dd18001f8277f21f2f8e1f17e5520458acad5c8d550e1d7b76770880"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/P2评审.json",
+      "bytes": 2151,
+      "sha256": "c8da54527900fa71c1a781fb7ffaf14b23f464a805c7f742a2c84100f40e76b7"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF最终预览/page-1.png",
+      "bytes": 322146,
+      "sha256": "e40c9e43f38a515a8fc8e4d1fa99d0e801c37880aae6a7f0b8fd7cc233ba2879"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF最终预览/page-2.png",
+      "bytes": 375886,
+      "sha256": "b04d18df843d1bf5e405167a12b7ce9955f5d8deb173dedc4c3207d92c588576"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF最终预览/page-3.png",
+      "bytes": 464048,
+      "sha256": "953a30cc2fd8384bf27de16414a8b061d47c9ac558e1c557fcd2d5fde3443adc"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF最终预览/page-4.png",
+      "bytes": 171541,
+      "sha256": "ce95940b7c55f163ec4d260dbd89cf9d58abc9ad15aa91bf2e951643bf6ff921"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF预览/page-1.png",
+      "bytes": 322146,
+      "sha256": "e40c9e43f38a515a8fc8e4d1fa99d0e801c37880aae6a7f0b8fd7cc233ba2879"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF预览/page-2.png",
+      "bytes": 375886,
+      "sha256": "b04d18df843d1bf5e405167a12b7ce9955f5d8deb173dedc4c3207d92c588576"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF预览/page-3.png",
+      "bytes": 467119,
+      "sha256": "d50db4c6f539688d6931ba20d9f528f789bccc72935dbc2d78eb2882499e469c"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF预览/page-4.png",
+      "bytes": 171541,
+      "sha256": "ce95940b7c55f163ec4d260dbd89cf9d58abc9ad15aa91bf2e951643bf6ff921"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/PDF预览/page-5.png",
+      "bytes": 39025,
+      "sha256": "ea093521d4980c73dc1027d495c7eaf4c6dfb5ceddde4283efdee4c127edb7fb"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/W1评审.json",
+      "bytes": 3258,
+      "sha256": "9a5c6e8931cf5519ec42e0afa7020a73e9f5d1cb893f0d940cb7bafb9ad79600"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/W2评审.json",
+      "bytes": 2703,
+      "sha256": "ead1cfd0ed9b8497e9eeafb501481872d35bab78c31d43d21e22125380245043"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/交接包核验.json",
+      "bytes": 288,
+      "sha256": "1745c6c1164cdc1e508913306941df20dae0d6ca7068335b832f49997afeca62"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/基础测试.json",
+      "bytes": 481,
+      "sha256": "ff6c7e7697544feb4606be70b932d711bca19ea4cb9f8a7241d02281854de814"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/正文证据大纲.md",
+      "bytes": 3389,
+      "sha256": "a873de33536812e4d7e8c724c17e5ac268dbd5361961dbe035fafa787c428c4a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/检查记录/第四问PDF校验.json",
+      "bytes": 4492,
+      "sha256": "ca773fce56b008bb407e28d04d7024ef4e06ba366393e3c0bd52dd9beb773a09"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/版本留存/第四问_初排5页.build.json",
+      "bytes": 1954,
+      "sha256": "23b1c131d08a22782848239e07003804b88264d382cbc2433cfc18009ef2a958"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/版本留存/第四问_初排5页.pdf",
+      "bytes": 257799,
+      "sha256": "94d6a5d71c907426ecef85b291190e80d4fa9732e1e681cbce5ce98877aff983"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/版本留存/第四问_初排5页源码.zip",
+      "bytes": 44144,
+      "sha256": "fc9973c83e1ea3f162f2ae5acd2c9da93aef0e95ee62e6e24309fa3c2d1f938d"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/第四问.build.json",
+      "bytes": 1966,
+      "sha256": "c5d82eb27f5ad6d85baf8cf3faef8083c6c98cee0bcd3afd5928ddf901c49979"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/第四问.pdf",
+      "bytes": 253703,
+      "sha256": "a9ed6e4d46232753fd3e507c08dfe402557b22f1976c5e5506f5d2e55fbde397"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/第四问.zip",
+      "bytes": 884410,
+      "sha256": "31671c563dab14ef5d0f84e90ffc09742d508541d2a7929eae621fa71711761a"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/第四问_前置计算与执行准备.md",
+      "bytes": 6429,
+      "sha256": "bf653d57d2027f12a2aba16b99e245f0dc8a170902ac86a5a5f317133de216f6"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/第四问正文.md",
+      "bytes": 10961,
+      "sha256": "50e4dc2ee79610d662b8d38c5536a86e6e664ddd5e4854831f4e65ca68053400"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/第四问/题目分析报告.md",
+      "bytes": 11958,
+      "sha256": "a293995e860966d6391c08e5d2d8b34d4f9acf0b7b8674005a845b860a9f8fff"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/烘干初期各时间点烘房温度和水分浓度.xlsx",
+      "bytes": 16586,
+      "sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/烘干过程中各时间点药材的半径.xlsx",
+      "bytes": 11485,
+      "sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/结果文件夹/result1.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/结果文件夹/result2.xlsx",
+      "bytes": 10073,
+      "sha256": "23b261b295c1b787d000eebbca6521c37075107b6fcf78724f8d395ce1798ff4"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/结果文件夹/result3.xlsx",
+      "bytes": 9345,
+      "sha256": "07e4793d620a7f899804c0298d49a16a197960440fd47f8bb780c57ec27e2859"
+    },
+    {
+      "path": "CUMCM2026Problems/A题/附件/结果文件夹/result4.xlsx",
+      "bytes": 9351,
+      "sha256": "86e9300ffa3d30c43de895ea6723da943e85b8740b137bcae5af7107f076eeac"
+    },
+    {
+      "path": "CUMCM2026Problems/A题.zip",
+      "bytes": 81209582,
+      "sha256": "486c18855b2e20cde82b2a3391006f06c4c1b50967ceb951eea59f9f893a859e"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/.gitignore",
+      "bytes": 1372,
+      "sha256": "269e154abe01181c9f0af82db439ffef914a057bec5b59b198c129778952b614"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/cite.bib",
+      "bytes": 2289,
+      "sha256": "a6da7332a9304c13411555ca181945c30c3f2350e32c81846b86023bebe9eca5"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/code/q2-example.py",
+      "bytes": 1462,
+      "sha256": "d63f9492f234e481c53fee5cc961d224e0ddd258eb40bad217e585e551bdce04"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/code/q2.py",
+      "bytes": 20156,
+      "sha256": "36c4e419d38e06f1d13fb461462dc2a4ae572ef1224b473d37b9d122a73fafee"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/code/q3-fft.py",
+      "bytes": 6617,
+      "sha256": "ce4372e9d1996678f7fb9876a4b174d94062a30ac2fc74a061a8f2268b26de9e"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/code/q3-interfere.py",
+      "bytes": 5915,
+      "sha256": "6d5bd6823924c677b9aebf012d34edd9b99b675b9975bd545d182d5b55b8bced"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/code/repro_utils.py",
+      "bytes": 1026,
+      "sha256": "1a9a933840c831a027ff199699fb162e65b3ea18026db61a6aeff5871c1be341"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/example.tex",
+      "bytes": 17140,
+      "sha256": "4a307a1a3907ddd273aa3aa4513311db569c5814a2eba94ac687dad4d875e774"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/gbt7714-numerical.bst",
+      "bytes": 57969,
+      "sha256": "1dce44cc3606f18a9b2eca55ca98632981f8d6a583000a1386127293a64672e7"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/gbt7714.sty",
+      "bytes": 11386,
+      "sha256": "842ffc6d59cf2cb585cc94ed1a6b38c3a0c02a7fe5dc7a21e147a6128bf6760a"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/FTT.png",
+      "bytes": 356699,
+      "sha256": "5872f889ce78d62121a84fc9af09fc2ac62f7e57c7eeed81e090bbeb8341c70c"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/fft.png",
+      "bytes": 417673,
+      "sha256": "5e82629e31e54e59be739cd37e0a1d1816f219d8cd733536d94a344af919ce12"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/num.png",
+      "bytes": 168416,
+      "sha256": "21f940cf275d1737d0333f9304c3e9afcf44df47c641ec6acd7d15caa3dcfd12"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/信号.png",
+      "bytes": 242455,
+      "sha256": "f50bf6cf798a504292ec5a9e5cc5b61f14d7abff99a39800ea43a3ca8aa8d5d8"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/厚度一致性分析_组合图.png",
+      "bytes": 346179,
+      "sha256": "6645ea184f1ebf9e35c5fd89389267a5533b17bf3e355646d3ad62254c9a9aa9"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/参数灵敏.png",
+      "bytes": 154326,
+      "sha256": "d083f96cafe002872a337796751f7bf66cc25bdb11d211440e97dc57ef9cbe6e"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/双光束光路图.png",
+      "bytes": 80778,
+      "sha256": "1b84c2148c89ef93be8ca89275d16bb80dc9cb999cbaa643e33e0647a50583a0"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/双光束反射.png",
+      "bytes": 141598,
+      "sha256": "b4ad040ab49c93ea87f3c4159363ba2f6e24cc5f067f92e7d83a9fabea892e82"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/多光束光路图.png",
+      "bytes": 54776,
+      "sha256": "b3f275b68fe6c768235c4be56b9954b32e0be42b79c6b7e2a5c445ebbf4a87dd"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/多级反射光.png",
+      "bytes": 267568,
+      "sha256": "c10f11f5d8065c45589dea0f1de30b1c1c7d01895ed37957f27b7511c3979859"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/定性图_双光束.png",
+      "bytes": 176058,
+      "sha256": "f54fcafed5a3a51dd4a437614153a054936c99f41110ad8e8bd224bd37991533"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/定性图_多光束.png",
+      "bytes": 164236,
+      "sha256": "3f30a77136cf300cf8fc7f25dce02b9587035910811cd4988b63b47e6314d9f3"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/折射率变化.png",
+      "bytes": 131568,
+      "sha256": "dee2c3ec87a09b70326bbff4bdc51008c8381e6e707cd97b9b4a63704f30ac8c"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/拟合.png",
+      "bytes": 452144,
+      "sha256": "7750846ce7a8365aa22e2e394ef2b95a7cd512f5ab831b463e16789c4f437439"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/拟合附件1.png",
+      "bytes": 183185,
+      "sha256": "459e3bbb358fec3e2f0e5be2603ec94b108109ba4be995c5825f8ad37d62e3a6"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/拟合附件2.png",
+      "bytes": 190017,
+      "sha256": "425dd793f81450466b68f21183f73f483296bd6221446ec7406c87db53751ef6"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/最终拟合报告_阻尼干涉模型.png",
+      "bytes": 498222,
+      "sha256": "29d23d37029e7a19fc3a191235a25a5be77e59ef2a906acc492aef55eba5493c"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/残差1.png",
+      "bytes": 168115,
+      "sha256": "3d99015793a95c6b892273b200b0bd8d3e8b4a5c5375bd7615e5b3a66fe566b4"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/残差2.png",
+      "bytes": 160448,
+      "sha256": "a9ef76234338c1c3666d2d047a46d0dd5cba0d4b4e9294c34bab2eef932b8da9"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/流程.png",
+      "bytes": 153172,
+      "sha256": "e8a968c0921c80b391f4bc29da435abb0df9d880228ae9b851e59b9f1a9d0968"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/流程图.png",
+      "bytes": 125458,
+      "sha256": "3def7d0d21f2a86ded1f5309c328ac7d7d23bd7203ce236aac9e3427c0f36d1a"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/稳定性.png",
+      "bytes": 118439,
+      "sha256": "328906edece9dfec4903a8b0e0b832fb65e9e1f54edc9136e44594f604f8f79b"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/菲涅尔公式演示图-有色.png",
+      "bytes": 69302,
+      "sha256": "c7085fbc860ad58c302511d325bac59d08ed9508646bfa4d9376ac6772465f93"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/菲涅尔公式示意图.png",
+      "bytes": 159210,
+      "sha256": "29032c44c54c17e45dc42a2fa1a54701409d8c7c35a868b8847740973429e1b7"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/菲涅尔公式示意图.svg",
+      "bytes": 116112,
+      "sha256": "027a4ff94938b62b1131d9bbf34ad5b5d08cfb6269cfc0c797c9297861f77c6a"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/菲涅尔公式示意图2.png",
+      "bytes": 66226,
+      "sha256": "32f7f57b69bc9aef64ffda580d27d29365c6c972af519e4a051b9d696b6938e5"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/问题二稳定性.png",
+      "bytes": 140652,
+      "sha256": "dff61c666ab38d2dbc9072a56f6205467743b76f289ebceb6426dfa49c6597da"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件1.png",
+      "bytes": 246827,
+      "sha256": "bb674d8eb12ded73df5dba2c9bf2a33f0696128a08ee62b3b49eb53570b2c7e0"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件1和2_全局同步拟合结果.png",
+      "bytes": 515648,
+      "sha256": "afc3a233e3e3ad77e0a7d2b65157b1d97232699b27e4c3b143518f628cac96ee"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件1和2_序贯拟合结果.png",
+      "bytes": 555258,
+      "sha256": "20ab2addccbb40cf9ab67d43a1ba7cd6eb673020b471be545812e25cb24f521e"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件1拟合.png",
+      "bytes": 234672,
+      "sha256": "1797894caa80f6e771cc10fd18d578a720599310ec6950f21a3c7227a8ad630d"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件1残差.png",
+      "bytes": 111127,
+      "sha256": "1371daad56f4142ba9c9b5ae83ed44c7463cd99c3d0ce07c62a0619f150e796e"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件2.png",
+      "bytes": 248091,
+      "sha256": "6f50c2967cc4ed96820ffc53df69dbaefbcccbabd6662e3d6d4826eb2554bc44"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件2拟合.png",
+      "bytes": 236901,
+      "sha256": "66addd17f0585d208bfc32fe197ac3535e5588ca1d096be63815cb43bd8a08ae"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/img/附件2残差.png",
+      "bytes": 118045,
+      "sha256": "bf3694f3608a01e4efcf8612cf60c57b0235636c4ec71d7a1c3874885339cfe8"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/main.pdf",
+      "bytes": 3896790,
+      "sha256": "8366a85f09c3a6e158e1cdffdfb998f175f3ee3a7b90f2891fb8836f9ec3f772"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/main.tex",
+      "bytes": 74566,
+      "sha256": "e0f02ac97f877e350aedf1ad400e2d3152209d7fc668f0a9e36ede4000a6c221"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25国赛.pdf",
+      "bytes": 4018051,
+      "sha256": "96f6787bafc37c22552a74183a722646d461aaf4708ec12634ef3ec409d3f9b7"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/LICENSE",
+      "bytes": 1073,
+      "sha256": "7e098852f71f97aee0f417c23c32a8fd222d81e6fc7aff2195ef7233f6d1e025"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/README.md",
+      "bytes": 16050,
+      "sha256": "28bb4296ec6e7b8ec27f1cfecb33f14c777d740481891aa2386b071784d17c51"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/reproduce.py",
+      "bytes": 1646,
+      "sha256": "a181f53db5e4f0ee3560d8e1c83b4311f131b5ed9342841e301d5d834933328b"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/requirements.txt",
+      "bytes": 80,
+      "sha256": "c4f5eabe70891cdcbcf7388cfa3f5df7ada3b0c9c28d76e0b8c7f02a3ea9d92d"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/题目以及原始数据/B题.pdf",
+      "bytes": 277238,
+      "sha256": "b0b2ce649282c2d7063af3c30ac9c0d931512dc86014d3147bc765d8f1c8cf87"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/题目以及原始数据/附件/附件1.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/题目以及原始数据/附件/附件2.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/题目以及原始数据/附件/附件3.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CUMCM2026Problems/CUMCM-2025-Problem-B-main/题目以及原始数据/附件/附件4.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/C题.md",
+      "bytes": 7987,
+      "sha256": "842cfdb47c71dd46838e62d0f11c05df3ca4b686a67a2df06da79060854eada5"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/C题.pdf",
+      "bytes": 354389,
+      "sha256": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/C题_assets/page-1.png",
+      "bytes": 398191,
+      "sha256": "fe9655d20b58257ac09c67aa95b69703ccfcdf96d619190d222c7be966693382"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/C题_assets/page-2.png",
+      "bytes": 371035,
+      "sha256": "ee49aee695124fca6a9106f2dbddb273ac759f5aa64a5f2dd2d6ebc9f542a27f"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/C题_assets/page-3.png",
+      "bytes": 236677,
+      "sha256": "ec3d04715cfe00df1e929ecce4fb4ee7854bc82b19f22eb346355933165eeebf"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件1.xlsx",
+      "bytes": 16003,
+      "sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件2.xlsx",
+      "bytes": 907128,
+      "sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件3.xlsx",
+      "bytes": 293526,
+      "sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件4.xlsx",
+      "bytes": 409790,
+      "sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件5/result1.xlsx",
+      "bytes": 13323,
+      "sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件5/result2.xlsx",
+      "bytes": 18397,
+      "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件5/result3.xlsx",
+      "bytes": 265429,
+      "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件5/result4-2.xlsx",
+      "bytes": 18397,
+      "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+    },
+    {
+      "path": "CUMCM2026Problems/C题/附件/附件5/result4-3.xlsx",
+      "bytes": 265429,
+      "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    {
+      "path": "CUMCM2026Problems/format2026.doc",
+      "bytes": 71168,
+      "sha256": "d77de49534649b46ca195d32bd9c56a1fbe06dc96fdcf3e1199e6dd7d9831f4a"
+    },
+    {
+      "path": "CUMCM2026Problems/使用指南.md",
+      "bytes": 3442,
+      "sha256": "5d985445c23ea480a5a5481b0a74196fc8f0dbce5ba04bb5600b4e549f1abbf2"
+    },
+    {
+      "path": "CUMCM2026Problems/全国大学生数学建模竞赛论文格式规范 .pdf",
+      "bytes": 168354,
+      "sha256": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26"
+    },
+    {
+      "path": "CUMCM2026Problems/题目阅读索引.md",
+      "bytes": 3047,
+      "sha256": "f06b82913d92d77b20dc81b334c4f5c8c3191709527a8afa13b8f659a6513060"
+    },
+    {
+      "path": "latex/A题第三问_AI交接包.md",
+      "bytes": 12346,
+      "sha256": "b24d0bb0759f09f0dc3595dae37b82349aa7224c96dc608921bc475e056d2758"
+    },
+    {
+      "path": "latex/第二问_完整章节_第一版.log",
+      "bytes": 35277,
+      "sha256": "dc8f5a98e676c8bca0557b261e7e55a8e8f9edb81624f55a9bbc6fa39f242c6b"
+    },
+    {
+      "path": "latex/第二问_完整章节_第一版.pdf",
+      "bytes": 181544,
+      "sha256": "9ce57c811cf02957872bcd91395ff9e2ddff001dc6355211f03db1ed09021bb7"
+    },
+    {
+      "path": "latex/第二问_完整章节_第一版.tex",
+      "bytes": 16927,
+      "sha256": "34417cb773dbf9dfabc58268dcd7706f3d1fb1b0817e59dbc45dca6494b896a3"
+    },
+    {
+      "path": "latex/第二问_第一版_变物性热质耦合模型.log",
+      "bytes": 37550,
+      "sha256": "c99060e6c197ec6d1722d17eb12dc87ae7481d7160cb6fcbbf18dfec9b3abb48"
+    },
+    {
+      "path": "latex/第二问_第一版_变物性热质耦合模型.pdf",
+      "bytes": 141431,
+      "sha256": "a5804f9f60aece3ea5763a8b66d74b5d33dd8ac3fecfa30192db84f600ee0e71"
+    },
+    {
+      "path": "latex/第二问_第一版_变物性热质耦合模型.tex",
+      "bytes": 9350,
+      "sha256": "98820fd60eea4f57f6d67077f9a67fb24b5bc6b847ed0ab3fe3ca6a954039866"
+    },
+    {
+      "path": "latex/问题一.v3.pdf",
+      "bytes": 174200,
+      "sha256": "96f2a45b28b425d0aed78f070fd404e9587208830299bbd1493ae1802af48ee1"
+    },
+    {
+      "path": "latex/问题一_重构版_B060风格.log",
+      "bytes": 45741,
+      "sha256": "030561f911faacc7dfa76c702b43f7d9c5690c820af2bdbd5e5ad1b81ad243f0"
+    },
+    {
+      "path": "latex/问题一_重构版_B060风格.pdf",
+      "bytes": 214611,
+      "sha256": "8e470cd70358a550f56c51c47c91c573b85e4f6192cd1c760d445ae045efb95e"
+    },
+    {
+      "path": "latex/问题一_重构版_B060风格.tex",
+      "bytes": 24286,
+      "sha256": "364dd0f3733f88c67d9a159b1e81905b71027670d736c350b4806f0065edada1"
+    },
+    {
+      "path": "latex/问题一_重构版_平衡第三版.log",
+      "bytes": 42349,
+      "sha256": "b9164d94d055ef201c98fa378f4659c9b7743ceab79f810bfc365d0889b80690"
+    },
+    {
+      "path": "latex/问题一_重构版_平衡第三版.tex",
+      "bytes": 14590,
+      "sha256": "b68780e05619e9b2dcea2f7684e990a28d43b77cc1c9e5f1d74ab79281e3f76e"
+    },
+    {
+      "path": "latex/问题一_重构版_精简第二版.log",
+      "bytes": 41766,
+      "sha256": "868e9849cb5634d160c0890029f28fe4cc65435b0f5aca40f8a88b1e32d6bd7d"
+    },
+    {
+      "path": "latex/问题一_重构版_精简第二版.pdf",
+      "bytes": 158140,
+      "sha256": "3b498eabbac8dea9d9f9203d7fcfa1debce9f240cb3e9f6ab32d55e2b8fbc18a"
+    },
+    {
+      "path": "latex/问题一_重构版_精简第二版.tex",
+      "bytes": 12173,
+      "sha256": "ad02e701cf90fa9dc57d3a1ac1916e6c3876fb9ec1b3212295ec86b6660ac2ac"
+    },
+    {
+      "path": "latex/问题一二_.pdf",
+      "bytes": 224815,
+      "sha256": "f0bbd214454b24d93aaa999a01db32b01db77a14baad52d854defe7b9b88a908"
+    },
+    {
+      "path": "latex/问题一二_重构合并版_第四版.log",
+      "bytes": 71984,
+      "sha256": "59b19870ee27bcc4dbe63aeb64a691e6960a991bec4dc3c0770e030a4ec0227b"
+    },
+    {
+      "path": "latex/问题一二_重构合并版_第四版.tex",
+      "bytes": 22664,
+      "sha256": "de35c52da6168a3cfbb6b1f935f77595a0577a973eb9d384d07d5138837597f2"
+    }
+  ],
+  "excluded_generated_files": [
+    "CUMCM2026Problems/.DS_Store",
+    "CUMCM2026Problems/A题/.DS_Store",
+    "CUMCM2026Problems/A题/第一问/.DS_Store",
+    "CUMCM2026Problems/A题/第一问/LaTeX结构稿/.DS_Store",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/compare_q1.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.conductance-39.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.conductance-39.py313.2.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.conductance-39.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.diffusivity-18.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.diffusivity-18.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.rhs_diff-65.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.rhs_diff-65.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.run-143.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.run-143.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.sample-130.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.sample-130.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.solve_tri-22.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.solve_tri-22.py313.nbi",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.step-76.py313.1.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.step-76.py313.2.nbc",
+    "CUMCM2026Problems/A题/第一问/独立核验/__pycache__/verify_q1.step-76.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/.DS_Store",
+    "CUMCM2026Problems/A题/第三问/LaTeX/.DS_Store",
+    "CUMCM2026Problems/A题/第三问/LaTeX/build/.DS_Store",
+    "CUMCM2026Problems/A题/第三问/__pycache__/deliver_q3.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.advance-178.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.advance-178.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.ambient_at-120.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.ambient_at-120.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.capacity-48.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.capacity-48.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.conductivity-43.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.conductivity-43.py313.2.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.conductivity-43.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.diffusivity-38.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.diffusivity-38.py313.2.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.diffusivity-38.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.event_refine-157.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.event_refine-157.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.linear_step-69.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.linear_step-69.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.max_state-143.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.max_state-143.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.sample-130.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.sample-130.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.step-97.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.step-97.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.tri_solve-53.py313.1.nbc",
+    "CUMCM2026Problems/A题/第三问/__pycache__/solve_q3.tri_solve-53.py313.nbi",
+    "CUMCM2026Problems/A题/第三问/utils/__pycache__/plot_style.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第三问_P2复验_0912/__pycache__/solve_q3.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第三问_P2复验_0912/utils/__pycache__/plot_style.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第二问/.DS_Store",
+    "CUMCM2026Problems/A题/第四问/.DS_Store",
+    "CUMCM2026Problems/A题/第四问/__pycache__/deliver_q4.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/reproduce_q4.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.advance-213.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.advance-213.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.ambient_at-54.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.ambient_at-54.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.capacity-73.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.capacity-73.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.conductivity-68.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.conductivity-68.py313.2.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.conductivity-68.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.diffusivity-63.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.diffusivity-63.py313.2.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.diffusivity-63.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.event_refine-192.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.event_refine-192.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.linear_step-93.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.linear_step-93.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.max_state-180.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.max_state-180.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.radius_at-43.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.radius_at-43.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_physical-158.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_physical-158.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_relative-172.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_relative-172.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_xi-139.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.sample_xi-139.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.step-120.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.step-120.py313.2.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.step-120.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.tri_solve-78.py313.1.nbc",
+    "CUMCM2026Problems/A题/第四问/__pycache__/solve_q4.tri_solve-78.py313.nbi",
+    "CUMCM2026Problems/A题/第四问/__pycache__/verify_q4.cpython-313.pyc",
+    "CUMCM2026Problems/A题/第四问/utils/__pycache__/plot_style.cpython-313.pyc",
+    "CUMCM2026Problems/A题/附件/.DS_Store",
+    "CUMCM2026Problems/CUMCM-2025-Problem-B-main/.DS_Store",
+    "CUMCM2026Problems/CUMCM-2025-Problem-B-main/25_国赛/.DS_Store",
+    "latex/.DS_Store",
+    "latex/第二问_完整章节_第一版.aux",
+    "latex/第二问_第一版_变物性热质耦合模型.aux",
+    "latex/问题一_重构版_B060风格.aux",
+    "latex/问题一_重构版_B060风格.out",
+    "latex/问题一_重构版_平衡第三版.aux",
+    "latex/问题一_重构版_平衡第三版.out",
+    "latex/问题一_重构版_精简第二版.aux",
+    "latex/问题一_重构版_精简第二版.out",
+    "latex/问题一二_重构合并版_第四版.aux",
+    "latex/问题一二_重构合并版_第四版.out"
+  ]
+}

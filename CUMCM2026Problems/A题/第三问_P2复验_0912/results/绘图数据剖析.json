@@ -1,0 +1,350 @@
+{
+  "source": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问_P2复验_0912/results/绘图数据.csv",
+  "n_rows": 3449,
+  "n_cols": 7,
+  "columns": {
+    "time_h": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 28.75,
+      "median": 28.75,
+      "sd": 16.59641443873411,
+      "min": 0.0166666666666666,
+      "max": 57.483333333333334,
+      "skewness": 1.3184904345794842e-16,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -28.71666666666667,
+      "outlier_hi": 86.21666666666667,
+      "needs_log_axis": true
+    },
+    "C_r0": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.43069331695541885,
+      "median": 0.2111889170897596,
+      "sd": 0.528821169371141,
+      "min": 0.1499940631741693,
+      "max": 2.55,
+      "skewness": 2.6788837612645655,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 519,
+      "outlier_lo": -0.13349647374812357,
+      "outlier_hi": 0.6756775266601828,
+      "needs_log_axis": false
+    },
+    "C_r0p5": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.4211354507669818,
+      "median": 0.2070347084120278,
+      "sd": 0.518635405809806,
+      "min": 0.1476811030895408,
+      "max": 2.55,
+      "skewness": 2.7154517405570417,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 520,
+      "outlier_lo": -0.12562022289421798,
+      "outlier_hi": 0.6548935515335803,
+      "needs_log_axis": false
+    },
+    "C_r1": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.3912526326350924,
+      "median": 0.1938138958985139,
+      "sd": 0.486552083252463,
+      "min": 0.1402046448131954,
+      "max": 2.55,
+      "skewness": 2.832935643567032,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 523,
+      "outlier_lo": -0.10190766938373075,
+      "outlier_hi": 0.5907585106677953,
+      "needs_log_axis": false
+    },
+    "C_r1p5": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.33564782754424816,
+      "median": 0.1677385386695386,
+      "sd": 0.42644054008723203,
+      "min": 0.1249134439888022,
+      "max": 2.549999999922288,
+      "skewness": 3.0437288345763025,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 534,
+      "outlier_lo": -0.06132465894428252,
+      "outlier_hi": 0.4734242474698279,
+      "needs_log_axis": false
+    },
+    "C_r2": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.1958009176485554,
+      "median": 0.0608083651141389,
+      "sd": 0.33357435584798145,
+      "min": 0.0526466645596325,
+      "max": 2.327113642749201,
+      "skewness": 3.0544833160557587,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 639,
+      "outlier_lo": -0.03768857426215775,
+      "outlier_hi": 0.20839834031831306,
+      "needs_log_axis": false
+    },
+    "C_max": {
+      "type": "continuous",
+      "n_total": 3449,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3449,
+      "mean": 0.43069331695541885,
+      "median": 0.2111889170897596,
+      "sd": 0.528821169371141,
+      "min": 0.1499940631741693,
+      "max": 2.55,
+      "skewness": 2.6788837612645655,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 519,
+      "outlier_lo": -0.13349647374812357,
+      "outlier_hi": 0.6756775266601828,
+      "needs_log_axis": false
+    }
+  },
+  "correlation": {
+    "columns": [
+      "time_h",
+      "C_r0",
+      "C_r0p5",
+      "C_r1",
+      "C_r1p5",
+      "C_r2",
+      "C_max"
+    ],
+    "matrix": {
+      "time_h": {
+        "time_h": 1.0,
+        "C_r0": -0.685,
+        "C_r0p5": -0.682,
+        "C_r1": -0.671,
+        "C_r1p5": -0.651,
+        "C_r2": -0.621,
+        "C_max": -0.685
+      },
+      "C_r0": {
+        "time_h": -0.685,
+        "C_r0": 1.0,
+        "C_r0p5": 1.0,
+        "C_r1": 0.998,
+        "C_r1p5": 0.993,
+        "C_r2": 0.99,
+        "C_max": 1.0
+      },
+      "C_r0p5": {
+        "time_h": -0.682,
+        "C_r0": 1.0,
+        "C_r0p5": 1.0,
+        "C_r1": 0.999,
+        "C_r1p5": 0.994,
+        "C_r2": 0.992,
+        "C_max": 1.0
+      },
+      "C_r1": {
+        "time_h": -0.671,
+        "C_r0": 0.998,
+        "C_r0p5": 0.999,
+        "C_r1": 1.0,
+        "C_r1p5": 0.998,
+        "C_r2": 0.995,
+        "C_max": 0.998
+      },
+      "C_r1p5": {
+        "time_h": -0.651,
+        "C_r0": 0.993,
+        "C_r0p5": 0.994,
+        "C_r1": 0.998,
+        "C_r1p5": 1.0,
+        "C_r2": 0.998,
+        "C_max": 0.993
+      },
+      "C_r2": {
+        "time_h": -0.621,
+        "C_r0": 0.99,
+        "C_r0p5": 0.992,
+        "C_r1": 0.995,
+        "C_r1p5": 0.998,
+        "C_r2": 1.0,
+        "C_max": 0.99
+      },
+      "C_max": {
+        "time_h": -0.685,
+        "C_r0": 1.0,
+        "C_r0p5": 1.0,
+        "C_r1": 0.998,
+        "C_r1p5": 0.993,
+        "C_r2": 0.99,
+        "C_max": 1.0
+      }
+    },
+    "pairs_sorted": [
+      {
+        "a": "C_r0",
+        "b": "C_max",
+        "r": 1.0,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0",
+        "b": "C_r0p5",
+        "r": 0.9998999602995623,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0p5",
+        "b": "C_max",
+        "r": 0.9998999602995623,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0p5",
+        "b": "C_r1",
+        "r": 0.9991156883810853,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0",
+        "b": "C_r1",
+        "r": 0.998429939076959,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r1",
+        "b": "C_max",
+        "r": 0.9984299390769589,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r1",
+        "b": "C_r1p5",
+        "r": 0.9977553834625857,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r1p5",
+        "b": "C_r2",
+        "r": 0.9977273931485778,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r1",
+        "b": "C_r2",
+        "r": 0.9948475910468707,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0p5",
+        "b": "C_r1p5",
+        "r": 0.9942737215091781,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r1p5",
+        "b": "C_max",
+        "r": 0.9927831844426687,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0",
+        "b": "C_r1p5",
+        "r": 0.9927831844426686,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0p5",
+        "b": "C_r2",
+        "r": 0.9917037669248808,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r0",
+        "b": "C_r2",
+        "r": 0.9903930959474359,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_r2",
+        "b": "C_max",
+        "r": 0.9903930959474359,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_r0",
+        "r": -0.6851807210977114,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_max",
+        "r": -0.6851807210977114,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_r0p5",
+        "r": -0.681836060293898,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_r1",
+        "r": -0.6712028263013411,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_r1p5",
+        "r": -0.6514203859943912,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_r2",
+        "r": -0.6213228301025752,
+        "magnitude": "strong"
+      }
+    ]
+  },
+  "group_summary": null,
+  "warnings": [],
+  "suggestions": [
+    "≥3 个连续变量 → 相关性热力图（['time_h', 'C_r0', 'C_r0p5', 'C_r1', 'C_r1p5']）或 pairplot 散点矩阵",
+    "单个连续变量 time_h → 直方图 / KDE / 箱线图看分布",
+    "time_h 跨数个量级（0.0167 ~ 57.5）→ 用对数 y 轴",
+    "C_r0 高度偏态（skew=2.68）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_r0p5 高度偏态（skew=2.72）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_r1 高度偏态（skew=2.83）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_r1p5 高度偏态（skew=3.04）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_r2 高度偏态（skew=3.05）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_max 高度偏态（skew=2.68）→ 考虑对数变换或小提琴图代替均值柱图"
+  ]
+}

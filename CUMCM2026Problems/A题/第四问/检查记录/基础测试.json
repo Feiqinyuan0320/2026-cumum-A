@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "solver_sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89",
+  "A_constant_radius_dense_dimensional_max_error": 4.440892098500626e-16,
+  "B_closed_uniform_field_max_error": 0.0,
+  "C_closed_nonuniform_weighted_mass_error": 1.1102230246251565e-16,
+  "D_radius_nodes_max_error_cm": 0.0,
+  "E_outside_blank_surface_equality_and_halfcell": "PASS",
+  "global_maximum_cells_axis_surface": "PASS",
+  "nonlinear_closed_uniform_T_C": "PASS"
+}

@@ -1,0 +1,1734 @@
+{
+  "10.1016/j.jfoodeng.2015.01.017": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T18:46:13Z",
+      "timestamp": 1786992373928,
+      "version": "build-2736575974"
+    },
+    "reference-count": 81,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2015-07-01T00:00:00Z",
+          "timestamp": 1435708800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Food Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jfoodeng.2015.01.017",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2015-02-07T13:04:52Z",
+      "timestamp": 1423314292000
+    },
+    "page": "10-21",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 114,
+    "special_numbering": "C",
+    "title": [
+      "Numerical modeling of heat and mass transfer during convective drying of cylindrical quince slices"
+    ],
+    "prefix": "10.1016",
+    "volume": "156",
+    "author": [
+      {
+        "given": "Dimitrios A.",
+        "family": "Tzempelikos",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dimitris",
+        "family": "Mitrakos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexandros P.",
+        "family": "Vouros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Achilleas V.",
+        "family": "Bardakas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andronikos E.",
+        "family": "Filios",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dionissios P.",
+        "family": "Margaris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1348",
+        "DOI": "10.1016/j.enconman.2009.01.004",
+        "article-title": "Modeling of thin-layer drying of potato slices in length of continuous band dryer",
+        "volume": "50",
+        "author": "Aghbashlo",
+        "year": "2009",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.1243/095765005X7538",
+        "article-title": "Application of moisture transfer models to solids drying",
+        "volume": "219",
+        "author": "Akpinar",
+        "year": "2005",
+        "journal-title": "Proc. Inst. Mech. Eng., Part A: J. Power Energy"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0015",
+        "series-title": "Official Methods of Analysis",
+        "author": "AOAC",
+        "year": "1990"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0020",
+        "article-title": "Understanding forced convective drying of apple tissue: Combining neutron radiography and numerical modelling",
+        "author": "Aregawi",
+        "year": "2013",
+        "journal-title": "Innovative Food Sci. Emerging Technol."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0025",
+        "unstructured": "ASHRAE, 2009. ASHRAE Handbook-Fundamentals. American Society of Heating, Refrigiration and Air-Conditioning Engineers Inc., Atlanta."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.ijthermalsci.2013.12.003",
+        "article-title": "Numerical modeling of convective drying of food with spatially dependent transfer coefficient in a turbulent flow field",
+        "volume": "78",
+        "author": "Ateeque",
+        "year": "2014",
+        "journal-title": "Int. J. Therm. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "922",
+        "DOI": "10.1016/j.jfoodeng.2005.12.005",
+        "article-title": "An analysis of the transport phenomena occurring during food drying process",
+        "volume": "78",
+        "author": "Aversa",
+        "year": "2007",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "449",
+        "DOI": "10.1016/j.jfoodeng.2004.02.005",
+        "article-title": "Influence of the drying conditions on the drying constants and moisture diffusivity during the thin-layer drying of figs",
+        "volume": "65",
+        "author": "Babalis",
+        "year": "2004",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "935",
+        "DOI": "10.1111/j.1365-2621.1988.tb08990.x",
+        "article-title": "Mathematical model of simultaneous heat and mass transfer in food with dimensional changes and variable transport parameters",
+        "volume": "53",
+        "author": "Balaban",
+        "year": "1988",
+        "journal-title": "J. Food Sci."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "302",
+        "DOI": "10.1016/j.jfoodeng.2010.09.003",
+        "article-title": "A new solution approach for simultaneous heat and mass transfer during convective drying of mango",
+        "volume": "102",
+        "author": "Barati",
+        "year": "2011",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/j.ijthermalsci.2012.01.003",
+        "article-title": "Mathematical simulation of convective drying: Spatially distributed temperature and moisture in carrot slab",
+        "volume": "56",
+        "author": "Barati",
+        "year": "2012",
+        "journal-title": "Int. J. Therm. Sci."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0060",
+        "series-title": "Dehydration of Foods",
+        "author": "Barbosa-Canobas",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0065",
+        "unstructured": "Barroca, M.J., Guiné, R.P.F., 2012. Study of Drying Kinetics of Quince. In: Proceedings (Electronic) da 362 International Conference of Agricultural Engineering CIGR-AgEng2012."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0070",
+        "series-title": "Transport Phenomena",
+        "author": "Bird",
+        "year": "1960"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0075",
+        "series-title": "Momentum, Heat and Mass Transfer",
+        "author": "Burnnett",
+        "year": "1962"
+      },
+      {
+        "issue": "21–22",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "4638",
+        "DOI": "10.1016/j.ijheatmasstransfer.2010.06.029",
+        "article-title": "Three dimensional numerical modeling of simultaneous heat and moisture transfer in a moist object subjected to convective drying",
+        "volume": "53",
+        "author": "Chandra Mohan",
+        "year": "2010",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "issue": "14–15",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "1288",
+        "DOI": "10.1080/01457632.2013.876844",
+        "article-title": "Experimental studies for convective drying of potato",
+        "volume": "35",
+        "author": "Chandra Mohan",
+        "year": "2014",
+        "journal-title": "Heat Transfer Eng."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "924",
+        "DOI": "10.13031/2013.38421",
+        "article-title": "Equilibrium moisture curves for biological materials",
+        "volume": "14",
+        "author": "Chen",
+        "year": "1971",
+        "journal-title": "Trans. ASABE"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "1183",
+        "DOI": "10.1021/ie50299a012",
+        "article-title": "Mass transfer (absorption) coefficients prediction from data on heat transfer and fluid friction",
+        "volume": "26",
+        "author": "Chilton",
+        "year": "1934",
+        "journal-title": "Ind. Eng. Chem."
+      },
+      {
+        "issue": "7–8",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "1815",
+        "DOI": "10.1080/07373939608917175",
+        "article-title": "Analytical solution of mass transfer equation with interfacial resistance in food drying",
+        "volume": "14",
+        "author": "Cordova-Quiroz",
+        "year": "1996",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0105",
+        "series-title": "second ed.",
+        "article-title": "The Mathematics of Diffusion",
+        "author": "Crank",
+        "year": "1975"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1080/07373937.2010.482697",
+        "article-title": "A multiphase model to analyze transport phenomena in food drying processes",
+        "volume": "28",
+        "author": "Curcio",
+        "year": "2010",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "541",
+        "DOI": "10.1016/j.jfoodeng.2008.01.016",
+        "article-title": "Simulation of food drying: FEM analysis and experimental validation",
+        "volume": "87",
+        "author": "Curcio",
+        "year": "2008",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1080/07373937.2011.628554",
+        "article-title": "Diffusion models to describe the drying process of peeled bananas: optimization and simulation",
+        "volume": "30",
+        "author": "Da Silva",
+        "year": "2012",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.jfoodeng.2014.05.010",
+        "article-title": "Estimation of thermo-physical properties of products with cylindrical shape during drying: the coupling between mass and heat",
+        "volume": "141",
+        "author": "Da Silva",
+        "year": "2014",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.jfoodeng.2006.05.013",
+        "article-title": "Porous media approaches to studying simultaneous heat and mass transfer in food processes. I: problem formulations",
+        "volume": "80",
+        "author": "Datta",
+        "year": "2007",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1016/j.jfoodeng.2006.05.012",
+        "article-title": "Porous media approaches to studying simultaneous heat and mass transfer in food processes. II: property data and representative results",
+        "volume": "80",
+        "author": "Datta",
+        "year": "2007",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1016/j.jfoodeng.2008.05.008",
+        "article-title": "A generalized conjugate model for forced convection drying based on an evaporative kinetics",
+        "volume": "89",
+        "author": "De Bonis",
+        "year": "2008",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1016/j.apenergy.2014.06.027",
+        "article-title": "Advanced computational modelling for drying processes – a review",
+        "volume": "131",
+        "author": "Defraeye",
+        "year": "2014",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "issue": "1–3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/j.ijheatmasstransfer.2009.09.029",
+        "article-title": "CFD analysis of convective heat transfer at the surfaces of a cube immersed in a turbulent boundary layer",
+        "volume": "53",
+        "author": "Defraeye",
+        "year": "2010",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0155",
+        "series-title": "Heat Transfer in Food Cooling Applications",
+        "author": "Dincer",
+        "year": "1997"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "478",
+        "DOI": "10.1080/07373930802686065",
+        "article-title": "An experimental study on drying of green apples",
+        "volume": "27",
+        "author": "Doymaz",
+        "year": "2009",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0165",
+        "series-title": "Unit Operations in Food Engineering",
+        "author": "Earle",
+        "year": "1983"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1080/10408390802437063",
+        "article-title": "A review of thin layer drying of foods: theory, modeling, and experimental results",
+        "volume": "50",
+        "author": "Erbay",
+        "year": "2010",
+        "journal-title": "Crit. Rev. Food Sci. Nutr."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1016/j.jfoodeng.2013.09.019",
+        "article-title": "Analytical two-dimensional analysis of the transport phenomena occurring during convective drying: apple slices",
+        "volume": "123",
+        "author": "Esfahani",
+        "year": "2014",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b8000",
+        "series-title": "Computational methods for fluid dynamics",
+        "author": "Ferziger",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0180",
+        "unstructured": "Fluent Inc., 2006. FLUENT 6.3 User’s Guide."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/j.fbp.2011.10.005",
+        "article-title": "Surface heat and mass transfer coefficients for multiphase porous media transport models with rapid evaporation",
+        "volume": "90",
+        "author": "Halder",
+        "year": "2012",
+        "journal-title": "Food Bioprod. Process."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "867",
+        "DOI": "10.1080/713838150",
+        "article-title": "Numerical simulation of two-dimensional heat and moisture transfer during drying of a rectangular object",
+        "volume": "43",
+        "author": "Hussain",
+        "year": "2003",
+        "journal-title": "Numer. Heat Transfer, Part A: Appl."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0200",
+        "series-title": "Fundamentals of Heat and Mass Transfer",
+        "author": "Incropera",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0205",
+        "series-title": "Principles of Heat and Mass Transfer",
+        "author": "Incropera",
+        "year": "2012"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "1333",
+        "DOI": "10.1081/DRT-120023187",
+        "article-title": "Convective drying with time-varying heat input: simulation results",
+        "volume": "21",
+        "author": "Islam",
+        "year": "2003",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.1016/j.biosystemseng.2007.12.010",
+        "article-title": "Finite element simulation of drying of mango",
+        "volume": "99",
+        "author": "Janjai",
+        "year": "2008",
+        "journal-title": "Biosyst. Eng."
+      },
+      {
+        "issue": "17–18",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "3094",
+        "DOI": "10.1016/j.ijheatmasstransfer.2006.01.043",
+        "article-title": "Numerical modeling of heat and mass transfer during forced convection drying of rectangular moist objects",
+        "volume": "49",
+        "author": "Kaya",
+        "year": "2006",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "issue": "1–3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "328",
+        "DOI": "10.1016/j.desal.2006.10.017",
+        "article-title": "An experimental study on the drying kinetics of quince",
+        "volume": "212",
+        "author": "Kaya",
+        "year": "2007",
+        "journal-title": "Desalination"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1080/10407780601112753",
+        "article-title": "Numerical modeling of forced-convection drying of cylindrical moist objects",
+        "volume": "51",
+        "author": "Kaya",
+        "year": "2007",
+        "journal-title": "Numer. Heat Transfer, Part A"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1016/j.jfoodeng.2008.02.017",
+        "article-title": "Experimental and numerical investigation of heat and mass transfer during drying of Hayward kiwi fruits (Actinidia Deliciosa Planch)",
+        "volume": "88",
+        "author": "Kaya",
+        "year": "2008",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1016/j.jfoodeng.2012.08.029",
+        "article-title": "Energy-efficient thermal drying using impinging-jets with time-varying heat input – a computational study",
+        "volume": "114",
+        "author": "Kurnia",
+        "year": "2013",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1080/10407780903244353",
+        "article-title": "Conjugate heat and mass transfer from a drying rectangular cylinder in confined air flow",
+        "volume": "56",
+        "author": "Lamnatou",
+        "year": "2009",
+        "journal-title": "Numer. Heat Transfer, Part A"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "1391",
+        "DOI": "10.1016/j.renene.2009.11.008",
+        "article-title": "Finite-volume modelling of heat and mass transfer during convective drying of porous bodies – non-conjugate and conjugate formulations involving the aerodynamic effects",
+        "volume": "35",
+        "author": "Lamnatou",
+        "year": "2010",
+        "journal-title": "Renew. Energy"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1007/s12393-011-9040-x",
+        "article-title": "Computational simulation and developments applied to food thermal processing",
+        "volume": "3",
+        "author": "Lemus-Mondaca",
+        "year": "2011",
+        "journal-title": "Food Eng. Rev."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/j.jfoodeng.2012.10.050",
+        "article-title": "Coupled 3D heat and mass transfer model for numerical analysis of drying process in papaya slices",
+        "volume": "116",
+        "author": "Lemus-Mondaca",
+        "year": "2013",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "928",
+        "DOI": "10.1016/j.enconman.2008.12.032",
+        "article-title": "Mathematical modeling for thin layer vacuum belt drying of Panax notoginseng extract",
+        "volume": "50",
+        "author": "Liu",
+        "year": "2009",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "1115",
+        "DOI": "10.1016/j.jfoodeng.2006.03.024",
+        "article-title": "Experimental study of hot air dehydration of sultana grapes",
+        "volume": "79",
+        "author": "Margaris",
+        "year": "2007",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1016/0260-8774(94)00040-G",
+        "article-title": "Heat and mass transfer modeling in air drying of foods",
+        "volume": "26",
+        "author": "Maroulis",
+        "year": "1995",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1016/j.jfoodeng.2009.09.012",
+        "article-title": "Combined microwaves and convection heating: a conjugate approach",
+        "volume": "97",
+        "author": "Marra",
+        "year": "2010",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "1598",
+        "DOI": "10.2514/3.12149",
+        "article-title": "Two-equation eddy-viscosity turbulence models for engineering applications",
+        "volume": "32",
+        "author": "Menter",
+        "year": "1994",
+        "journal-title": "AIAA J."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "1644",
+        "DOI": "10.1016/j.enconman.2010.10.027",
+        "article-title": "Drying kinetics of olive pomace in a fluidized bed dryer",
+        "volume": "52",
+        "author": "Meziane",
+        "year": "2011",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0295",
+        "series-title": "Book Review: Handbook of Industrial Drying",
+        "author": "Mujumdar",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/0167-6105(93)90112-2",
+        "article-title": "Comparison of various turbulence models applied to a bluff body",
+        "volume": "46–47",
+        "author": "Murakami",
+        "year": "1993",
+        "journal-title": "J. Wind Eng. Ind. Aerodyn."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1111/j.1745-4549.2011.00671.x",
+        "article-title": "Desorption isotherms and thermodynamic properties of fresh and osmotic-ultrasonic dehydrated quinces",
+        "volume": "37",
+        "author": "Noshad",
+        "year": "2012",
+        "journal-title": "J. Food Process. Preserv."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1016/j.icheatmasstransfer.2007.06.005",
+        "article-title": "Numerical and experimental analysis of moisture transfer for convective drying of some products",
+        "volume": "35",
+        "author": "Oztop",
+        "year": "2008",
+        "journal-title": "Int. Commun. Heat Mass Transfer"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1006/jaer.1993.1026",
+        "article-title": "Selection of mathematical models for drying grain in thin-layers",
+        "volume": "54",
+        "author": "Parti",
+        "year": "1993",
+        "journal-title": "J. Agric. Eng. Res."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0320",
+        "series-title": "Numerical Heat Transfer and Fluid Flow Hemisphere",
+        "author": "Patankar",
+        "year": "1980"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0325",
+        "series-title": "Perry’s Chemical Engineers Handbook",
+        "author": "Perry",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0330",
+        "series-title": "Engineering Properties of Foods",
+        "author": "Rao",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1111/j.1745-4530.1995.tb00353.x",
+        "article-title": "Determination of heat transfer coefficients during drying of foodstuffs",
+        "volume": "18",
+        "author": "Ratti",
+        "year": "1995",
+        "journal-title": "J. Food Process Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1016/S0260-8774(03)00290-5",
+        "article-title": "Moisture and temperature evolution during food drying: effect of variable properties",
+        "volume": "63",
+        "author": "Ruiz-López",
+        "year": "2004",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1016/j.jfoodeng.2012.02.021",
+        "article-title": "Computational modelling of the transport phenomena occurring during convective drying of prunes",
+        "volume": "111",
+        "author": "Sabarez",
+        "year": "2012",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.jfoodeng.2005.03.024",
+        "article-title": "The thin layer drying characteristics of organic apple slices",
+        "volume": "73",
+        "author": "Sacilik",
+        "year": "2006",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0355",
+        "first-page": "171",
+        "article-title": "Convective drying of apple: mathematical modeling and determination of some quality parameters",
+        "volume": "12",
+        "author": "Seiiedlou",
+        "year": "2010",
+        "journal-title": "Int. J. Agric. Biol."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "985",
+        "DOI": "10.1016/0017-9310(73)90037-9",
+        "article-title": "An integral equation approach to heat and mass transfer problem in an infinite cylinder",
+        "volume": "16",
+        "author": "Tripathi",
+        "year": "1973",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0365",
+        "first-page": "413",
+        "article-title": "Analysis of air velocity distribution in a laboratory batch-type tray air dryer by computational fluid dynamics",
+        "volume": "6",
+        "author": "Tzempelikos",
+        "year": "2012",
+        "journal-title": "Int. J. Math. Comput. Simul."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0370",
+        "first-page": "425",
+        "article-title": "Design, construction and evaluation of a new laboratory convective dryer using CFD",
+        "volume": "7",
+        "author": "Tzempelikos",
+        "year": "2013",
+        "journal-title": "Int. J. Mech."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1016/j.csite.2014.05.001",
+        "article-title": "Case studies on the effect of the air drying conditions on the convective drying of quinces",
+        "volume": "3",
+        "author": "Tzempelikos",
+        "year": "2014",
+        "journal-title": "Case Stud. Therm. Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0380",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eaef.2014.12.002",
+        "article-title": "Experimental study on convective drying of quince slices and evaluation of thin-layer drying models",
+        "author": "Tzempelikos",
+        "year": "2015",
+        "journal-title": "Eng. Agric., Environ. Food"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1016/j.jfoodeng.2003.09.016",
+        "article-title": "Influence of airflow velocity on kinetics of convection apple drying",
+        "volume": "64",
+        "author": "Velić",
+        "year": "2004",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.1016/j.jfoodeng.2009.12.026",
+        "article-title": "Numerical and experimental analysis of heat and moisture transfer during drying of Ataulfo mango",
+        "volume": "98",
+        "author": "Villa-Corrales",
+        "year": "2010",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/0260-8774(94)P1607-Y",
+        "article-title": "A mathematical model of simultaneous heat and moisture transfer during drying of potato",
+        "volume": "24",
+        "author": "Wang",
+        "year": "1995",
+        "journal-title": "J. Food Eng."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "1983",
+        "DOI": "10.1081/DRT-200032740",
+        "article-title": "Some considerations in modeling of moisture transport in heating of hygroscopic materials",
+        "volume": "22",
+        "author": "Zhang",
+        "year": "2004",
+        "journal-title": "Drying Technol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfoodeng.2015.01.017_b0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1016/j.applthermaleng.2013.01.012",
+        "article-title": "Low-temperature convective drying of apple cubes",
+        "volume": "53",
+        "author": "Zlatanović",
+        "year": "2013",
+        "journal-title": "Appl. Therm. Eng."
+      }
+    ],
+    "container-title": [
+      "Journal of Food Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0260877415000357?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0260877415000357?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2019-08-20T14:53:56Z",
+      "timestamp": 1566312836000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0260877415000357"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    },
+    "references-count": 81,
+    "alternative-id": [
+      "S0260877415000357"
+    ],
+    "URL": "https://doi.org/10.1016/j.jfoodeng.2015.01.017",
+    "relation": {},
+    "ISSN": [
+      "0260-8774"
+    ],
+    "issn-type": [
+      {
+        "value": "0260-8774",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Numerical modeling of heat and mass transfer during convective drying of cylindrical quince slices",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Food Engineering",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jfoodeng.2015.01.017",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 2015 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  },
+  "10.1016/j.jfoodeng.2014.05.010": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "10.1016/S0009-2509(98)00408-4": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2025-11-01T13:24:57Z",
+      "timestamp": 1762003497244,
+      "version": "3.44.0"
+    },
+    "reference-count": 0,
+    "publisher": "Elsevier BV",
+    "issue": "17",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1999,
+              9,
+              1
+            ]
+          ],
+          "date-time": "1999-09-01T00:00:00Z",
+          "timestamp": 936144000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              1999,
+              9,
+              1
+            ]
+          ],
+          "date-time": "1999-09-01T00:00:00Z",
+          "timestamp": 936144000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Chemical Engineering Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1999,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0009-2509(98)00408-4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2002-07-25T10:51:59Z",
+      "timestamp": 1027594319000
+    },
+    "page": "3899-3908",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 43,
+    "title": [
+      "Heat and mass transfer during low intensity convection drying"
+    ],
+    "prefix": "10.1016",
+    "volume": "54",
+    "author": [
+      {
+        "given": "Zhao Hui",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Guohua",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "container-title": [
+      "Chemical Engineering Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0009250998004084?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0009250998004084?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2025-09-14T00:25:56Z",
+      "timestamp": 1757809556000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0009250998004084"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          9
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "17",
+      "published-print": {
+        "date-parts": [
+          [
+            1999,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0009250998004084"
+    ],
+    "URL": "https://doi.org/10.1016/s0009-2509(98)00408-4",
+    "relation": {},
+    "ISSN": [
+      "0009-2509"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0009-2509"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1999,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Heat and mass transfer during low intensity convection drying",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Chemical Engineering Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/S0009-2509(98)00408-4",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "converted-article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 1999 Elsevier Science Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  },
+  "10.1111/jfpe.13917": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          23
+        ]
+      ],
+      "date-time": "2026-07-23T03:27:58Z",
+      "timestamp": 1784777278782,
+      "version": "3.55.0"
+    },
+    "reference-count": 23,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2021-10-28T00:00:00Z",
+          "timestamp": 1635379200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Food Process Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:label/><jats:p>Changes in ingredient content (paeoniflorin) and moisture transformation were studied during the drying process of Radix Paeoniae Alba (RPA) slice. The results show that paeoniflorin content decreases as the moisture content decreases from the initial state to 14% drying base. Paeoniflorin content in RPA slice is mainly related to drying temperature but slightly affected by gas speed. The RPA slice has the highest retention rate of paeoniflorin content (60% of initial content) at 60°C. When the drying temperature is lower than 60°C, the retention rate of paeoniflorin content decreases with the temperature decreasing because the drying process is prolonged; while the drying temperature is over 70°C, the retention rate decreases with the temperature increasing as the hydrolysis reaction of paeoniflorin is sped up. Free water is mutually transformed with bound water during drying and the degradation of paeoniflorin because of hydrolysis, diffusion, and oxidation. A model coupling heat/mass transfer and paeoniflorin degradation was presented to illustrate the results during the convective drying process.</jats:p></jats:sec><jats:sec><jats:title>Practical Applications</jats:title><jats:p>In this study, we evaluated the changes in paeoniflorin content and moisture transformation in Radix Paeoniae Alba (RPA) slice during the convective drying process. The temperature of 60°C, here, was presented for the highest preservation of paeoniflorin content. The factors affecting paeoniflorin content and moisture transformation as well as the degradation mechanism of paeoniflorin were studied. Furthermore, a model was developed to evaluate the coupling transformation of moisture, heat, and ingredient, which can be used to determine the drying parameters. Our results have given the temperature for the highest paeoniflorin preservation during drying, and our model is helpful to design the parameters for other drying processes.</jats:p></jats:sec>",
+    "DOI": "10.1111/jfpe.13917",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2021-10-28T10:01:25Z",
+      "timestamp": 1635415285000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Relationship between heat/mass transfer and ingredient degradation during drying process"
+    ],
+    "prefix": "10.1111",
+    "volume": "45",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3460-9311",
+        "authenticated-orcid": false,
+        "given": "Cheng",
+        "family": "Song",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Energy and Environmental Engineering University of Science and Technology Beijing  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8274-5556",
+        "authenticated-orcid": false,
+        "given": "Chuanping",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Energy and Environmental Engineering University of Science and Technology Beijing  Beijing China"
+          },
+          {
+            "name": "Beijing Engineering Research Centre of Energy Saving and Environmental Protection  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingyi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Energy and Environmental Engineering University of Science and Technology Beijing  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfpp.14178"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00231-015-1729-6"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.9790/5736-1004015966"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1081/DRT-200025647"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0008-6215(98)00068-8"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfpe.13485"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07373937.2021.1904411"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jxb/erm250"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2621.1997.00381.x"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfpp.14818"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfpe.13446"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfoodeng.2008.02.017"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.applthermaleng.2016.08.123"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07373937.2017.1418751"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.foodchem.2017.03.010"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfoodeng.2018.02.006"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0260-8774(99)00126-0"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfoodeng.2008.06.025"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "first-page": "5647219",
+        "article-title": "A protective role of paeoniflorin in fluctuant hyper‐glycemia‐induced vascular endothelial injuries through antioxidative and anti‐inflammatory effects and reduction of PKCβ1",
+        "volume": "2019",
+        "author": "Wang J. S.",
+        "year": "2019",
+        "journal-title": "Oxidative Medicine and Cellular Longevity"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_2_9_21_1",
+        "first-page": "1764",
+        "article-title": "Effect of different drying methods on six chemical components of Paeoniae Radix Alba",
+        "volume": "28",
+        "author": "Wu Z. W.",
+        "year": "2016",
+        "journal-title": "Natural Product Research and Development"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.fitote.2003.08.016"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pharmthera.2019.107452"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lwt.2018.09.066"
+      }
+    ],
+    "container-title": [
+      "Journal of Food Process Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jfpe.13917",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/jfpe.13917",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jfpe.13917",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2023-08-28T03:01:37Z",
+      "timestamp": 1693191697000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jfpe.13917"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          28
+        ]
+      ]
+    },
+    "references-count": 23,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/jfpe.13917"
+    ],
+    "URL": "https://doi.org/10.1111/jfpe.13917",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0145-8876",
+      "1745-4530"
+    ],
+    "issn-type": [
+      {
+        "value": "0145-8876",
+        "type": "print"
+      },
+      {
+        "value": "1745-4530",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-07-05",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-10-05",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-10-28",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e13917"
+  },
+  "10.11975/j.issn.1002-6819.202306104": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "10.14148/j.issn.1672-0482.2021.0786": {
+    "error": "HTTP Error 404: Not Found"
+  }
+}

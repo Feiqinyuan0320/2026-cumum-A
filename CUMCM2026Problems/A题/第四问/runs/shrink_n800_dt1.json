@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "mode": "case",
+    "n": 800,
+    "dt": 1.0,
+    "early_dt": 0.0625,
+    "end": 1800.0,
+    "max_days": 14.0,
+    "geometry": "shrink",
+    "extension": "mean",
+    "label": "shrink_n800_dt1",
+    "no_cache": false
+  },
+  "solver_sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89",
+  "environment_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+  "radius_input_sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af",
+  "n": 800,
+  "early_dt": 0.0625,
+  "geometry": "shrink",
+  "extension": "mean",
+  "runtime_s": 37.71718016699924,
+  "tail_T_C": [
+    49.99893442622951,
+    0.04998754098360656
+  ],
+  "stats": [
+    6.0,
+    9.999934214022232e-11,
+    9.167706593871117e-09,
+    1.5489183286671038e-16,
+    0.0,
+    0.0,
+    346020.0,
+    0.05260615939087736,
+    -3.715397531861637e-14
+  ],
+  "stats_definition": [
+    "max_Picard_iterations",
+    "max_final_Picard_difference",
+    "max_abs_normalized_heat_equation_balance",
+    "max_abs_dry_mass_weighted_water_balance_per_s",
+    "max_material_C_time_increase",
+    "max_outward_C_increase",
+    "step_count",
+    "minimum_C",
+    "accumulated_dry_mass_weighted_water_balance_defect"
+  ],
+  "event": [
+    183962.919921875,
+    183962.9208984375,
+    183963.24000000002,
+    0.14999983604976339,
+    0.0
+  ],
+  "event_definition": [
+    "last_non_dry_s",
+    "first_dry_s",
+    "reported_dry_s",
+    "max_C_at_reported_time",
+    "radius_of_maximum_m"
+  ],
+  "event_radius_m": 0.012,
+  "radius_plateau_extension_used": false,
+  "output_rows": 3067,
+  "last_output_s": 184020.0
+}

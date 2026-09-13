@@ -1,0 +1,78 @@
+{
+  "gate": "W1",
+  "status": "PASS",
+  "scope": "第四问独立中文XeLaTeX章节的证据大纲；3张英文图、表6及数值比较表。未审查尚未生成的正文或PDF。",
+  "input_snapshot": {
+    "outline_sha256": "a873de33536812e4d7e8c724c17e5ac268dbd5361961dbe035fafa787c428c4a",
+    "P2_sha256": "c8da54527900fa71c1a781fb7ffaf14b23f464a805c7f742a2c84100f40e76b7",
+    "model_report_sha256": "a293995e860966d6391c08e5d2d8b34d4f9acf0b7b8674005a845b860a9f8fff",
+    "summary_sha256": "a7500314c74f0442999b35f9ddf98f9f2975cd99c34402411982bd550abe5953"
+  },
+  "evidence_mapping": [
+    {
+      "section": "问题分析及收缩描述",
+      "evidence": [
+        "../附件/烘干过程中各时间点药材的半径.xlsx",
+        "figures/raw_q4_实测半径与插值.pdf"
+      ],
+      "finding": "R数据、分段线性与均匀材料收缩假设区分清楚。"
+    },
+    {
+      "section": "热质传递模型修正",
+      "evidence": [
+        "题目分析报告.md",
+        "术语表格.md",
+        "检查记录/M1评审.json",
+        "solve_q4.py"
+      ],
+      "finding": "干基守恒推导、R因子、局部Kelvin与有效蓄热假设有明确来源；不将经验热方程宣称为完整物理焓守恒。"
+    },
+    {
+      "section": "离散和终点",
+      "evidence": [
+        "solve_q4.py",
+        "检查记录/P1评审.json",
+        "检查记录/基础测试.json"
+      ],
+      "finding": "BE/Picard/动态Robin及全域最大判据已由短算例核验；事件括区与四位小时格式分开。"
+    },
+    {
+      "section": "结果与含水率表",
+      "evidence": [
+        "runs/shrink_n1600_dt0p5.npz",
+        "results/计算摘要.json",
+        "results/表6_水分浓度.tex"
+      ],
+      "finding": "51.0945h、0.14999998712725104、轴心、1.2cm和9行表6都有精确数值证据。"
+    },
+    {
+      "section": "过程与收缩影响",
+      "evidence": [
+        "figures/process_q4_材料位置含水率.pdf",
+        "figures/result_q4_收缩与固定半径比较.pdf",
+        "runs/fixed_n1600_dt0p5.npz"
+      ],
+      "finding": "固定相对位置与固定物理位置区分清楚；同物性同数值设置的129.8592h对照支持78.7647h及60.65%的模型内差异，不把Q3-Q4差异直接归因于收缩。"
+    },
+    {
+      "section": "数值及输出说明",
+      "evidence": [
+        "results/result4.xlsx",
+        "results/计算方案比较.csv",
+        "检查记录/P2评审.json"
+      ],
+      "finding": "3066行、20099域外空格、等于表面时填值，以及网格差21.5263671875s、步长差1.21875s均有证据。"
+    }
+  ],
+  "findings": {
+    "P0": [],
+    "P1": [],
+    "P2": [
+      "正文过程图中文题注应明确横向虚线为C=0.15 kg/kg。",
+      "固定半径粗细对照同时变化N和dt，遵循大纲限定，不称为独立空间收敛。",
+      "本阶段仅为证据大纲通过，实际排版、交叉引用及自然语言表达需在W2审查。"
+    ]
+  },
+  "rework": "无必须返工；允许依此大纲生成第四问独立LaTeX正文。",
+  "citation_scope": "本章无需新增文献引用；自推公式、题给物性与数值结果已有明确证据，若新增文献主张则重新核对相应来源。"
+}

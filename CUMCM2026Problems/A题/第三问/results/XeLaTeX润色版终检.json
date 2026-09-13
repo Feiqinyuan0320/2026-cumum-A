@@ -1,0 +1,17 @@
+{
+  "stage": "W2",
+  "status": "PASS",
+  "scope": "第三问语言润色、4页XeLaTeX PDF",
+  "pdf": "第三问.pdf",
+  "build_exit_code": 0,
+  "warnings": [],
+  "visual_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures_language": "en",
+  "facts_equations_unchanged": true,
+  "source_archive": "第三问_XeLaTeX源码_润色版.zip"
+}

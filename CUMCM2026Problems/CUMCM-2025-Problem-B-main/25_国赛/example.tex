@@ -1,0 +1,265 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   全国大学生数学建模竞赛 LaTeX 论文模板 (Vesper 战队定制版)
+%
+%   版本: 3.0 (实战导向)
+%   作者: AI & Vesper's Team Collaboration
+%   更新日期: 2024-08-15
+%
+%   本模板以一篇优秀的国赛获奖论文为参考，注入了详细的写作框架、示例和
+%   教练式提示，旨在帮助团队在72小时内高效、高质量地完成论文。
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{ctexart}
+
+%--------------------------------------------------------------------------
+%   宏包导入 (已为你配置好，无需修改)
+%--------------------------------------------------------------------------
+\usepackage{amsmath, amssymb, amsfonts} 
+\usepackage[a4paper, margin=2.5cm]{geometry} 
+\usepackage{graphicx}          
+\usepackage{booktabs}          
+\usepackage{caption}           
+\usepackage{fancyhdr}          
+\usepackage{listings}          
+\usepackage{color}             
+\usepackage{hyperref}          
+\usepackage[numbers, sort&compress]{gbt7714}
+\usepackage{enumitem}
+
+%--------------------------------------------------------------------------
+%   全局格式设置 (已为你配置好，无需修改)
+%--------------------------------------------------------------------------
+\captionsetup{labelsep=space, font=small, justification=centering}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot[C]{\thepage} 
+\renewcommand{\headrulewidth}{0pt} 
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}, commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta}, numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple}, basicstyle=\fontfamily{consolas}\footnotesize,
+    breakatwhitespace=false, breaklines=true, captionpos=b, keepspaces=true,
+    numbers=left, numbersep=5pt, showspaces=false, showstringspaces=false,
+    showtabs=false, tabsize=2, frame=single, rulecolor=\color{black},
+    extendedchars=true, inputencoding=utf8, literate={-}{-}1 
+}
+\lstset{style=mystyle}
+
+%--------------------------------------------------------------------------
+%   文档开始
+%--------------------------------------------------------------------------
+\begin{document}
+\section{AI 工具使用详情说明}
+
+\subsection{所用 AI 工具名称和版本}
+\begin{itemize}
+    \item \textbf{工具一：} Gemini 2.5 Pro
+        % 使用 enumitem 宏包的 [label={}] 选项去掉第二层列表的短横线
+        \begin{itemize}[label={}, leftmargin=*] 
+            \item \textbf{开发机构：} Google
+            \item \textbf{使用日期：} 2025-09-04至2025-09-07
+        \end{itemize}
+        
+    \item \textbf{工具三：} Claude 4 Sonnet
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{开发机构：} Anthropic
+            \item \textbf{使用日期：} 2025-09-04至2025-09-07
+        \end{itemize}
+
+    \item \textbf{工具四：} DeepSeek-R1
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{开发机构：} 深度求索
+            \item \textbf{使用日期：} 2025-09-04至2025-09-07
+        \end{itemize}
+\end{itemize}
+
+\subsection{具体使用目的和环节}
+\begin{itemize}
+    \item \textbf{环节一：多模态数据分析}
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{目的：} 对题目提供的文本和数据进行初步的理解和信息提取，分析文献中物理模型的公式推导、参数设定、算法设计等。
+            \item \textbf{所用工具：} DeepSeek-R1
+        \end{itemize}
+        
+    \item \textbf{环节二：相关文献搜索}
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{目的：} 搜索和题目物理模型相关的文献，比如碳化硅和硅的折射率模型。
+            \item \textbf{所用工具：} Gemini 2.5 Pro
+        \end{itemize}
+        
+    \item \textbf{环节三：复杂算法代码生成与优化}
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{目的：} 生成和优化用于求解模型核心部分的 Python 初始框架代码。
+            \item \textbf{所用工具：} Gemini 2.5 Pro、Claude 4 Sonnet和DeepSeek-R1
+        \end{itemize}
+        
+    \item \textbf{环节四：论文初稿撰写与润色}
+        \begin{itemize}[label={}, leftmargin=*]
+            \item \textbf{目的：} 根据我们提供的模型思路、数据和关键词，生成“问题分析”和“模型评价”部分的初稿，并对全文进行语言润色。
+            \item \textbf{所用工具：} Claude 4 Sonnet
+        \end{itemize}
+\end{itemize}
+
+\subsection{关键交互记录（重要提示词与回复）}
+\subsubsection{示例一：文献搜索 (Gemini 2.5 Pro)}
+\noindent\textbf{我的提示词 (Prompt):}
+\begin{verbatim}
+帮我搜索硅晶圆片的外延层红外干涉测量的光谱
+\end{verbatim}
+
+\noindent\textbf{AI 的关键回复 (Response):}
+\begin{lstlisting}
+好的，已经为您搜索到了关于硅晶圆外延层红外干涉测量的光谱信息。
+通过红外反射光谱法测量外延层是一种非常成熟和常见的无损检测技术。其基本原理是，红外光在“空气-外延层”表面和“外延层-衬底”界面会分别发生反射，这两束反射光会发生干涉。通过分析干涉形成的光谱图样，就可以精确反推出外延层的厚度、载流子浓度等信息。
+以下是一些典型的硅外延层红外反射光谱图及其解释：
+类型一：轻掺杂外延层 / 重掺杂衬底 (n/n+ 或 p/p+)
+这是最常见的一种结构，广泛应用于半导体器件制造。其光谱特征非常典型。
+光谱特征:
+干涉条纹 (Interference Fringes): 在光谱中可以看到一系列规律性的波峰和波谷，这就是由外延层厚度决定的干涉条纹。条纹的数量和疏密程度直接关联到外延层的厚度。外延层越厚，条纹越多、越密集。
+等离子体反射边 (Plasma Edge): 由于衬底是重掺杂的，它含有大量的自由载流子。在远红外（低波数）区域，这些载流子会像金属一样强烈反射红外光，导致反射率接近100%。而在某个特定波数附近，反射率会急剧下降，形成一个陡峭的“边”，这个特征被称为等离子体反射边。这个“边”的位置和形状与衬底的载流子浓度密切相关。
+示例光谱 (描述):
+一个典型的n/n+硅外延层光谱图会是这样：
+在低波数区域 (例如 100-400 cm⁻¹)，反射率非常高，接近100%。
+在中波数区域 (例如 400-600 cm⁻¹)，反射率会急剧下降，形成等离子体边。
+在高波数区域 (例如 600-4000 cm⁻¹)，反射率处于一个较低的水平，并且在这个背景上叠加着清晰的、周期性的干涉条纹。
+类型二：轻掺杂外延层 / 相反掺杂类型衬底 (n/p 或 p/n)
+这种结构的光谱与第一种有显著不同，因为衬底的自由载流子浓度很低。
+光谱特征:
+无明显的等离子体边: 由于衬底是轻掺杂或相反类型掺杂，其自由载流子浓度很低，因此不会在远红外区域产生强烈的等离子体反射。整个光谱的背景相对平坦。
+清晰的干涉条纹: 干涉条纹是主要的特征，叠加在一个由硅材料自身声子吸收（主要在~610 cm⁻¹附近有一个吸收峰）决定的背景光谱之上。
+整体反射率较低: 相比于重掺杂衬底，整体的反射率水平会低很多。
+示例光谱 (描述):
+一个典型的n/p硅外延层光谱图会是这样：
+整个光谱的反射率基线可能在30%-50%之间波动。
+在~610 cm⁻¹处会有一个明显的吸收峰，这是硅晶格的本征吸收。
+在整个波数范围（例如 400-4000 cm⁻¹）内，都可以看到由外延层厚度决定的、非常清晰的周期性干涉条纹。
+总结来说，通过计算机模型对这些光谱曲线进行拟合 (Fitting)，就可以同时、精确地反向推算出外延层的厚度、载流子浓度和迁移率等多个关键参数，是半导体行业中一种快速、无损、标准化的质量控制方法。
+\end{lstlisting}
+
+\subsubsection{示例二：硅晶圆片折射率计算函数（DeepSeek-R1）}
+\noindent\textbf{我的提示词 (Prompt):}
+\begin{verbatim}
+如何计算特定波长下硅的折射率
+\end{verbatim}
+
+\noindent\textbf{AI 的关键回复 (Response):}
+\begin{lstlisting}[language=Python, caption={AI生成的代码片段}]
+import numpy as np
+
+def calculate_si_refractive_index(wavelength_um):
+    """
+    Calculates the refractive index of crystalline silicon at a given wavelength.
+    Uses the Sellmeier equation model from H. H. Li, 1980.
+    
+    Args:
+        wavelength_um (float): Wavelength in micrometers (µm).
+    
+    Returns:
+        float: The refractive index n.
+    """
+    B1 = 10.6684293
+    B2 = 0.0030434748
+    B3 = 1.54133408
+    
+    C1 = 0.301516485**2
+    C2 = 1.13475115**2
+    C3 = 1104**2
+    
+    lambda_sq = wavelength_um**2
+    
+    # Sellmeier equation
+    n_squared = 1 + (B1 * lambda_sq) / (lambda_sq - C1) \
+                  + (B2 * lambda_sq) / (lambda_sq - C2) \
+                  + (B3 * lambda_sq) / (lambda_sq - C3)
+                  
+    return np.sqrt(n_squared)
+\end{lstlisting}
+
+\subsubsection{实例三：硅外延层厚度算法选择（Gemini 2.5 Pro）}
+\noindent\textbf{我的提示词 (Prompt):}
+\begin{verbatim}
+搜索相关“硅外延层厚度红外干涉法计算的数学模型及算法”相关论文，语言为英文，搜索
+源为谷歌学术。
+\end{verbatim}
+\noindent\textbf{AI 的关键回复 (Response):}
+\begin{lstlisting}
+硅外延层厚度的红外干涉法计算：数学模型与算法解析
+
+通过红外干涉法精确测量硅外延层厚度是一种在半导体工业中广泛应用的非破坏性技术。该方法的核心依赖于详尽的数学模型来描述红外光在“外延层-衬底”结构中的传播和干涉效应，并结合高效的算法从测量的反射或透射光谱中提取厚度信息。
+
+核心数学模型
+
+计算硅外延层厚度的数学模型主要基于薄膜光学理论，其关键在于精确描述外延层和衬底的介电函数（或复折射率）以及它们之间界面处的光学行为。
+
+1. 介电函数模型
+
+为了精确模拟红外光谱，必须为外延层和衬底建立准确的介电函数模型。对于重掺杂的硅衬底，其在红外波段的光学响应主要受自由载流子吸收的影响，通常采用**德鲁德模型（Drude Model）**来描述。 该模型将衬底的复介电函数 ε(ω) 表示为：
+
+ε(ω) = ε_∞ - [ω_p^2 / (ω^2 + iγω)]
+
+其中，ε_∞ 是高频介电常数，ω 是红外光的角频率，ω_p 是等离子体频率（与载流子浓度相关），γ 是阻尼系数（与载流子迁移率相关）。
+
+对于轻掺杂的外延层，其在红外波段通常表现为透明的，其折射率可近似为常数。
+
+2. 多层膜光学模型
+
+“空气-外延层-衬底”系统可以被简化为一个多层薄膜结构。当红外光入射到样品表面时，会在外延层的上、下两个界面发生多次反射和折射，从而产生干涉。 描述这一现象的经典工具是菲涅尔方程（Fresnel Equations）。
+
+通过计算每个界面处的反射系数（r）和透射系数（t），并考虑光在厚度为 d 的外延层中传播所产生的相位延迟，可以推导出整个样品系统的总反射率（R）或透射率（T）。对于一个简化的垂直入射情况，总反射率 R 可以表示为：
+
+R = |(r_01 + r_12 * exp(-2iβ)) / (1 + r_01 * r_12 * exp(-2iβ))|^2
+
+其中，r_01 是空气与外延层界面的反射系数，r_12 是外延层与衬底界面的反射系数，β = (2π/λ) * n_1 * d * cos(θ_1) 是光在外延层中单次传播的相移，n_1 是外延层的折射率，d 是其厚度，λ 是红外光的波长，θ_1 是在层内的折射角。
+
+3. 傅里叶变换红外光谱（FTIR）的信号处理模型
+
+在实际测量中，常用傅里叶变换红外光谱仪（FTIR）来获取干涉图或反射光谱。 一个完整的数学模型还需要包含FTIR系统的信号处理过程。 这包括将理论上的连续频率模型转换为离散的数字信号模型，并考虑仪器函数（如光源、分束器和探测器的非理想响应）的影响。 通过在频域内将样品反射强度与高反射参照物（如金镜）的反射强度进行比较，可以消除这些寄生效应，从而获得更准确的样品反射率光谱。
+
+计算算法
+
+从测量的红外光谱中提取外延层厚度的过程，本质上是一个逆向求解问题。其目标是调整模型参数（主要是厚度 d，有时也包括衬底的载流子浓度等），使得计算出的理论光谱与实验测量的光谱之间的差异最小化。
+
+1. 曲线拟合算法
+
+最常用的算法是基于最小二乘法的曲线拟合。通过定义一个误差函数（例如，理论光谱与测量光谱之间的均方差），然后使用迭代算法来寻找使误差函数最小化的模型参数。常用的优化算法包括：
+
+Levenberg-Marquardt (LM) 算法：这是一种在非线性最小二乘问题中广泛使用的标准算法，它结合了梯度下降法和高斯-牛顿法的优点，具有较好的鲁棒性和收敛速度。
+
+人工智能神经网络 (ANN)：在处理复杂结构或需要极快在线测量的情况下，可以预先使用严格的物理模型生成大量的理论光谱数据库，然后用这些数据训练一个神经网络。 经过训练的神经网络能够快速地从输入的测量光谱直接输出结构参数。
+
+2. 干涉图分析算法
+
+对于较厚的外延层，其干涉效应在FTIR的干涉图（interferogram）上会表现为除中心峰（centerburst）之外的边峰（sidebursts）。 中心峰对应于样品表面反射光的零光程差位置，而边峰则是由在外延层内部反射一次或多次的光所产生。边峰与中心峰之间的光程差直接与外延层的厚度相关。通过识别干涉图中的边峰位置，可以直接计算出外延层的光学厚度，进而得到物理厚度。然而，对于薄外延层，边峰会与中心峰发生混叠，导致难以识别，此时必须采用频域的曲线拟合方法。
+
+综上所述，通过结合精确的介电函数模型和多层膜光学理论，可以构建出描述硅外延层红外干涉效应的数学模型。然后，利用Levenberg-Marquardt等先进的曲线拟合算法或干涉图分析法，便可以从实验测量的光谱数据中准确、快速地提取出外延层的厚度信息。
+
+\end{lstlisting}
+
+
+\subsection{采纳和人工修改情况}
+\begin{itemize}
+    \item \textbf{针对“相关文献搜索”：}我们采纳了部分Gemini 2.5 Pro关于计算折射率公式的文献搜索结果，包括洛伦兹-德鲁德色散模型和塞尔迈耶模型文献，并按照AI给的提示词自行搜索更多文献，如声子-等离激元耦合模型的文献。
+
+    \item \textbf{针对“算法设计”：}我们采纳了Gemini 2.5 Pro的“傅里叶变换红外光谱的信号处理模型”，并且通过分析文献，深入理解傅里叶变换的本质，在实际使用时考虑到硅的色散特质，通过引入坐标变换来消除该系统误差。
+    
+    \item \textbf{针对“复杂算法代码生成”：}我们采纳了 deepseek 生成的差分进化方法的核心逻辑。在此基础上，我们将其扩展到更高维度，并增加了并行计算（使用 \texttt{multiprocessing} 库）来大幅提高计算效率，以满足题目所需的大规模模拟要求。
+
+    \item \textbf{针对“论文初稿撰写与润色”：}我们将 Claude 4 Sonnet 生成的初稿作为写作框架。所有核心论点、模型细节和数据分析均由我们团队成员重写，以确保内容的原创性和严谨性。AI 的润色主要用于修正语法和调整语序。
+
+    \item \textbf{针对“反射率公式与数值计算”：}我们将大模型生成的 python 公式代码进行了检查和修正，并修改了差分进化算法的参数，获得了更好的精确度和计算速度。
+
+    \item \textbf{针对“数据可视化图像”：}我们将大模型生成的 python 代码按照需求进行了个性化处理，获得了更好的显示效果。
+
+    \item \textbf{针对“模型验证”：}除了题目要求计算的数据之外，我们运用 ai 大模型在原本代码基础之上生成了额外数据（如拟合数据与实际数据之差），并将得到的数据可视化，有效地检验了模型的准确性。
+
+    \item \textbf{针对“模型灵敏度检测”：}我们从AI搜索提供的方法得到启发，采用蒙特卡洛模拟的方法检验问题三基于傅里叶变换的计算外延层厚度方法稳定性。
+\end{itemize}
+
+\end{document}

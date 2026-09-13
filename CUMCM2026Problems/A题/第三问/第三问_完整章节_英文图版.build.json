@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-12T03:36:55.159937+00:00",
+  "passed": true,
+  "main_tex": "main.tex",
+  "project_root": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/LaTeX",
+  "source_sha256": "9c7c39150b64ee51839e2e2d83303cb126394f4e4e511c7d9a5f05a46013f25c",
+  "compiled_source_sha256": "9c7c39150b64ee51839e2e2d83303cb126394f4e4e511c7d9a5f05a46013f25c",
+  "post_build_source_sha256": "9c7c39150b64ee51839e2e2d83303cb126394f4e4e511c7d9a5f05a46013f25c",
+  "pdf_sha256": "fcb6bded710f46ebd2cbf6d05ec63ce75c31a93eeecf3fd6762f88be07383605",
+  "project_manifest_sha256": "0c0ab5cd5c61e83551da99a42b421539a1c5e19b28fd97cd398ec445a2d84b16",
+  "engine": "xelatex",
+  "tools": {
+    "latexmk": {
+      "path": "/Library/TeX/texbin/latexmk",
+      "version": "Latexmk, John Collins, 9 March 2026. Version 4.88"
+    },
+    "xelatex": {
+      "path": "/Library/TeX/texbin/xelatex",
+      "version": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "/Library/TeX/texbin/latexmk",
+        "-norc",
+        "-gg",
+        "-xelatex",
+        "-e",
+        "$xelatex = 'xelatex -no-shell-escape %O %S'",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-outdir=build",
+        "main.tex"
+      ],
+      "cwd": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/LaTeX",
+      "returncode": 0,
+      "duration_seconds": 1.544
+    }
+  ],
+  "warnings": [],
+  "allowed_warnings": [],
+  "warning_override": {
+    "patterns": [],
+    "reason": null
+  },
+  "issues": [],
+  "reproduce": "/opt/anaconda3/bin/python /Users/baitutu/.codex/skills/math-modeling/tools/latex/scripts/latex_paper.py build /Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/LaTeX/main.tex --engine xelatex --timeout 180 --publish /Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/第三问_完整章节_英文图版.pdf"
+}

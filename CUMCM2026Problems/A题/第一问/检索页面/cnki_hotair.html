@@ -1,0 +1,2177 @@
+<!doctype html>
+<html>
+ <head>
+  <link rel="shortcut icon" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/favicon.ico" type="image/x-icon"><meta name = "description" content = "" / >
+  <meta charset="utf-8">
+  <title>农业科技与装备</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/jquery-migrate-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/marked.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/base.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/base.css">
+  <link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/common.css">
+  <link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/color_green.css"> 
+
+ 
+	
+    <style>
+
+    	* { 
+		    font-family: Verdana, Arial, Microsoft YaHei, PingFang SC, sans-serif; 
+		}
+
+    	/* ================= 账号修改 */
+	.login_zone{position: absolute; top:0;  left: 50%;  margin: 0 0 0 240px; background:linear-gradient(360deg, #010101c7, transparent); border-radius: 0 0 10px 10px ;padding: 0 20px; font-size: 14px; line-height: 28px; z-index: 9999; color: #ccc ; }
+
+	/* .login_zone::before{    content: " "; display: inline-block; position: absolute;top: -11px; left: -39px; width: 28px; height: 15px;border: 11px solid #ffffff00;border-radius: 0 28px 0 0;border-right: 11px solid #ffffff; border-top: 11px solid #ffffff;}
+	.login_zone::after{    content: " "; display: inline-block; position: absolute;top: -11px; right: -39px; width: 28px; height: 15px;border: 11px solid #ffffff00;border-radius: 28px 0 0 0;border-left: 11px solid #ffffff; border-top: 11px solid #ffffff;} */
+
+	.login_zone a{color:#ff9604;margin: 0 5px;}
+	.login_zone a:hover{color:#c37201}
+	.list_star {background: url(img/list_star.png) no-repeat center center;width: 17px; height: 50px;display: inline-block; margin: 0 10px 0 0;float: left; background-size: contain;}
+	.list_star_2 {background: url(img/list_star_2.png) no-repeat center center;width: 17px; height: 50px;display: inline-block; margin: 0 10px 0 0;float: left; background-size: contain;}
+	.list_col{color: #feae4c !important;}
+	/*.col{ color: #666 !important; background: #f5f5f5 !important;}*/
+	.col{  background-size:contain !important; color: #f3bf83 !important;padding: 0 0 0 20px !important;margin: 0 10px 0 10px !important;font-weight: bold;}
+	.col_ed{  background-size:contain !important; color: #f3bf83 !important;padding: 0 0 0 20px !important;margin: 0 10px 0 10px !important;font-weight: bold;}
+	a:hover.col,a:hover.col_ed{color: #e49d4c !important;}
+	.collect { position: absolute; top: 28px; right: 0px;}
+	.collect a{    color: #f3bf83; font-size: 14px;   height: 24px; line-height: 24px;  display: inline-block; background: #ffffff  url(img/list_star.png) no-repeat 5px center ;background-size:20px !important;  border-radius: 5px; border: 1px solid #f3bf83; padding: 0 10px 0 30px; }
+	.collect a.collected{ background: #ffffff  url(img/list_star_2.png) no-repeat 5px center ;}
+	.collect a:hover{ color: #e49d4c; }
+	.fow{}
+	.login_zone a.fowed{ color:#cccccc}
+	.login_zone a:hover.fowed{ color:#999999}
+	.paperNow_tt a.col,.paperNow_tt a.col_ed{ width: 70px;text-align: center; }
+
+	/*AI智能问答*/
+	.x_open{ display: inline-block;position: fixed;  bottom: 200px; right:60px;  background: url(img/x_open2.png); font-size: 16px; width: 70px;height:83px;  background-size: cover;  color: #fff; text-align: center; line-height:126px;border-radius: 12px; z-index: 9999}
+	a:hover.x_open{box-shadow: 8px 8px 1px #30bde242;font-weight: bold; }
+	.x{ position: fixed; top: 0; right: 0; height: 100vh; width: 450px; background: #ffffff;z-index: 9999; border-radius: 15px;display: none;box-shadow: 0  0 10px #ccc; transform: translateX(-10px);}
+	.x_inner{padding: 20px 20px 0 20px;}
+	h4.x_inner_tt{font-size: 24px;font-weight: bold;background: linear-gradient(to right,#e093eb, #d4a3ff, #08feff); background-clip: text; -webkit-text-fill-color: transparent; width:auto; float: left;position: relative;padding: 0 0 0 44px;margin: 0 0 10px 0;}
+	/*
+	.x_inner h4::before{content: " "; background-image: url(img/AI_intro_tt.png); width: 30px;height: 30px;background-size: cover; display: inline-block;position: absolute;top:3px; left: 8px;}
+	*/
+	h4.x_inner_tt::before {content: " "; background-image: url(img/x_open_robot.png); width: 70px; height: 70px; background-size: cover;display: inline-block; position: absolute;top: -11px; left: -39px; transform: rotate(335deg);}
+	.made_intro{display: inline-block;   width: 100px; height: 20px; line-height: 20px;text-align: center;font-size: 15px !important; color: #fff !important; border: 1px solid;border-image: linear-gradient(to right,#e093eb, #d4a3ff, #08feff) 1 ;background: linear-gradient(to right,#e093eb, #d4a3ff, #08feff); background-clip: text; -webkit-text-fill-color: transparent; position: absolute;  top: 3px; right: 26px;}
+	.x_close{ width: 20px; height: 20px; background: url(img/x_close.png) no-repeat; background-size: cover; display: inline-block;   cursor: pointer; float: right; margin: 8px 0 0 0;}
+	.x_main{clear: both;margin: 20px 0 0 0; background: #f5f5f5;border-radius: 10px 10px 0 0; height:calc(100vh - 410px);padding: 100px 20px 20px 20px; position: relative;  }
+	.x_chat, .reg_chat{ overflow-y: scroll;height:100%;}
+	.reg_chat_zone { height:calc(100vh - 80px) }
+	.x_ask{ padding: 10px ; background: #898989; border-radius: 10px; color:#fff;display: inline-block; float: right;clear: both;margin: 0 0 20px 0; line-height: 24px;}
+	.x_answer{ clear: both;padding: 10px ;  background: #e9e8e8;border-radius: 10px; line-height: 24px; margin: 0 0 20px 0;}
+	.x_answer_main{ padding: 0 0 10px 0; }
+	.x_answer_foot{border-top: 1px solid #dbdada; padding: 10px 0 0 0;}
+	.x_answer_foot a{font-size: 12px; color: #a5a5a5;  }
+	.x_answer_foot a:hover{color:#666}
+	a.x_answer_foot_btn_2{float: right;}
+	a.x_answer_foot_btn_1::before{content: ""; width: 14px; height: 14px; background: url(img/x_answer_foot_btn_1.png) no-repeat; background-size: cover; display: inline-block;  margin: 0 5px 0 0;vertical-align: -3px;}
+	a.x_answer_foot_btn_2::before{content: ""; width: 14px; height: 14px; background: url(img/x_answer_foot_btn_2.png) no-repeat; background-size: cover; display: inline-block;   margin: 0 5px 0 0;vertical-align: -3px;}
+	a.x_answer_foot_btn_3::before{content: ""; width: 14px; height: 14px; background: url(img/x_answer_foot_btn_3.png) no-repeat; background-size: cover; display: inline-block;   margin: 0 5px 0 0;vertical-align: -3px;}
+	a.x_answer_foot_btn_4::before{content: ""; width: 14px; height: 14px; background: url(img/x_answer_foot_btn_4.png) no-repeat; background-size: cover; display: inline-block;   margin: 0 5px 0 0;vertical-align: -3px;}
+	.x_clear{font-size: 12px; color: #a5a5a5; margin: 0 0 5px 5px; display: inline-block; }
+	a.x_clear:hover{color:#666}
+	.x_input{background: #f5f5f5;border-radius: 0 0 10px 10px; border-top: 1px solid #ddd; padding:10px 20px;  position: relative;}
+	.x_input textarea{width: 100%;border: none;resize: none; border-radius: 10px; padding: 10px;background: #fff;box-sizing: border-box;min-height:120px;max-height: calc(72vh); font-size: 14px}
+	.intro_tips{padding: 0 20px ;font-size: 12px;}
+	.x_tips{ position: absolute; top:10px; color: #555;}
+	.x_holder {position: absolute; top: 35px; }
+	.x_holder a{  background: #096cbe; color: #fff;   padding: 2px 10px; display: inline-block; border-radius: 5px; margin:2px 5px; width:90px;text-align: center; font-size: 12px;}
+	.x_holder a:hover{background: linear-gradient(to right, #e093eb, #d4a3ff, #08feff);}
+	.x_push{ display: inline-block; background:#ffffffeb  url(img/x_ask.png) no-repeat; width: 36px; height: 36px; background-size: cover; position: absolute; bottom: 20px; right: 30px; cursor: pointer; border-radius: 8px;}     
+	.made_intro_loading{color: #999;  animation: blink 1s infinite;}
+	.x_answer_main_think_title {color: #a5a5a5; margin-bottom: 5px}
+	.x_answer_main_think {border-left: 1px solid #a5a5a5; color: #a5a5a5; padding-left: 10px; line-height: 20px}
+	.x_loading{ position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color:#069ba1; width: 380px; z-index: 9999; text-align: center; padding: 5px 0; background: linear-gradient(to right,#0ffcff00, #0ffcff, #0ffcff00);}
+	.x_stop{ display: inline-block; background:#ffffffeb  url(img/x_stop.png) no-repeat; width: 36px; height: 36px; background-size: cover; position: absolute; bottom: 20px; right: 30px; cursor: pointer; border-radius: 8px;}
+	a.made_intro{background: linear-gradient(to right, #e093eb, #d4a3ff, #08feff) ; color: #ffffff !important;-webkit-text-fill-color:initial}
+	.x_cut{ position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color:#069ba1; width: 300px; z-index: 9999; text-align: center; padding: 5px 0; background:#eef8e8; color: #5cba33; border-radius: 3px; box-shadow: 0 0 10px #ccc; animation: hide 2s forwards;}
+
+	.x_answer ol { list-style: decimal; padding-left: 20px;}
+	.x_answer ol li { list-style: decimal;}
+	.x_answer ul li { list-style: initial;}
+
+
+	.login_zone{z-index:1;    transform: translateX(240px); margin:0;}
+	.searchDiv {z-index: 1;width: 280px;}
+
+	/* ================= 翻译部分 */
+	.x_open2{ display: inline-block;position: fixed;  bottom: 115px; right:60px;  background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_open3.png') !important;  font-size: 16px; width: 70px;height:67px;  background-size: cover;  color: #fff; text-align: center; line-height:106px;border-radius: 12px; background-size: cover !important; z-index: 9999}
+	a:hover.x_open2{box-shadow: 8px 8px 1px #30bde242;font-weight: bold; }
+	.x2 { display: none; position: fixed; bottom: 116px; right: 130px; height: auto; width: 380px; background:#ffffffc7; backdrop-filter: blur(5px); z-index: 9999; border-radius: 15px; box-shadow: 0 0 10px #9a9a9a;transform: translateX(-10px); padding: 20px;}
+	.x2 h4{ font-size: 1.3rem;font-weight: bold; color: #1c66e6; background: linear-gradient(to right, #95b8f0, #ffffff00);-webkit-background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid #cccccc;margin: 0 0 20px 0; border-image: linear-gradient(to right, #95b8f0, #ffffff00 60%) 1; width: 50%;}
+	.form-group { margin-bottom: 20px; overflow: hidden; display: flex; align-items: center;}
+	.form-group label { display: block;width: 100px;font-weight: bold;color: #333;}
+	.btn-group { display: flex; gap: 8px;flex-wrap: wrap;}
+	.btn-check{ opacity: 0;width: 0;height: 0;}
+	.btn-group{ display:flex; gap:8px; flex-wrap:wrap; }
+	.btn{align-items: center; justify-content: center; padding: 5px 20px;border: 1px solid #aed0f7; border-radius: 5px; background: #fff; color: #aed0f7 !important; cursor: pointer; user-select: none;transition: background .2s, color .2s, border-color .2s, box-shadow .2s; width: auto !important; font-size: 0.9rem; font-weight: 400 !important; font-size: 12px}
+	.btn:hover{ background:#f9fafb; }
+	.btn-check:checked + .btn { background: #5093dc;color: #ffffff !important; border-color: #267ad6; box-shadow: 0 0 0 2px rgb(70 144 229 / 20%);}
+	.hotkey-item { display: inline-flex; align-items: center;margin: 5px 10px;gap: 8px; }
+	.hotkey-input { width: 40px !important; height: 40px;font-family: monospace; font-size: 16px;font-weight: bold;text-align: center; color: #5093dc !important;background: #fff;border: 2px solid #ccc; border-radius: 6px; box-shadow: 0 2px 3px rgba(0,0,0,0.1); transition: all 0.2s;}
+	.hotkey-input:hover {border-color: #cccccc;box-shadow: 0 0 0 2px rgba(70,70,70,.2);}
+	.hotkey-input:focus { outline: none;border-color: #cccccc; box-shadow: 0 0 0 2px rgba(70,70,70,.2);}
+	.hotkey-label {font-size: 14px;color: #666;}
+	.color-picker{width: 80px !important; height: 36px; border-radius: 5px; border: 1px solid #d4d4d4; padding: 3px; background: #ffffffa6; margin: 0 10px 0 0;cursor: pointer;}
+	.color-picker-name{width: 80px !important; height: 28px; border-radius: 5px; border: 1px solid #d4d4d4; padding: 3px;  background: #ffffffa6; font-size: 12px}
+	.submit-btn { display: block; width: 80%; padding: 10px; background: linear-gradient(to bottom, #a2c8f3, #4189d7); color: #fff; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; margin: 20px auto 0 auto;text-align: center; font-size: 12px}
+	.translate-tip {margin-top: 5px; width: 100%; text-align: center; display: inline-block; color: #666;}
+
+	@media (max-width: 800px) {
+	    .x2{   width: 80%; background: #ffffffcc;z-index: 9999; border-radius: 15px;display: none;  position: fixed; bottom: 200px; left: 50%; transform: translateX(-50%);}
+	    .x_open2{ display:none; }
+	}
+
+	a.x_answer_foot_btn_5::before { content: "";width: 14px;height: 14px;background: url(img/x_answer_foot_btn_5.png) no-repeat;background-size: cover;display: inline-block;margin: 0 5px 0 0;vertical-align: -3px;}
+
+	a.x_answer_foot_btn_5 {float: right; margin-right: 10px}
+	.trace{position: fixed;right: 0; height: 100vh; width: 400px; background: #ffffffd4; backdrop-filter: blur(5px); z-index: 10002; border-radius: 15px; box-shadow: 0 0 10px #ccc;transform: translateX(-10px);padding: 0 20px;display: none;}
+	.trace h3{font-size: 18px;margin: 0 0 20px 0;color:#333; margin: 20px 0}
+	.trace_item{ background:#f1f1f1;border-radius: 5px; margin: 0 0 30px 0;padding: 10px;box-shadow: 0 0 5px #cccccc;}
+	.trace_tt{ border-bottom: 1px solid #eee;font-size: 14px; line-height: 24px;color: #666;padding: 5px 0;}
+	.trace_journal{ display: inline-block;font-weight: bold; color: #333;}
+	a:hover.trace_journal{color: #1867a7;}
+	.trace_tt b{color:#e59538;}
+	.trace_item span{margin: 10px 0;font-size: 14px;display: block;background: #ffffff; border-radius: 5px;color: #333333;}
+	.trace_item span em{font-style: normal;}
+	.trace_close{width: 20px; height: 20px;background: url(img/x_close.png) no-repeat; background-size: cover; display: inline-block; cursor: pointer;float: right; margin: 8px 0 0 0;}
+	.trace{position: fixed;top: 50%;right: 0; height: 95vh; width: 400px; background: #ffffffd4; backdrop-filter: blur(5px); z-index: 10002; border-radius: 5px; box-shadow: 0 0 10px #ccc;transform: translateY(-50%);padding: 20px;display: none;}
+	.trace h3{font-size: 18px;margin: 0 0 20px 0;color:#333;}
+	.trace_item{ background:#f1f1f1;border-radius: 5px; margin: 0 0 30px 0;padding: 10px;box-shadow: 0 0 5px #cccccc;}
+	.trace_tt{ border-bottom: 1px solid #eee;font-size: 14px; line-height: 24px;color: #666;padding: 5px 0;}
+	.trace_journal{ display: inline-block;font-weight: bold; color: #333;}
+	a:hover.trace_journal{color: #1867a7;}
+	.trace_tt b{color:#e59538;}
+	.trace_main{margin: 10px 0;font-size: 14px;background: #ffffff; border-radius: 5px;padding: 0 5px;color: #333333; padding: 5px; }
+
+	.trace_close{width: 20px; height: 20px;background: url(img/x_close.png) no-repeat; background-size: cover; display: inline-block; cursor: pointer;float: right; margin: 8px 0 0 0;}
+	.trace_main span.clamp-2 {display: -webkit-box;-webkit-line-clamp: 2;     -webkit-box-orient: vertical;overflow: hidden;}
+	.trace_main span.expanded {display: block;-webkit-line-clamp: unset;-webkit-box-orient: unset; overflow: visible;}
+	.trace-toggle {display: block; margin: 5px 5px 0 0;font-size: 12px;color: #999;cursor: pointer; user-select: none; text-decoration: none;text-align: right;}
+	.reg_empty_zone { text-align: center;width: 100%;display: block;font-size: 16px;color: #666;margin-top: 60px; }
+
+
+	@media (max-width: 800px) {
+	    .x, .trace{ position: fixed; top: 0; right: 0; height: 100vh; width: 100%; background: #ffffffcc;z-index: 9999; border-radius: 15px;display: none;box-shadow: none; transform: translateX(0px);}
+	    .trace { margin: 0px; width:auto; padding: 20px}
+	    .x_open{opacity: 0.8;right: 10px; z-index: 9999;}
+	    .x_inner h4{padding: 0 0 10px 44px;}
+	    .x_holder{ left: 0; text-align: center;}
+	    .x_holder a { width: 90px; padding: 2px; margin: 2px;}
+	    .made_intro{  width: 60px; right: 15px;}
+	    .login_zone {position: absolute;top: 0; right: 0;background: linear-gradient(270deg, #010101c7, transparent) !important;border-radius: 0;left: initial !important;margin: 0 !important;border-radius: 0 !important; transform: translateX(0px) !important;}
+
+	    .trace_main a, .x_answer_foot a, .trace_tt a { -webkit-tap-highlight-color: transparent; }
+	}
+
+    	
+    	/* 检索区域 */
+		.findZone{margin: 0 0 30px 0;position: relative; box-shadow: 0px 0px 10px #cacaca; border-radius: 3px; overflow: hidden;}
+		.findZone_tt{margin: 0;overflow: hidden;background: #ffffff;line-height: 40px;position: relative; display: flex;}
+		.findZone_tt span{background:#a67308;mask-image: url(img/find.png); mask-size: 70%;mask-repeat: no-repeat;mask-position: center center;background-size: 24px;display: block;height:40px; width: 40px;}
+		.findZone_tt h3 { color: #333;font-size: 16px; }
+		.findZone_main{ padding:15px;text-align: center; }
+		.findZone_main a{box-sizing: border-box;display: inline-block;height: 33px;line-height: 33px;padding: 0 10px;border-radius: 3px; margin: 0 5px;}
+		.find_text{box-sizing: border-box;  height: 33px;line-height: 33px;  border-radius: 3px;border: 1px solid #ccc;padding: 0 3px; color: #333; display: block;width: 90%; margin: 0 auto 10px auto; font-size: 14px;}
+		input:focus.find_text{ border: 1px solid #ddd; box-shadow: 0 0 5px #cacaca;}
+		.find_btn{ background: #a67308;color: #ffffff;}
+		.find_adv{background: #ffffff;color: #900;border: 1px solid #900;}
+		@media (max-width: 800px){
+		.findZone{width: 90%;margin: 0 auto 30px auto; }
+		}
+		.findZone_tt span{ mask-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/find.png');}
+
+
+		/* 飘窗 */
+		.drift{margin: 0;left: 0;top: 0;width: 30%; max-width: 30%; border-radius: 8px;box-shadow: 0 0 3px #ccc;backdrop-filter: blur(5px);position: fixed;z-index: 9999; background: #ffffff8f; padding: 5px;}
+		.drift::before{content: ""; position: absolute; top:0; left:0;  width: 44px; height: 44px;background:#ffffff url(img/drift.png) center center no-repeat; background-size:80%;border-radius: 50%;border: 8px solid  #cde0fe; transform: translate(-20%,-20%) rotate(330deg);}
+		.drift_inner{padding:30px 20px 20px 20px; background:linear-gradient(to bottom, #cde0fe 1%, #ffffffc2);border-radius: 8px;}
+		.drift_close { width: 30px; height: 30px; position: absolute; top: 10px; right: 10px;transition: transform .2s;}
+		.drift h2{ line-height: 30px; font-size: 18px;text-align: center;box-sizing: border-box; padding: 0 20px;}
+		.drift article{line-height: 24px;}
+		.drift_close::before,.drift_close::after {content: '';position: absolute;height: 3px;width: 18px;top: 15px;left: 7px;margin-top: -1px;background:#ffffff;}
+		.drift_close::before {transform: rotate(45deg);}
+		.drift_close::after {transform: rotate(-45deg);}
+		a:hover.drift_close { transform: rotate(90deg);}
+		.drift::before{content: ""; position: absolute; top:0; left:0;  width: 44px; height: 44px;background:#ffffff url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/drift.png') center center no-repeat; background-size:80%;border-radius: 50%;border: 8px solid  #cde0fe; transform: translate(-20%,-20%) rotate(330deg);}
+		.drift_inner a{color:inherit;}
+
+		@media(max-width: 800px){
+			.drift {
+			    width: 80% !important;
+			    max-width: 80% !important;
+			    left:50% !important;
+			    top:50% !important;
+			    transform: translateX(-50%) translateY(-50%)  !important;
+			}
+		}
+
+
+		/* 期刊列表-智能导读 */
+		.ai_intro::before {  background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/AI_intro.png'); }
+		.video_intro::before {  background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/video_intro.png'); }
+		.intro h4::before { background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/AI_intro_tt.png'); }
+		.ai_summary::before { background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/AI_summary.png'); }
+
+		/* 期刊列表-收藏 */
+		.x_close { background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_close.png') !important; background-size: cover !important; }
+		.list_star_2 { background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/list_star_2.png') no-repeat center center !important; background-size: contain !important;}
+		.col { background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/list_star.png') no-repeat left center !important;     background-size: contain !important}
+		.list_star { background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/list_star.png') no-repeat center center !important; background-size: contain !important;}
+		.col_ed{ background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/list_star_2.png') no-repeat left center !important; background-size: contain !important };
+		a.x_open2 { background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_open3.png') !important; background-size: cover !important; }
+	    .inline-translation { -webkit-text-fill-color: initial; float: initial !important; margin-left: 8px; padding: 2px 6px; border-radius: 6px; font-size: 1em; display: inline-flex !important; align-items: center; color: #03a9f4 !important;  font-weight: bold; user-select: none; /* 防止误选 */}
+	    .inline-translation span { color: #03a9f4; }
+	    .inline-translation button { background: rgb(228, 57, 200); background-size: cover; border: none; width: 20px; height:20px; margin-left: 10px; mask-size: cover; mask-repeat: no-repeat; mask-position: center; }
+
+	    /* 知识库 */
+	    .x_close, .trace_close{ background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_close.png') !important; background-size: cover !important; }
+	    a.x_answer_foot_btn_1::before{ background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_answer_foot_btn_1.png') no-repeat !important; background-size: cover !important; }
+	    a.x_answer_foot_btn_2::before{ background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_answer_foot_btn_2.png') no-repeat !important; background-size: cover !important; }
+	    .x_push{ background:#ffffffeb  url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_ask.png') no-repeat !important; background-size:cover !important; }
+	    a.x_answer_foot_btn_3::before{background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_answer_foot_btn_3.png') no-repeat !important;background-size: cover !important;}
+	    a.x_answer_foot_btn_4::before{background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_answer_foot_btn_4.png') no-repeat !important;background-size: cover !important;}  
+	    a.x_answer_foot_btn_5::before{background: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_answer_foot_btn_5.png') no-repeat !important;background-size: cover !important;}  
+	    h4.x_inner_tt::before{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_open_robot.png') !important; background-size: cover !important;}
+	    .x_inner_tt::before{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_open_robot.png') !important; background-size: cover !important;}
+	    .x_open { background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_open2.png') !important; background-size: cover !important;}
+	    .x_stop{ display: inline-block; background:#ffffffeb  url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/x_stop.png') no-repeat !important; background-size: cover !important; }
+
+		.shareStyle {font-size: 12px;color: #666;}
+		.shareStyle a { display: inline-block;width: 20px;height: 20px;background-size: cover;margin: 0 5px 0 0;background-repeat: no-repeat;vertical-align: -4px; }
+		.wechat_window {display:none; position: fixed; width: 320px;height: 365px;left: 0;top: 0;right: 0;bottom: 0;margin: auto; background: white; box-shadow: 0px 0px 5px #e5e5e5;}
+		.wechat_window p {background: #f5f5f5; height: 50px; line-height: 50px; color: #333; text-align: left; padding-left: 15px; font-size: 14px}
+		.wechat_window a {top: 10px}
+		.wechat_box {padding: 20px 35px 40px; border-top: 1px solid #e8e8e8;}
+		.wechat_box h5 {line-height: 15px; margin-top: 10px; color: #bbb; text-align: center;}
+
+		.albumZone_up_r { overflow: scroll; }
+
+		.share_link,a:hover.share_link{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_link.png');}
+		.share_qq,a:hover.share_qq{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_qq.png');}
+		.share_qzone,a:hover.share_qzone{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_qzone.png');}
+		.share_wechat,a:hover.share_wechat{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_wechat.png');}
+		.share_weibo,a:hover.share_weibo{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_weibo.png');}
+		.share_mail,a:hover.share_mail{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/share_mail.png'); }
+		.share_facebook,a:hover.share_facebook{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common//share_facebook.png');}
+		.share_x,a:hover.share_x{background-image: url('https://publishmedia.cbpt.cnki.net/portal/minio/webs/common//share_x.png');}
+
+		.t2_nav {border-radius: 5px;border: 1px solid #eee;padding: 10px 20px;display: block;margin: 60px 0 0 0;box-shadow: 0px 0px 3px #eee;}
+
+		.t2_nav a {display: block;line-height: 24px;color: var(--pcolor);font-size: 14px;}
+		.t2_nav a:hover { color: var(--dcolor); }
+
+		.paperDetail{ position: relative; }
+		.paper_wechat{ width: 120px; box-sizing: border-box;display: flex;flex-direction: column;align-items: center;gap: 5px;position: absolute;right: 20px;bottom: 20px; }
+
+		/* 下拉框 */
+		.paper_select{ width: 100px;height: 20px;padding: 0 14px;margin: 0 10px 0 0;border-radius: 3px;border: 1px solid #dcdcdc; background: #f8f8f8;font-size: 12px;color: #333;outline: none;cursor: pointer;transition: .3s; float: right}
+		select:hover.paper_select{border-color: #3b82f6;background: #fff;}
+
+		/* 二维码区域 */
+		.qrCode_box{width: 100px;padding: 5px;background: #fff;box-shadow:0 4px 12px rgba(0,0,0,.04),inset 0 0 0 1px rgba(0,0,0,.04);}
+		.qrCode_box img{display: block;width: 100%;}
+
+		/* 文字 */
+		.paper_wechat span{ font-size: 14px;color: #666;letter-spacing: 1px; }
+
+		@media (max-width: 800px){
+		.paper_wechat{display: none;}
+		}
+
+
+    </style>
+
+		<style>
+			.top_tip{display: flex;align-items: center;line-height: 20px; padding:0px 0px 10px 0px;gap: 10px;color: #bbb; }
+			.top_tip a{color:#bbb}
+			.top_tip a:hover{color:#999}
+			.paperDetailZone{margin:0 auto 20px auto;}
+			.paperDetailZone .mainL{    padding: 10px 0 0 0 !important;}
+			.paperDetailZone .mainR {  padding: 10px 0 0 0 !important; }
+			.mainZone .top_tip{  padding: 0 0 20px 0;}
+			.top_tip span:last-child{ overflow: hidden;white-space: nowrap;text-overflow: ellipsis;flex: 1;}
+
+			@media (max-width: 800px) {
+			  .top_tip{display: none;}
+			}
+		</style>
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/common.css?v=20260910195408">
+
+	    
+
+
+
+
+	         <link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/common/green.css">
+
+     	<link rel="stylesheet" type="text/css" href="https://publishmedia.cbpt.cnki.net/portal/minio/webs/nyjd/template/green_muban4_20251028/base/common/mobile.css">
+
+    <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/qrcode.min.js" type="text/javascript" charset="utf-8"></script> 
+    <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/fingerprintjs/dist/fp.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://publishmedia.cbpt.cnki.net/portal/minio/webs/common/marked.min.js" type="text/javascript" charset="utf-8"></script>
+
+<macros style="display:none">
+	<macroName>nav</macroName>
+	<macroName>emailalert</macroName>
+	<macroName>searchbtn</macroName>
+	<macroName>searchbox</macroName>
+	<macroName>tablepage</macroName>
+	<macroName>yinyongbenwen</macroName>
+	<macroName>piczone</macroName>
+	<macroName>journalimg</macroName>
+	<macroName>journalInfo</macroName>
+	<macroName>journalinfonormal</macroName>
+
+	<macroName>searchdiv</macroName>
+	<macroName>searchzone</macroName>
+
+	<macroName>qikanlogo</macroName>
+	<macroName>popupnotification</macroName>
+</macros>
+
+
+
+
+<div class="videoPlayLayerBox" style="display: none;">
+	<div class="videoPlayLayer" id="videoPlayLayerBox">
+		<div class="videoPlayLayer_inner">
+			<a href="javascript:;" class="closebtn"></a>
+			<script>
+				$(function(){
+					$(".closebtn").click(function(){
+						$(".videoPlayLayerBox").fadeOut(50, function() {
+						    $(".videoPlayLayer").fadeOut();
+					  	});
+						var video = document.getElementById('myVideo');
+	  					video.pause();
+					});
+				});
+			</script>
+      		<div class="videoPlayLayer_main">
+				<video id="myVideo" controls class="video_player" width="100%" height="100%">
+				  	Your browser does not support the video tag. 
+				</video>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pdfDownloadLayer pdfbox" style="display: none;">
+      	<div class="maskEle"></div>
+      	<div class="layerEle_box">
+        	<h2>请选择需要下载的pdf数据</h2>
+        	<a href="javascript:;" class="pdfboxclose"></a>
+	        <div class="layerEle_box_main">
+	          	<a href="javascript:;" id="chinesepdf" class="pdfbtn">中文数据</a>
+			    <a href="javascript:;" id="englishpdf" class="pdfbtn trans">英文数据</a>
+	    	</div>
+		  	<div class="transZone">
+			  	<span class="progress">正在翻译英文数据</span>
+			  	<span class="dots">...</span>
+		  	</div>
+		</div>
+    </div>
+
+<!-- 翻译狗下载 -->
+<script>
+
+
+  $(".pdfboxclose").click(function() {
+    $(".pdfDownloadLayer").fadeOut(100);
+    $(".layerEle_box_main").show();
+    $(".transZone").hide();
+  });
+
+	// $(".trans").click(function(){
+	//   	$(".layerEle_box_main").hide();
+	// 	$(".transZone").fadeIn();
+	// });
+
+	    // 下载中文原文
+    function downloadPdfChinese(id, webId,title, type) {
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/updateDownLoadNumber/" + id + "/" + type;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.setRequestHeader("web_id", webId);
+        xhr.responseType = "blob";
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                var blob = this.response;
+                var reader = new FileReader();
+                reader.readAsDataURL(blob);
+                var filename = decodeURI(this.getResponseHeader('filename'));
+                reader.onload = function (e) {
+                    var a = document.createElement('a');
+                    a.download = title + ".pdf";
+                    a.href = e.target.result;
+                    //兼容firefox
+                    $('body').append(a);
+                    a.click();
+                    $(a).remove();
+                }
+            }
+        };
+        xhr.send();
+    };
+
+    function downloadPDFAction(id, webId,title, pdfUrl) {
+
+    	$(".pdfDownloadLayer").fadeIn(100);
+    	// 这里需要弹出弹框，让用户选择下载原文还英文
+
+    // 给标签重新绑定事件
+    	var pdfChineseLink = document.getElementById('chinesepdf');
+    	pdfChineseLink.onclick = function() { 
+		    getChinesePreviewUrl(id, webId, title);
+		};  
+
+    	var pdfEnglishLink = document.getElementById('englishpdf');
+    	pdfEnglishLink.onclick = function() {  
+		    downloadPdfEnglishBegin(id, title);  
+		};  
+    }	
+
+    function getChinesePreviewUrl(paperId, webId, title) {
+    	var baseUrl = 'https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getPaperDownloadInfo?paperId='+paperId;
+		$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+            dataType:"json",			
+			type: "POST", 	
+            async: "true",		
+			success: function(res){
+				let previewPdfUrl = res.data.previewPdfUrl;
+
+				var isPhone = /mobile/i.test(navigator.userAgent);
+				if (isPhone) {
+					downloadFull(paperId,'1', webId, title);
+				}else {
+					window.open(previewPdfUrl, '_blank');
+				}
+				
+			    $(".pdfDownloadLayer").fadeOut(100);
+				$(".layerEle_box_main").show();
+				$(".transZone").hide();
+			}
+		});
+    }
+
+    // 1、请求下载英文原文接口，开始翻译
+    function downloadPdfEnglishBegin(itemID, title) {
+    	$(".layerEle_box_main").hide();
+		$(".transZone").fadeIn();
+
+    	console.log("1、请求下载英文原文接口，开始翻译");
+    
+        var baseUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/uploadTranslatePaper/" + itemID + "/1";
+		$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+            dataType:"json",			
+			type: "GET", 	
+            async: "true",		
+			success: function(res){
+				if (res.success == true) {
+					downloadPdfEnglishGetProgress(itemID, title);
+				}else {
+					$(".pdfDownloadLayer").fadeOut(100, function() {  
+				      	$(".layerEle_box_main").show();
+			    		$(".progress").text("正在翻译英文数据");
+	                    $(".transZone").hide();
+
+	                    alert(res.message);
+				    });  
+					
+				}
+			},
+			error:function(res){                                   
+				console.log(res);
+				
+				$(".pdfDownloadLayer").fadeOut(100, function() {  
+			      	$(".layerEle_box_main").show();
+		    		$(".progress").text("正在翻译英文数据");
+                    $(".transZone").hide();
+
+                    alert(res.message);
+			    }); 
+			}
+		});
+
+    }
+
+	// 2、查询翻译进度
+    function downloadPdfEnglishGetProgress(itemID, title) {
+    	console.log("2、查询翻译进度，刷新进度条进度");
+    	var baseUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/queryTranslateProgress/" + itemID + "/1";
+		$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+	        dataType:"json",			
+			type: "GET", 	
+	        async: "true",		
+			success: function(res){
+				
+	            let progress = res.data.percent;
+	        	let text = "正在翻译英文数据" + progress + "%"
+			    $(".progress").text(text);
+
+			    // 下载完成后要开始下载
+			    if (progress === '100.00') {
+			    	downloadPdfEnglishEnd(itemID, title);
+			    }else {
+			    	reDownloadPdfEnglishGetProgress(itemID, title);
+			    }
+			},      
+			error:function(res){                                   
+				console.log(res);
+
+				$(".pdfDownloadLayer").fadeOut(100, function() {  
+			      	$(".layerEle_box_main").show();
+		    		$(".progress").text("正在翻译英文数据");
+                    $(".transZone").hide();
+
+                    alert(res.message);
+			    }); 
+			}
+		});
+    }
+
+    function reDownloadPdfEnglishGetProgress(itemID, title) {
+    	console.log("2、查询翻译进度，刷新进度条进度");
+    	var baseUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/queryTranslateProgress/" + itemID + "/1";
+		$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+	        dataType:"json",			
+			type: "GET", 	
+	        async: "true",		
+			success: function(res){
+				
+	            let progress = res.data.percent;
+	        	let text = "正在翻译英文数据" + progress + "%"
+			    console.log("进度是",text);
+			    $(".progress").text(text);
+
+			    // 下载完成后要开始下载
+			    if (progress === '100.00') {
+			    	downloadPdfEnglishEnd(itemID, title);
+			    }else {
+			    	downloadPdfEnglishGetProgress(itemID, title);
+			    }
+			},      
+			error:function(res){                                   
+				console.log(res);
+				$(".pdfDownloadLayer").fadeOut(100, function() {  
+			      	$(".layerEle_box_main").show();
+		    		$(".progress").text("正在翻译英文数据");
+                    $(".transZone").hide();
+
+                    alert(res.message);
+			    }); 
+			}
+		});
+    }
+
+    // 3、翻译完成后开始下载文件
+    function downloadPdfEnglishEnd(itemID, title) {
+    	console.log("翻译完成，开始下载了");
+
+    	var baseUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/downloadTranslatePaper/" + itemID + "/1";
+
+    	$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+	        dataType:"json",			
+			type: "GET", 	
+	        async: "true",		
+			success: function(res){
+				let englishUrl = res.data;
+				window.open(englishUrl, '_blank');
+
+				$(".pdfDownloadLayer").fadeOut(100, function() {  
+			      	$(".layerEle_box_main").show();
+		    		$(".progress").text("正在翻译英文数据");
+                    $(".transZone").hide();
+			    });  
+			},      
+			error:function(res){                                   
+				$(".pdfDownloadLayer").fadeOut(100, function() {  
+			      	$(".layerEle_box_main").show();
+		    		$(".progress").text("正在翻译英文数据");
+                    $(".transZone").hide();
+			    });  
+			}
+		});
+    }
+
+</script>
+
+<!-- 智能导读视频播放 -->
+<script>
+
+	function canPlayVideo(url, callback) {
+	  var video = document.createElement('video');
+	 
+	  video.addEventListener('canplay', function() {
+	    callback(true);
+	  }, { once: true });
+	 
+	  video.addEventListener('error', function() {
+	    callback(false);
+	  }, { once: true });
+	 
+	  video.src = url;
+	}
+
+	aivideo=function(videoUrl, videoId) {
+		// 使用方法
+		canPlayVideo(videoUrl, function(canPlay) {
+		  if (canPlay) {
+		    $(".videoPlayLayerBox").fadeIn(100, function() {
+			    $(".videoPlayLayer").fadeIn(50);
+		  	});
+		  	countPlayback(videoId);
+	        console.log("这里需要弹出一个窗口播放视频", videoUrl);
+	        playVideo(videoUrl);
+		  } else {
+		    console.log('视频无法播放');
+		    window.open(videoUrl, '_blank');
+		  }
+		});
+    }
+
+    function countPlayback(videoId) {
+	 	var baseUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/updateVideoViewNum?videoContentId=" + videoId;
+		$.ajax({          
+			url: baseUrl,
+			contentType:"application/json; charset=utf-8",		
+            dataType:"json",			
+			type: "GET", 	
+            async: "true",		
+			success: function(res){
+				
+			},
+			error:function(res){                                   
+				console.log(res);
+			}
+		});
+    }
+
+		// 播放视频
+	function playVideo(videoUrl) {
+		var video = document.getElementById('myVideo');
+		video.src = videoUrl;
+		video.load();
+	  	video.play();
+	}
+	 
+	// 暂停视频
+	function pauseVideo() {
+		var video = document.getElementById('myVideo');
+	  	video.pause();
+	}
+
+	var dragItem = document.getElementById('videoPlayLayerBox');
+	var active = false;
+	 
+	dragItem.addEventListener('mousedown', function(e) {
+	    active = true;
+	    currentX = e.clientX - dragItem.offsetLeft;
+	    currentY = e.clientY - dragItem.offsetTop;
+	});
+	 
+	document.addEventListener('mouseup', function() {
+	    active = false;
+	});
+	 
+	document.addEventListener('mousemove', function(e) {
+	    if (active) {
+	        dragItem.style.left = (e.clientX - currentX) + 'px';
+	        dragItem.style.top = (e.clientY - currentY) + 'px';
+	    }
+	});
+
+</script>
+
+
+<!-- 分享box -->
+<script>
+	function cancelWechatWindow(){
+		// $(".wechatModal").fadeOut();
+		document.getElementById('wechatModal').style.display = 'none';
+	};
+
+	function shareweb(type) {
+	    //获取文章标题
+	    var title = document.title;
+	    //获取当前网页url
+	    var url = document.location.href;
+	    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+	    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+
+
+	    //1、复制链接
+	    if(type == 'copy') {
+        	const input = document.createElement('input');
+        	input.setAttribute('readonly','readonly');
+        	input.setAttribute('value', url);
+        	document.body.appendChild(input);
+        	input.select();
+        	if(document.execCommand('copy')){
+        		document.execCommand('copy');
+        		alert('链接已复制');
+        	}
+        	document.body.removeChild(input);
+        	return;
+        }
+
+		//2、qq好友接口的传参
+        if(type == 'qq'){
+            if(isIE){
+                //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+                var gotolink = document.createElement('a');
+                gotolink.href = 'http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&title=' + title
+                gotolink.setAttribute("target", "_blank");
+                document.body.appendChild(gotolink);
+                gotolink.click();
+            }
+            else {
+                window.open('http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&title=' + title);
+            }
+            return;
+        } 
+
+        //3、qq空间
+        if(type=='qzone'){
+            if(isIE){
+                 //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+                var gotolink = document.createElement('a');
+                gotolink.href = 'https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&sharesource=qzone&title=' + title;
+                gotolink.setAttribute("target", "_blank");
+                document.body.appendChild(gotolink);
+                gotolink.click();
+            }
+            else {
+                window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&sharesource=qzone&title=' + title);
+            }
+            return;
+        };
+
+
+
+        //4、微信分享
+        if(type == 'wechat'){
+			handleWechatShare();
+		    return;
+        }
+
+        //5、邮件
+        if (type == 'email') {
+	        if(isIE){
+	            //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+
+	            var gotolink = document.createElement('a');
+	            gotolink.href = 'http://mail.qq.com/cgi-bin/qm_share?url=' + url + '&to=qqmail'
+	            gotolink.setAttribute("target", "_blank");
+	            document.body.appendChild(gotolink);
+	            gotolink.click();
+	        }
+	        else {
+	            window.open('http://mail.qq.com/cgi-bin/qm_share?url=' + url + '&to=qqmail');
+	        }
+	        return;
+	    }
+
+
+        //6、新浪微博
+        if(type=='sina'){
+        	 //新浪微博接口的传参
+            if(isIE){
+                //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+                var gotolink = document.createElement('a');
+                gotolink.href = 'http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title + '&appkey=2706825840';
+                gotolink.setAttribute("target", "_blank");
+                document.body.appendChild(gotolink);
+                gotolink.click();
+            }
+            else {
+                window.open('http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title + '&appkey=2706825840');
+            }
+            return;
+        }
+
+		//7、Facebook
+		if (type == 'facebook') {
+			window.open(
+                `https://www.facebook.com/sharer/sharer.php?u=`+url,
+                'facebook-share-dialog',
+                'width=626,height=436'
+            );
+            return;
+		}
+
+		//8、twitter
+		if (type = 'twitter') {
+			window.open(
+                `https://twitter.com/intent/tweet?url=`+url + `&text=` + title,
+                'twitter-share-dialog',
+                'width=550,height=420'
+            );
+            return;
+		}
+	}
+
+	function handleWechatShare() {
+	    const modal = document.getElementById('wechatModal');
+	    const qrContainer = document.getElementById('qrcode');
+	    
+	    // 清除旧二维码
+	    qrContainer.innerHTML = '';
+	    
+	    // 生成新二维码
+	    new QRCode(qrContainer, {
+	      text: window.location.href,
+	      width: 240,
+	      height: 240,
+	      colorDark: "#000000",
+	      colorLight: "#ffffff",
+	      correctLevel: QRCode.CorrectLevel.H
+	    });
+	    
+	    modal.style.display = 'block';
+	}
+</script>
+
+<script>
+	    
+    function getSpecialHtmlUrl(paperIdSource, year, doi, issue, volnum, contentid, wkpaperid) {
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/gotoSpecialHtmlUrl";
+
+        var queryVO = {
+            paperIdSource: paperIdSource,
+            year: year,
+            doi: doi,
+            issue: issue,
+            volnum: volnum,
+            contentId: contentid,
+            wkPaperID: wkpaperid
+        }
+        
+        $.ajax({          
+            url: url,
+            contentType:"application/json; charset=utf-8",
+            dataType: "json",  
+            type: "post", 
+            async: "true",
+            data: JSON.stringify(queryVO),
+            success: function(res){
+                var responseUrl = res.data;
+                console.log('-----' + responseUrl);
+                window.open(responseUrl, "_blank");
+            },
+            error:function(res){
+                  console.log(res);
+            }
+        });
+    }
+
+    function getChineseHtmlUrl(id) {
+    	var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getChinesDownloadInfoByEnglishPaper?contentId=" + id;
+        $.ajax({       
+        type: "post",
+        url: url , 
+        dataType: "json",       
+        success:  function (data) {
+            var responseHtmlUrl = data.data.htmlUrl;
+            // 调用下载接口
+            if (responseHtmlUrl != null) {
+                window.open(responseHtmlUrl, "_blank");
+            }else {
+                var cnkiNodeUrl = data.data.cnkiNodeUrl;
+                window.open(cnkiNodeUrl, "_blank")
+            }
+        }});
+    }
+
+    function getSpecialPDFUrl(id, webId,title){
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getChinesDownloadInfoByEnglishPaper?contentId=" + id;
+        $.ajax({       
+        type: "post",
+        url: url , 
+        dataType: "json",       
+        success:  function (data) {
+            var responsePdfUrl = data.data.pdfUrl;
+            // 调用下载接口
+            if (responsePdfUrl != null) {
+                var responseWebId = data.data.relationWebId;
+                // var responseContentId = data.data.relationContentId;
+                downloadFullNew(responsePdfUrl, responseWebId, title);
+            }else {
+                var cnkiNodeUrl = data.data.cnkiNodeUrl;
+                window.open(cnkiNodeUrl, "_blank")
+            }
+        }});
+    }
+
+    downloadFullNew=function(pdfUrl, webId, title) {
+       	var url = pdfUrl;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.setRequestHeader("web_id", webId);
+        xhr.responseType = "blob";
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                var blob = this.response;
+            	// 获取 `Content-Disposition` 头
+	            var contentDisposition = xhr.getResponseHeader("Content-Disposition");
+	           // 兼容不同浏览器的下载方式
+	            if (window.navigator.msSaveBlob) {
+	                // IE 兼容处理
+	                window.navigator.msSaveBlob(blob, filename);
+	            } else {
+	                var blobUrl = URL.createObjectURL(blob);
+	                var a = document.createElement("a");
+	                a.href = blobUrl;
+	                a.download = title + ".pdf";
+	                document.body.appendChild(a);
+
+	                // 兼容不同浏览器触发下载
+	                var evt = new MouseEvent("click", { bubbles: true, cancelable: true, view: window });
+	                a.dispatchEvent(evt);
+	                document.body.removeChild(a);
+	                URL.revokeObjectURL(blobUrl);
+	            }
+            }
+        };
+        xhr.send();
+    };
+
+    // const iframe = document.createElement('iframe');
+	// iframe.style.display = 'none';
+	// iframe.src = ' https://' + "nyjd" + '.cbpt.cnki.net/editor/#/login'; 
+	// console.log('----' + iframe.src);
+	// document.body.appendChild(iframe);
+	// iframe.onload = function() {
+	//   iframe.contentWindow.navigator.serviceWorker.getRegistrations()
+	//     .then(registrations => {
+	//       registrations.forEach(registration => {
+	//         console.log('Unregistering:', registration.scope);
+	//         registration.unregister();
+	//       });
+	//       document.body.removeChild(iframe);
+	//       console.log('Service Worker 已清理');
+	//     });
+	// };
+
+	$(function () {
+        getFingerprint();
+    });
+
+    var fpPromise;
+
+	async function getFingerprint(){
+		let localFP = '';
+	  	if (localFP == null || localFP.length == 0) {
+ 			if (!fpPromise) {
+		    	fpPromise = FingerprintJS.load()
+		  	}
+		  
+		  	const fp = await fpPromise
+		  	const result = await fp.get();
+		  	
+		  	console.log('=== 指纹组件对比 ===');
+			Object.keys(result.components).forEach(key => {
+			  console.log(key +`:`, JSON.stringify(result.components[key].value));
+			});
+
+			// 保存到全局变量以便对比
+			window.fingerprintComponents = result.components;
+
+		  	var customcomponents = [
+				result.components.fonts,
+				result.components.domBlockers,
+				// result.components.fontPreferences,
+				result.components.audio,
+				result.components.screenFrame,
+				result.components.osCpu,
+				result.components.languages,
+				result.components.colorDepth,
+				result.components.screenResolution,
+				result.components.hardwareConcurrency,
+				result.components.timezone,
+				result.components.sessionStorage,
+				result.components.localStorage,
+				result.components.indexedDB,
+				result.components.openDatabase,
+				result.components.cpuClass,
+				result.components.platform,
+				result.components.plugins,
+				result.components.touchSupport,
+				result.components.vendor,
+				result.components.vendorFlavors,
+				result.components.colorGamut,
+				result.components.invertedColors,
+				result.components.forcedColors,
+				result.components.monochrome,
+				result.components.contrast,
+				result.components.reducedMotion,
+				result.components.reducedTransparency,
+				result.components.hdr,
+				result.components.math,
+				result.components.pdfViewerEnabled,
+				result.components.architecture,
+				result.components.applePay,
+				result.components.privateClickMeasurement,
+				result.components.audioBaseLatency,
+				result.components.dateTimeLocale,
+				result.components.webGlBasics,
+				result.components.webGlExtensions
+			];
+		  	const hash2 = FingerprintJS.hashComponents(customcomponents); 
+		  	console.log('2、自定义生成的浏览器指纹是：' + hash2)
+			localFP = hash2; 
+			// localStorage.setItem("fp", localFP);
+			setDeviceIdCookie(localFP);
+		}else {
+			console.log('1、从缓存里取的浏览器指纹是：' + localFP)
+		}
+
+		if("" == '1') {
+			var visitUserInfoValue = "";
+			var match = visitUserInfoValue.match(/userId=([^,)]+)/);
+			var userId = match ? match[1] : null;
+			var userIdValue = userId === "null" ? null : userId;
+			if (userIdValue == null || userIdValue.length == 0) {
+				getVisitorTokenWithFP(localFP);	
+			}
+		}
+
+	}
+
+    function setDeviceIdCookie(deviceID) {
+    	const expires = new Date();
+		expires.setDate(expires.getDate() + 30); // 7天后过期
+		let dateString = expires.toUTCString();
+
+		var tokenCookieString = "deviceId=" + deviceID + ";" + dateString + " ;path=/"; 
+		document.cookie = tokenCookieString;
+    }
+</script>
+
+
+
+
+<macros style = "display: none;">
+    <macroName>paper</macroName>
+    <macroName>paperNew</macroName>
+</macros>
+
+
+<script>
+    let requestTypeArray = [
+        // {typeId: "11", makeId: "make_11", contentId: "content_11", contentText: ""},
+        {typeId: "12", makeId: "make_12", contentId: "content_12", contentText: "", refreshId: "refresh_12"},
+        {typeId: "13", makeId: "make_13", contentId: "content_13", contentText: "", refreshId: "refresh_13"},
+        {typeId: "21", makeId: "make_21", contentId: "content_21", contentText: "", refreshId: "refresh_21"},
+        {typeId: "22", makeId: "make_22", contentId: "content_22", contentText: "", refreshId: "refresh_22"},
+        {typeId: "23", makeId: "make_23", contentId: "content_23", contentText: "", refreshId: "refresh_23"},
+        {typeId: "24", makeId: "make_24", contentId: "content_24", contentText: "", refreshId: "refresh_24"},
+        {typeId: "25", makeId: "make_25", contentId: "content_25", contentText: "", refreshId: "refresh_25"},
+        {typeId: "26", makeId: "make_26", contentId: "content_26", contentText: "", refreshId: "refresh_26"},
+        {typeId: "27", makeId: "make_27", contentId: "content_27", contentText: "", refreshId: "refresh_27"},
+        {typeId: "28", makeId: "make_28", contentId: "content_28", contentText: "", refreshId: "refresh_28"},
+        {typeId: "29", makeId: "make_29", contentId: "content_29", contentText: "", refreshId: "refresh_29"},
+    ];
+
+    let currentRequestIndex = 0;
+    let needRequestNext = true;
+    let responseContent = "";
+    let paperId = "NYJD201308008";
+    
+    function automaticGetAiData() {
+
+        let typeId = requestTypeArray[currentRequestIndex];
+
+        let contentId = typeId.contentId;
+        let makeId = typeId.makeId;
+        let refreshId = typeId.refreshId;
+
+        document.getElementById(contentId).style.display = "none";
+        document.getElementById(makeId).style.display = "block";
+        document.getElementById(refreshId).style.display = "none";
+        
+        
+        if (typeof(EventSource) !== "undefined") {
+            sendStreamRequest();
+        }else {
+            sendSynchroRequest();
+        }
+    }
+
+    function clickQuickReadAction(requestIndex) {
+        
+        currentRequestIndex = requestIndex;
+        needRequestNext = false;
+        automaticGetAiData();
+    }
+
+    // 流式请求
+    function sendStreamRequest(){
+
+        let requestID = requestTypeArray[currentRequestIndex];
+        let typeId = requestID.typeId;
+        if (paperId.length === 0) {
+            return
+        }
+        responseContent = "";
+
+        let source = new EventSource("https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/stream/qa?id=" + paperId + "&type=" + typeId);
+
+        source.onopen = function (event) {
+            console.log("连接打开.");
+        };
+         
+          // 当接收到消息时触发
+          source.onmessage = function (event) {
+            // 这里需要将返回的数据先记录下来
+
+            let serverResponse = event.data;
+            // 数据接收完毕
+            if (event.data === "<END>200</END>" || event.data === "<END>500</END>") {
+                requestComplete(true);
+                source.close();
+                return;
+                // requestComplete(true, responseContent);
+            }
+
+            console.log("1111收到消息: ", serverResponse);
+            
+            // console.log("2222收到消息: ", responseWithSpaces);
+
+            typeText(serverResponse);
+            
+          };
+         
+          // 当连接关闭时触发
+          source.onerror = function (event) {
+            source.close();
+            // requestComplete = true;
+            requestComplete(false);
+          };
+    }
+
+    // 同步请求
+    function sendSynchroRequest (){
+
+        let requestID = requestTypeArray[currentRequestIndex];
+        let typeId = requestID.typeId;
+        if (paperId.length === 0) {
+            return
+        }
+        responseContent = "";
+
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/synchro/qa?id=" + paperId + "&type=" + typeId;
+
+        $.ajax({  
+            url: url,  
+            type: 'GET',  
+            success: function(data) {  
+                
+                let serverResponse = data.data;
+                console.log("1111收到消息: ", serverResponse);
+                typeText(serverResponse);
+                
+            },  
+            error: function(res) { 
+                requestComplete(false);
+            }  
+        }); 
+        
+    }
+
+    function requestComplete(isSuccess) {
+
+        let typeId = requestTypeArray[currentRequestIndex];
+
+        let contentId = typeId.contentId;
+        let makeId = typeId.makeId;
+        let refreshId = typeId.refreshId;
+        
+        if (isSuccess) {
+            typeId.contentText = responseContent;
+            document.getElementById(makeId).style.display = "none"; 
+        }
+
+
+        if (isSuccess == false) {
+            document.getElementById(contentId).textContent = "内容生成异常，请重新生成。"; 
+            document.getElementById(makeId).style.display = "none"; 
+            document.getElementById(contentId).style.display = "block";
+        }
+
+        if (currentRequestIndex == requestTypeArray.length - 1 ) {
+            // 已经请求完成了
+            console.log("已经请求完成了");
+
+            requestTypeArray.forEach(item => {
+              
+                if (item.contentText.length == 0 ) {
+                    document.getElementById(item.contentId).style.display = "none";
+                    document.getElementById(item.refreshId).style.display = "block"; 
+                }
+            });
+        }else {
+            if (needRequestNext) {
+                currentRequestIndex++;
+                automaticGetAiData();
+
+                console.log("接下来要请求第" + currentRequestIndex + "个请求了");
+            }else {
+                requestTypeArray.forEach(item => {
+              
+                    if (item.contentText.length == 0 ) {
+                        document.getElementById(item.contentId).style.display = "none";
+                        document.getElementById(item.refreshId).style.display = "block"; 
+                    }
+                });
+            }
+        }
+    }
+
+    function clickChangeTabAction(type) {
+        if (type == 0) {
+            $('.introBox1').show();
+            $('.introBox2').hide();
+            $('.intro1').addClass('active_intro');
+            $('.intro2').removeClass('active_intro');
+        }else {
+            $('.introBox2').show();
+            $('.introBox1').hide();
+            $('.intro2').addClass('active_intro');
+            $('.intro1').removeClass('active_intro');
+        }
+    }
+
+    function typeText(typeValue) {
+        let typeId = requestTypeArray[currentRequestIndex];
+        let contentId = typeId.contentId;
+        let makeId = typeId.makeId;
+
+        if (document.getElementById(contentId).style.display == "none") {
+            document.getElementById(contentId).style.display = "block";
+        }
+
+        let responseContainer = document.getElementById(contentId);
+
+        let responseWithSpaces = typeValue.replace(/\\n+/g, "\n");
+        let resultResponse = responseWithSpaces.replace(/\&#8203;/g, "");
+        responseContent = responseContent + resultResponse;
+                        
+        const markdownText = marked.parse(responseContent);
+
+        responseContainer.innerHTML = marked.parse(markdownText);
+    }
+
+    function clickAuthorAction(authorName) {
+        console.log('11111' + authorName);
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/advSearchResult?authorName=" + encodeURI(authorName) ;
+        window.open(url, "_blank");
+    }
+
+     function clickAuthorUnitAction(authorUnit) {
+        console.log('22222' + authorUnit);
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/advSearchResult?authorUnit=" + encodeURI(authorUnit) ;
+        window.open(url, "_blank");
+
+    }
+
+     function clickKeyWordAction(keyword) {
+        console.log('33333' + keyword);
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/advSearchResult?keyword=" + encodeURI(keyword) ;
+        window.open(url, "_blank");
+    }
+
+</script>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <div class="logo">
+     <div class="inner">
+      <div name="qikanlogo" journallogo="" class="logo_tt cnki-compont" showlogoimage="false" logoimagesrc="base/img/logo.png" journalname="" showenglishname="true">
+
+
+			<h1  class="journaltitle">农业科技与装备</h1>
+
+
+
+      </div>
+      <div class="logo_honor"><!-- <span>EI收录</span>
+							<span>scopus收录</span> -->
+      </div>
+      <div class="searchDiv" name="searchDiv">
+
+
+
+
+	<input type="text" class="search_text" id="searchDivTxtIpt" />
+	<a href="javascript:;" onclick="searchDivCon()" class="search_div_btn" target="_blank"></a>
+	<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/advSearchResult" class="search_adv" target="_blank">高级检索</a>
+
+	<script>
+		$("#searchDivTxtIpt").on("keyup", function (e) {
+			if (e.which == 13) {
+				//执行方法
+				searchDivCon();
+			}
+		});
+        function searchDivCon() {
+           	var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/searchResult?content=" + encodeURI($('#searchDivTxtIpt').val()) ;
+			window.open(url, "_blank");
+
+        }
+    </script>
+      </div>
+     </div>
+    </div>
+    <div class="nav">
+     <div class="inner">
+      <div name="nav" navcomponentlist="" menutype="top" class="nav-inner cnki-compont" shownewwindow="true">
+
+
+
+		<a class="navNow" href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/index">首页</a>
+							<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/news/NYJD_db922688-adf9-430b-94cd-def1f4845b4d" target="_blank">期刊介绍</a>
+
+							<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/news/NYJD_0a96be87-490b-49ff-90aa-bee7b5d1b2cc" target="_blank">投稿指南</a>
+
+							<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/news/NYJD_099e45f5-abe4-466a-956e-2835e4525f9a" target="_blank">编委会</a>
+
+							<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/news/NYJD_78d15783-4e57-41c2-9b2c-dda42d01722d" target="_blank">联系我们</a>
+
+							<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/news/NYJD_47611690-3179-4fb4-bc9f-f26bca515d38" target="_blank">期刊征订</a>
+
+      </div> <b>|</b>
+      <div name="emailalert" class="emailAlert cnki-compont">
+	<a href="https://nyjd.cbpt.cnki.net/portal/journal/portal/client/email_alert" class="specialNav" target="_blank">Email-Alert</a>
+      </div> <!--<a href="#" class="redNav">进入后台管理系统</a>-->
+     </div>
+    </div>
+   </div>
+   <div class="main">
+    <div name="paper" class="paperDetailZone cnki-compont ">
+
+
+
+    <div class="mainL">
+        <div class="paperDetail">
+                    
+            <div class="paperDetail_vol">
+                <select name="" id="PaperVersionSwitch" class="paper_select" style="display: none;">
+                </select>
+                    2013, 
+
+                    08, 
+
+                    No.230 
+
+                    14-16 
+            </div>
+            <div class="paperDetail_tt">
+                    我国热风干燥技术的应用研究进展
+
+            </div>
+            <div class="paperDetail_author">
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('于蒙杰')" href="javascript:;" title="">
+                            于蒙杰
+                        </a>
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('张学军')" href="javascript:;" title="">
+                            张学军
+                        </a>
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('牟国良')" href="javascript:;" title="">
+                            牟国良
+                        </a>
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('鄢金山')" href="javascript:;" title="">
+                            鄢金山
+                        </a>
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('张洪')" href="javascript:;" title="">
+                            张洪
+                        </a>
+                        <a style="margin-right: 10px;padding: 0px !important;" onclick="clickAuthorAction('史增录')" href="javascript:;" title="">
+                            史增录
+                        </a>
+            </div>
+            <div class="paperDetail_author">
+                        <a style="margin-right: 10px" onclick="clickAuthorUnitAction('新疆农业大学机械交通学院新疆农业工程装备创新设计重点实验室')" href="javascript:;">1.新疆农业大学机械交通学院新疆农业工程装备创新设计重点实验室</a>
+            </div>
+
+                <div class="paperDetail_foundation">
+                    <b>基金项目(Foundation):</b>
+                    自治区“十二五”科技重大专项(201130102-4);
+新疆农业大学前期自助课题(XJAU201226)
+                </div>
+            <div class="paperDetail_email"><b>邮箱(Email):</b>
+                
+            </div>
+            <div class="paperDetail_doi"><b>DOI: </b>
+                10.16313/j.cnki.nykjyzb.2013.08.002
+            </div>
+
+
+
+
+
+
+
+                <div class="paperDetail_doi paperDetail_publishTimeDate">
+                    <b>发布时间：</b>
+                    2013-08-20
+                </div>
+
+                <div class="paperDetail_doi paperDetail_publicationTime">
+                    <b>出版时间：</b>
+                    2013-08-20
+                </div>
+
+
+            <div class="paper_wechat">
+               <div class="qrCode_box" id="mobilePhoneBox">
+                    <!-- <img src="http://10.31.97.12:8000/minio/webs/bdxb/media/web/2026/05/20/paper_wechat.png" width="100%" />  -->
+                </div>
+                <span>移动端阅读</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainR">
+        <div class="txtZone">
+            <table class="paperTab" width="100%" cellpadding="0" cellspacing="0">
+               <tr>
+                            <td><b>3,281</b></td>
+                            <td><b>231</b></td>
+                            <td><b>78</b></td>
+                        </tr>
+                        <tr>
+                           <td>下载次数</td>
+                            <td>被引频次</td>
+                            <td>阅读次数</td>
+                        </tr>
+            </table>
+        </div>
+
+       <div class="listZone l1">
+                <a href="javascript:void(0)" onclick="quoteDown('d3d96aaff303c7b57af7cbf12d8b4839')" class="paper_im"><span class="list_cite"></span>引用本文</a>
+
+
+            <a href="javascript:void(0)" ><span class="list_down"></span>下载本文</a>
+            <div class="list_down_box">
+                    <a onclick="getSpecialPDFUrl('d3d96aaff303c7b57af7cbf12d8b4839', 'nyjd', 'Research Progress on the Application of Hot Air Drying Technology in China')">PDF</a>
+              
+            </div>
+            <a href="javascript:void(0)"><span class="list_export"></span>引用导出</a>
+            <div class="list_export_box">
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','GBT','nyjd')">GB/T 7714-2015</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','MLA','nyjd')">MLA</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','APA','nyjd')">APA</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','Refworks','nyjd')">Refworks</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','EndNote','nyjd')">EndNote</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','NoteExpress','nyjd')">NoteExpress</a>
+                <a href="javascript:void(0)" onclick="exportFull('d3d96aaff303c7b57af7cbf12d8b4839','NoteFirst','nyjd')">NoteFirst</a>
+            </div>
+            <a href="javascript:;"><span class="list_share"></span>分享</a>
+            <div class="list_share_box">
+                <a href="javascript:void(0)" onclick="shareTo('qq')"   title="QQzone" class="QQzone"></a>
+                <a href="javascript:void(0)" onclick="shareTo('sina')" title="weibo" class="weibo"></a>
+                <a href="javascript:void(0)"  onclick="shareTo('wechat')"  title="wechat" class="wechat"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainC">
+
+        <div class="paperNav paperDetailCtrl">
+            <a href="javascript:;" class="paperNav_now now">摘要</a>
+
+            <a href="javascript:;">全文</a>
+            <a href="javascript:;">参考文献</a>
+            <a href="javascript:;">出版信息</a>
+            <a href="javascript:;" id="relatedBtn">相关文章</a>
+
+        </div>
+
+
+        <div class="paperDetailCtrlZone" >
+            <div class="paperDetail_html pd1">
+
+                    <b>摘要：</b>
+                    <p>阐述热风干燥技术的工作原理,介绍近年来我国热风干燥技术在农副产品(木材、食品、粮食、药材、种子)等加工领域的应用及研究现状,分析目前热风干燥技术存在的突出问题,并对其今后的应用发展趋势进行展望。</p>
+
+                    <div class="paperDetail_author" style="padding: 0px !important;">
+                        <b>关键词：</b>
+                            <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('热风干燥')" href="javascript:;">热风干燥;</a>
+                            <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('应用')" href="javascript:;">应用;</a>
+                            <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('发展展望')" href="javascript:;">发展展望;</a>
+                            <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('组合式干燥')" href="javascript:;">组合式干燥;</a>
+                    </div>
+
+                <b>Abstract：</b>
+                <p>The principle of hot air drying technology is explained in this article. The author examines the application and research of hot air drying technology in the processing of agricultural and sideline products in recent years in China, and analyzes the major existent problems in this area and its future development prospect.</p>
+                <div class="paperDetail_author" style="padding: 0px !important;">
+                  <b>KeyWords：</b>
+                        <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('hot air drying')" href="javascript:;">hot air drying;</a>
+                        <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('apply')" href="javascript:;">apply;</a>
+                        <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('development prospect')" href="javascript:;">development prospect;</a>
+                        <a style="margin-right: 5px; padding: 0 !important" onclick="clickKeyWordAction('combined drying')" href="javascript:;">combined drying;</a>
+                </div>
+            </div>
+
+
+            <div class="paperDetail_html pd2">
+
+                <div class="computer">
+                        
+                        
+                            <a style="margin-top: 30px; cursor: pointer;" onclick="gotoCNKINode('NYJD201308008')" target="_blank"class="link_cnki">如需获取全文，请访问cnki.net</a>
+
+                </div>
+
+                <div class="phone" style="display:none;"> 
+                        
+                        
+                            <a style="margin-top: 30px; cursor: pointer;" onclick="gotoCNKINode('NYJD201308008')" target="_blank"class="link_cnki">如需获取全文，请访问cnki.net</a>
+                </div>
+            </div>
+
+
+            <div class="paperDetail_references pd3">
+                    <b>参考文献</b>
+                            <p>[1]贾清华.鸡腿菇热风干燥数学模型及其干品贮藏条件的研究[D].呼和浩特:内蒙古农业大学,2010.</p>
+                            <p>[2]余建祖.换热器原理与设计[M].北京:北京航空航天大学出版社,2006.</p>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[3]杨屹立,杨玲.多孔介质物料热风干燥研究进展[J].农机化研究,2011(3):242-246.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[4]李延军,高建民.常见木材干燥方法和设备的应用[J].木材工业,2002,16(4):23-26.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[5]张国琛,牟晓晨.热风干燥参数对扇贝柱干燥速度及品质的影响[J].大连水产学院学报,2004,19(1):35-39.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[6]黄艳斌,郑优.柠檬热风干燥特性及数学模型[J].食品工业科技,2012,33(14):169-173.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[7]吴连连,宋藜.水稻爆腰研究的现状及发展趋势[J].农产品加工,2007(1):36-39.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[8]刘建伟,徐润琪.稻谷自然干燥特性与品质的研究[J].粮食储藏,2001(30):37-41.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[9]区焕彩,毛文菊.三七热风干燥试验分析[J].湖南农机,2013,40(3):28-31.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[10]周国燕,詹博.不同干燥方法对三七内部结构和复水品质的影响[J].食品科学,2011,32(20):44-47.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[11]张喜梅,吴雪辉.油茶籽的热风干燥特性及数学描述[J].华南理工大学学报,2010,38(8):116-119.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[12]杨薇,欧又成.蘑菇热风、微波对流和微波真空干燥的对比试验[J].农业机械学报,2008,39(6):102-105.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[13]董娟娥,付卓锐.不同干燥方法对杜仲雄花茶品质的影响[J].农业机械学报,2011,42(8):131-137.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[14]段振华,冯爱国.罗非鱼片的热风干燥模型及能耗研究[J].食品科学,2007,28(7):201-205.</p></a>
+                            <a href="javascript:void(0)"  style="color: black;"><p>[15]史勇春,柴本银.中国干燥技术现状及发展趋势[J].干燥技术与设备,2006,4(3):122-130.</p></a>
+            </div>
+
+
+            <div class="paperDetail_publish pd4">
+
+                <p><b>基本信息:</b></p>
+
+                    <p><b>DOI：</b>10.16313/j.cnki.nykjyzb.2013.08.002</p>
+
+                    <p><b>中图分类号:</b>TS205</p>
+
+                        <p><b>引用信息:</b></p>
+                        <p>[1]于蒙杰,张学军,牟国良,等.我国热风干燥技术的应用研究进展[J].农业科技与装备,2013,No.230(08):14-16.DOI:10.16313/j.cnki.nykjyzb.2013.08.002.</p>
+
+                    <p><b>基金信息:</b></p>
+                    <p>自治区“十二五”科技重大专项(201130102-4);
+新疆农业大学前期自助课题(XJAU201226)</p>
+
+
+
+
+
+
+
+                    <div style="display: flex; margin-bottom: 10px; align-items: flex-end">
+                        <b style="margin: 0">发布时间：</b>
+                        <p style="margin: 0">2013-08-20</p>
+                    </div>
+
+                    <div style="display: flex; margin-bottom: 10px; align-items: flex-end">
+                        <b style="margin: 0">出版时间：</b>
+                        <p style="margin: 0">2013-08-20</p>
+                    </div>
+
+
+            </div>
+
+
+            <div class="paperDetail_link pd5">
+            </div>
+
+
+
+            <div class="paperDetail_img pd6">
+                <div class="imgZone">
+                    <div class="imgMain">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="wechatModal" class="wechat_window" style="display:none; position: fixed; width: 310px;height: 365px;left: 0;top: 0;right: 0;bottom: 0;margin: auto; background: white; box-shadow: 0px 0px 5px #e5e5e5">
+        <p style="background: #f5f5f5; height: 50px; line-height: 50px; color: #333;">&nbsp;&nbsp;&nbsp;&nbsp;扫码分享到微信或朋友圈</p>
+        <a href="javascript:;" class="closebtn wechat_box_cancel" style="top: 10px; padding: 0;" onclick="cancelWechatWindow()"></a>
+        <div class="wechat_box" style="padding: 20px 35px 40px; border-top: 1px solid #e8e8e8;">
+            <div id="qrcode"></div>
+            <h5 style="line-height: 15px; margin-top: 10px">使用微信“扫一扫”功能。<br>将此内容分享给您的微信好友或者朋友圈</h5>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+        var isIosQQ = ( /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) && /\sQQ/i.test(navigator.userAgent));
+         var isAndroidQQ = ( /(Android)/i.test(navigator.userAgent) && /MQQBrowser/i.test(navigator.userAgent) && /\sQQ/i.test((navigator.userAgent).split('MQQBrowser')));
+
+
+             if (isAndroidQQ||isIosQQ ){
+
+               
+                $("#paperD").remove();
+        
+             
+             }else{
+
+               $("#paperDa").remove();
+           }
+            if ( window.ActiveXObject || "ActiveXObject" in window){
+                  
+                        $("#paperDa").remove();
+                //  $(".pd1").css("display","none");
+                
+              
+            }
+
+    });
+
+    function shareTo(types){
+            var title,imageUrl,url,description,keywords;
+            //获取文章标题
+            title = document.title;
+            //获取网页中内容的第一张图片地址作为分享图
+            //imageUrl = document.images[0].src;
+            // imageUrl = document.getElementById("pcdetails").getElementsByTagName("img")[0];
+            // //当内容中没有图片时，设置分享图片为网站logo
+            // if(typeof imageUrl == 'undefined'){
+            //     imageUrl = 'https://'+window.location.host+'/static/images/logo.png';
+            // } else {
+            //     imageUrl = imageUrl.src;
+            // }
+            //获取当前网页url
+            url = document.location.href;
+            // //获取网页描述
+            // description = document.querySelector('meta[name="description"]').getAttribute('content');
+            // //获取网页关键字
+            // keywords = document.querySelector('meta[name="keywords"]').getAttribute('content');
+            //qq空间接口的传参
+
+            var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+
+            var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+            if(types=='qzone'){
+
+                if(isIE){
+                     //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+                    var gotolink = document.createElement('a');
+                    gotolink.href = 'https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&sharesource=qzone&title=' + title;
+                    gotolink.setAttribute("target", "_blank");
+                    document.body.appendChild(gotolink);
+                    gotolink.click();
+                }
+                else {
+                    window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&sharesource=qzone&title=' + title);
+                }
+            };
+            //新浪微博接口的传参
+            if(types=='sina'){
+                if(isIE){
+                    //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+
+                    var gotolink = document.createElement('a');
+                    gotolink.href = 'http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title + '&appkey=2706825840';
+                    gotolink.setAttribute("target", "_blank");
+                    document.body.appendChild(gotolink);
+                    gotolink.click();
+                }
+                else {
+                    window.open('http://service.weibo.com/share/share.php?url=' + url + '&sharesource=weibo&title=' + title + '&appkey=2706825840');
+                }
+            };
+            //qq好友接口的传参
+            if(types == 'qq'){
+                if(isIE){
+                    //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+
+                    var gotolink = document.createElement('a');
+                    gotolink.href = 'http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&sharesource=qzone&title=' + title
+                    gotolink.setAttribute("target", "_blank");
+                    document.body.appendChild(gotolink);
+                    gotolink.click();
+                }
+                else {
+                    window.open('http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&sharesource=qzone&title=' + title);
+                }
+            };
+            //生成二维码给微信扫描分享
+            if(types == 'wechat'){
+                 //在线二维码（服务器性能限制，仅测试使用，屏蔽非大陆ip访问）
+                handleWechatShare();
+            };
+
+            if(types == 'email'){
+                //在线二维码（服务器性能限制，仅测试使用，屏蔽非大陆ip访问）
+                if(isIE){
+                    //如果为IE 构造一个虚拟的a标签 以便于跳转到对应的URL
+
+                    var gotolink = document.createElement('a');
+                    gotolink.href = 'http://mail.qq.com/cgi-bin/qm_share?url=' + url + '&to=qqmail'
+                    gotolink.setAttribute("target", "_blank");
+                    document.body.appendChild(gotolink);
+                    gotolink.click();
+                }
+                else {
+                    window.open('http://mail.qq.com/cgi-bin/qm_share?url=' + url + '&to=qqmail');
+                }
+            }
+        };
+
+    downloadFull=function(id,type, webId,title) {
+        var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/updateDownLoadNumber/" + id + "/" + type;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.setRequestHeader("web_id", webId);
+        xhr.responseType = "blob";
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                var blob = this.response;
+
+            // 获取 `Content-Disposition` 头
+            var contentDisposition = xhr.getResponseHeader("Content-Disposition");
+       
+
+           // 兼容不同浏览器的下载方式
+            if (window.navigator.msSaveBlob) {
+                // IE 兼容处理
+                window.navigator.msSaveBlob(blob, filename);
+            } else {
+                var blobUrl = URL.createObjectURL(blob);
+                var a = document.createElement("a");
+                a.href = blobUrl;
+    
+                 if (type=="1") {
+                        a.download = title + ".pdf";
+                    }else {
+                        a.download = title + ".html";
+                    }
+                document.body.appendChild(a);
+
+                // 兼容不同浏览器触发下载
+                var evt = new MouseEvent("click", { bubbles: true, cancelable: true, view: window });
+                a.dispatchEvent(evt);
+
+                document.body.removeChild(a);
+                URL.revokeObjectURL(blobUrl);
+            }
+            }
+        };
+        xhr.send();
+    };
+
+           function   exportFull(id,type,webId) {
+      
+                            var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal//client/download/reference/"+ id + "/" + type ;
+               // var url = "http://10.120.68.63/journal/portal/"+webId+"/client/download/reference/"+ id + "/" + type ;
+           
+                        var a = document.createElement('a');
+                           a.href = url;
+
+                          a.download =  "参考文献-"+type+".txt";
+     
+                            $("body").append(a);    // 修复firefox中无法触发click
+                            a.click();
+                            $(a).remove(); 
+
+        };
+
+
+  
+        $(function () {
+        //  // var basej = $('.journalPiddc').attr('src');
+        // var downloadpdf = document.getelementByClass('download_pdf');
+        // var haspdf = 
+        // var haspdf = $('.download_pdf').attr('color');
+        // if (haspdf == 'none') {
+
+        //     alert('3333333');
+            var isPhone = /mobile/i.test(navigator.userAgent);
+
+        //如果是手机的话隐藏pdf浏览器， 显示下载按钮
+            if (isPhone) {
+                $(".computer").css("display","none");
+                $(".phone").css("display","block");
+            }else {
+                layoutMobileQRCode();
+                $(".computer").css("display","block");
+                $(".phone").css("display","none");
+            }
+        // }
+
+
+
+
+            if (window.ActiveXObject || "ActiveXObject" in window){
+
+                $(".pd1").css("display","none");
+
+            }
+
+            getPaperVersionSwitchRequest();
+        });
+
+        gotoCNKINode=function(paperIdSource) {
+            var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/gotoCNKINodeUrl?id=" + paperIdSource;
+            $.ajax({       
+                type: "get",
+                url: url , 
+                dataType: "json",       
+                success:  function (data) {
+                    // console.log(res.data)
+                   // alert(data);
+                    var url = data.data;
+                    window.open(url, "_blank")
+                }
+            });
+        };
+
+        function layoutMobileQRCode() {
+            var qrContainer = document.getElementById('mobilePhoneBox');
+            
+            // 清除旧二维码
+            qrContainer.innerHTML = '';
+            
+            // 生成新二维码
+            new QRCode(qrContainer, {
+              text: window.location.href,
+              width: 100,
+              height: 100,
+              colorDark: "#000000",
+              colorLight: "#ffffff",
+              correctLevel: QRCode.CorrectLevel.H
+            });
+        }
+
+        var isRequestRecommening = false;
+        document.getElementById('relatedBtn').addEventListener('click', function() {
+            getRecommendByDocIDRequest();
+        });
+
+        function getPaperVersionSwitchRequest() {
+            var requestUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/paperVersionSwitch/" + "d3d96aaff303c7b57af7cbf12d8b4839";
+        
+            $.ajax({          
+                url: requestUrl,
+                contentType:"application/json; charset=utf-8",
+                dataType: "json",  
+                type: "post", 
+                async: "true",
+                data: JSON.stringify({}),
+                success: function(res){
+                    var dataList = res.data;
+                    layoutPaperVersionSwitchBox(dataList);
+                },
+                error:function(res){
+                      console.log(res);
+                }
+            });
+        }
+
+        var selectElement = document.getElementById('PaperVersionSwitch');
+        // selectElement.value = "2021";
+        selectElement.addEventListener('change', function() {
+            var selectedValue = selectElement.value;
+
+            var newUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/client/paper/" + selectedValue;
+            window.location.href = newUrl;
+        });
+
+        function layoutPaperVersionSwitchBox(dataList) {
+            if (!dataList || dataList.length == 0) {
+                return;
+            }
+
+            var innerHTML = '';
+            for (var i = 0; i < dataList.length; i++) {
+                var item = dataList[i];
+                innerHTML = innerHTML + `<option value="` + item.contentId + `"`;
+                if (item.click == false) {
+                    innerHTML = innerHTML + `selected`;
+                }
+                innerHTML = innerHTML + `>` + item.title + `</option>`;
+            }
+            selectElement.innerHTML = innerHTML;
+            selectElement.style.display = 'block';
+        } 
+
+        function getRecommendByDocIDRequest() {
+            if (isRequestRecommening) {
+                return;
+            }
+
+            let docId = "e671be1d915065172418120c27f9bb60";
+            isRequestRecommening = true;
+
+            var url = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/recommendByDocId?docId=" + docId;
+            $.ajax({       
+                type: "get",
+                url: url , 
+                dataType: "json",       
+                success:  function (data) {
+                    isRequestRecommening = false;
+                    let paperList = data.data;
+                    uploadRecommendList(paperList);
+                },
+                error: function(data) {
+                    isRequestRecommening = false;
+                    uploadRecommendList([]);
+                }
+            });
+        }
+
+        function uploadRecommendList(paperList) {
+
+
+        }
+
+        clickReferenceItem = function(reference, clickable, url, doi, type, title, authors, journal, year, volume, issue, pages, monographTitle, conference) {
+        
+            var requestUrl = "https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getReferenceUrl";
+            
+            var queryVO = {
+                    reference: reference,
+                    clickable: clickable,
+                    url: url,
+                    doi: doi,
+                    type: type,
+                    title: title,
+                    authors: authors,
+                    journal: journal,
+                    year: year,
+                    volume: volume,
+                    issue: issue,
+                    pages: pages,
+                    monographTitle: monographTitle,
+                    conference: conference
+                }
+            
+            $.ajax({          
+                url: requestUrl,
+                contentType:"application/json; charset=utf-8",
+                dataType: "json",  
+                type: "post", 
+                async: "true",
+                data: JSON.stringify(queryVO),
+                success: function(res){
+                    var responseUrl = res.data;
+                    console.log('-----' + responseUrl);
+                    window.open(responseUrl, "_blank");
+                },
+                error:function(res){
+                      console.log(res);
+                }
+            });
+        } 
+
+    </script>
+
+    </div>
+   </div>
+   <div class="footer">
+    <div class="inner">
+     <p>本系统由中国知网提供技术支持 使用说明 技术支持: cb@cnki.net http://find.cb.cnki.net<br> 建议采用IE 10.0以上版本，1024*768分辨率浏览本页面<br></p>
+    </div>
+   </div>
+  </div>
+  <div name="yinyongbenwen">
+
+
+	  <div class="citeLayer">
+            <div class="maskEle"></div>
+            <div class="layerEle_box">
+                <h2>引用</h2>
+                <a href="javascript:;" class="closebtn"></a>
+                <div class="layerEle_box_main" style="max-height:300px; overflow-y:auto ;">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="200px">GB/T 7714-2015 格式引文</td>
+                            <td><span id="gbt"></span></td>
+                        </tr>
+                        <tr class="citeEn">
+			              <td width="200px"> </td>
+			              <td><span id="engbt"></span></td>
+			            </tr>
+                        <tr>
+                            <td>MLA格式引文</td>
+                            <td><span id="mla"></span></td>
+                        </tr>  
+                        <tr class="citeEn">
+			              <td width="200px"> </td>
+			              <td><span id="enmla"></span></td>
+			            </tr>
+                        <tr>
+                            <td>APA格式引文</td>
+                            <td><span id="apa"></span></td>
+                        </tr>
+                        <tr class="citeEn">
+			              <td width="200px"> </td>
+			              <td><span id="enapa"></span></td>
+			            </tr>
+                    </table>
+                </div>
+            </div>
+        </div> 
+<script>
+	function quoteDownChineseAndEnglish(contentId){
+        $.ajax({          
+			url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal//journal/api/getChineseEnglishQuotePaperFormat?paperId='+contentId,
+			contentType:"application/json; charset=utf-8",		
+            dataType:"json",			
+			type: "GET", 	
+            async: "true",		
+			success: function(res){
+				$("#gbt").html(res.data.gbt);
+				$("#engbt").html(res.data.englishGbt);
+             	$("#apa").html(res.data.apa);
+             	$("#enapa").html(res.data.englishApa);
+             	$("#mla").html(res.data.mla);
+             	$("#enmla").html(res.data.englishMla);
+             	$(".citeLayer").fadeIn(100);
+			},      
+			error:function(res){                                   
+				console.log(res)
+			}
+		});
+	}
+
+	function quoteDown(contentId){
+		quoteDownChineseAndEnglish(contentId);
+        // $.ajax({          
+		// 	url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getQuotePaperFormat?paperId='+contentId,
+		// 	contentType:"application/json; charset=utf-8",		
+        //                     dataType:"json",			
+		// 	type: "GET", 	
+        //                     async: "true",		
+		// 	success: function(res){
+		// 		 $("#gbt").html(res.data.gbt);
+		// 		 $("#engbt").html(res.englishGbt);
+        //          $("#apa").html(res.data.apa);
+        //          $("#enapa").html(res.data.englishApa);
+        //          $("#mla").html(res.data.mla);
+        //          $("#enamla").html(res.data.englishApa);
+        //          $(".citeLayer").fadeIn(100);
+		// 	},      
+		// 	error:function(res){                                   
+		// 		console.log(res)
+		// 	}
+		// });
+	}
+
+	function quoteDownEn(contentId){
+        $.ajax({          
+			url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getQuotePaperFormatEn?paperId='+contentId,
+			contentType:"application/json; charset=utf-8",		
+                            dataType:"json",			
+			type: "GET", 	
+                            async: "true",		
+			success: function(res){
+				 $("#gbt").html(res.data.gbt)
+                                     $("#apa").html(res.data.apa)
+                                     $("#mla").html(res.data.mla)
+                                     $(".citeLayer").fadeIn(100);
+			},      
+			error:function(res){                                   
+				console.log(res)
+			}
+		});
+	}
+
+	function quoteDownForNreWorkChineseAndEnglish(contentId){
+        $.ajax({          
+			url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal//journal/api/getChineseEnglishQuotePaperFormatForNetWork?paperId='+contentId,
+			contentType:"application/json; charset=utf-8",		
+            dataType:"json",			
+			type: "GET", 	
+            async: "true",		
+			success: function(res){
+				$("#gbt").html(res.data.gbt);
+				$("#engbt").html(res.data.englishGbt);
+             	$("#apa").html(res.data.apa);
+             	$("#enapa").html(res.data.englishApa);
+             	$("#mla").html(res.data.mla);
+             	$("#enmla").html(res.data.englishMla);
+             	$(".citeLayer").fadeIn(100);
+			},      
+			error:function(res){                                   
+				console.log(res)
+			}
+		});
+	}
+
+	function quoteDownForNreWork(contentId){
+		quoteDownForNreWorkChineseAndEnglish(contentId);
+		// $.ajax({          
+		// 	url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getQuotePaperFormatForNetWork?paperId='+contentId,
+		// 	contentType:"application/json; charset=utf-8",		
+		// 	dataType:"json",			
+		// 	type: "GET", 	
+        //                     async: "true",		
+		// 	success: function(res){
+		// 		$("#gbt").html(res.data.gbt)
+		// 		$("#apa").html(res.data.apa)
+		// 		$("#mla").html(res.data.mla)
+		// 		$(".citeLayer").fadeIn(100);
+		// 	},      
+		// 	error:function(res){                                   
+		// 		console.log(res)
+		// 	}
+		// });
+	}
+
+	function quoteDownForNreWorkEn(contentId){
+		quoteDownForNreWorkChineseAndEnglish(contentId);
+		// $.ajax({          
+		// 	url: 'https://nyjd.cbpt.cnki.net/portal/journal/portal/journal/api/getQuotePaperFormatForNetWorkEn?paperId='+contentId,
+		// 	contentType:"application/json; charset=utf-8",		
+		// 	dataType:"json",			
+		// 	type: "GET", 	
+		// 	async: "true",		
+		// 	success: function(res){
+		// 		$("#gbt").html(res.data.gbt)
+		// 		$("#apa").html(res.data.apa)
+		// 		$("#mla").html(res.data.mla)
+		// 		$(".citeLayer").fadeIn(100);
+		// 	},      
+		// 	error:function(res){                                   
+		// 		console.log(res)
+		// 	}
+		// });
+	}
+</script>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "2014_silva": {
+    "doi": "10.1016/j.jfoodeng.2014.05.010",
+    "openalex_status": "bronze",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0260877414002118/pdf",
+    "status": "Zotero located PDF; ScienceDirect security verification pending; not yet saved"
+  },
+  "2015_quince": {
+    "doi": "10.1016/j.jfoodeng.2015.01.017",
+    "openalex_status": "closed",
+    "status": "No open repository PDF found"
+  },
+  "2022_song": {
+    "doi": "10.1111/jfpe.13917",
+    "status": "Publisher PDF request returned HTML verification page, not PDF"
+  },
+  "1999_drying": {
+    "doi": "10.1016/S0009-2509(98)00408-4",
+    "status": "Institutional record found but no downloadable fulltext verified"
+  }
+}

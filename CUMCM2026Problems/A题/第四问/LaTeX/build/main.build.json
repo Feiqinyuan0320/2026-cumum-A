@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-12T14:54:45.059034+00:00",
+  "passed": true,
+  "main_tex": "main.tex",
+  "project_root": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/LaTeX",
+  "source_sha256": "97c50b22db28d18ade87794d865f239efa590ede66d07caadd8219928f0b3472",
+  "compiled_source_sha256": "97c50b22db28d18ade87794d865f239efa590ede66d07caadd8219928f0b3472",
+  "post_build_source_sha256": "97c50b22db28d18ade87794d865f239efa590ede66d07caadd8219928f0b3472",
+  "pdf_sha256": "a9ed6e4d46232753fd3e507c08dfe402557b22f1976c5e5506f5d2e55fbde397",
+  "project_manifest_sha256": "042ea4358fa787dfa0e411bf001a6cd2df9c16186ab8b23f57f165821f7bee7f",
+  "engine": "xelatex",
+  "tools": {
+    "latexmk": {
+      "path": "/Library/TeX/texbin/latexmk",
+      "version": "Latexmk, John Collins, 9 March 2026. Version 4.88"
+    },
+    "xelatex": {
+      "path": "/Library/TeX/texbin/xelatex",
+      "version": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "/Library/TeX/texbin/latexmk",
+        "-norc",
+        "-gg",
+        "-xelatex",
+        "-e",
+        "$xelatex = 'xelatex -no-shell-escape %O %S'",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-outdir=build",
+        "main.tex"
+      ],
+      "cwd": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/LaTeX",
+      "returncode": 0,
+      "duration_seconds": 1.555
+    }
+  ],
+  "warnings": [],
+  "allowed_warnings": [],
+  "warning_override": {
+    "patterns": [],
+    "reason": null
+  },
+  "issues": [],
+  "reproduce": "/opt/anaconda3/bin/python /Users/baitutu/.codex/skills/math-modeling/tools/latex/scripts/latex_paper.py build /Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/LaTeX/main.tex --engine xelatex --timeout 180 --publish /Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/第四问.pdf --overwrite"
+}

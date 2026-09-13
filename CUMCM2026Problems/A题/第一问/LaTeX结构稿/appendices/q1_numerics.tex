@@ -1,0 +1,42 @@
+\section{第一问的边界离散与守恒关系}
+\label{app:q1-numerics}
+% 补足以下公式的衔接说明；技术细节沿用核验后正文第3.1与第4节。
+内部界面取
+\begin{equation}
+D_{i+1/2}=\frac{2D(C_i)D(C_{i+1})}{D(C_i)+D(C_{i+1})}.
+\end{equation}
+单元未知量按中心点值解释。轴线处面积为零，内侧通量项自然消失；
+输出轴线值采用偶二次函数重构：
+\begin{equation}
+\phi(0,t)\approx\frac{9\phi_1(t)-\phi_2(t)}8.
+\end{equation}
+内部输出位置用相邻中心点线性插值。设最外层中心 $r_P=R-\Delta r/2$，定义
+\begin{equation}
+\ell_R=R\ln\frac{R}{r_P}.
+\end{equation}
+热边界半单元采用
+\begin{equation}
+q_R=\frac{T_P-T_\infty}{\ell_R/k+1/h_T},\qquad
+T_s=T_\infty+q_R/h_T.
+\end{equation}
+水分边界的扩散系数积分均值用 Simpson 近似：
+\begin{align}
+\overline D_R&=\frac{D(C_P)+4D((C_P+C_s)/2)+D(C_s)}6,\\
+f_R&=\frac{C_P-C_\infty}{\ell_R/\overline D_R+1/h_m},\qquad
+C_s=C_\infty+f_R/h_m.
+\end{align}
+其依据为局部半单元的准稳态通量关系
+\begin{equation}
+\int_{C_s}^{C_P}D(c)\,\mathrm dc\approx\ell_Rh_m(C_s-C_\infty).
+\end{equation}
+内部场量仍按瞬态有限体积方程推进。
+
+相邻控制体共享界面通量。BDF2 步的全局温度守恒关系为
+\begin{equation}
+\rho c_p\sum_iV_i\frac{3T_i^{n+1}-4T_i^n+T_i^{n-1}}{2\Delta t}
+=-A_Rq_R^{n+1},\qquad A_R=2\pi RL.
+\end{equation}
+水分具有相应的约化守恒形式，第一步按后向欧拉计算残差。
+已有计算的最大热量绝对平衡残差为 $2.721\times10^{-14}\,\mathrm W$，
+约化水分绝对平衡残差为 $2.027\times10^{-22}\,\mathrm{m^3/s}$；
+后者乘以 $\rho_d$ 后才是实际水质量平衡残差。

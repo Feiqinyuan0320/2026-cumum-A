@@ -1,0 +1,1 @@
+{"solver_sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89", "environment_sha256": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7", "radius_input_sha256": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af", "n": 1600, "early_dt": 0.0625, "geometry": "fixed", "extension": "mean"}

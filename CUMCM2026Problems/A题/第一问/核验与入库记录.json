@@ -1,0 +1,15 @@
+{
+  "scope": "第一问题目理解与文献检索；不构成最终模型确认或编程放行",
+  "zotero_collection": "我的文库/数模/A题第一问｜药材预热与传热传质",
+  "journal_items_verified_in_ui": 5,
+  "pdf_attachments_verified_in_ui": 1,
+  "note_verified_in_ui": "A题第一问文献用途与核验说明",
+  "corrected_fields": "中文综述第一作者王乐意及页码1-28已由UI回读确认；其他作者完整名单存笔记，正式引用需补齐作者字段",
+  "checks": "输入重命名后SHA-256与原记录一致；关键尺度量与方程通过独立只读核对",
+  "independent_review": "限定范围PASS（题目理解与条件式模型结构）；边界口径等决策未确认",
+  "limitations": [
+    "4篇外文论文未取得本地全文，不视为逐式全文核验",
+    "低强度对流干燥论文第一作者姓名在元数据源间顺序冲突",
+    "第六篇中文文献DOI导入未成功，不计入已入库论文数"
+  ]
+}

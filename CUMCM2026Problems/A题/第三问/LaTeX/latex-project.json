@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "contest": "cumcm",
+  "main_tex": "main.tex",
+  "template": {
+    "path": "/Users/baitutu/.codex/skills/math-modeling/tools/latex/assets/templates/cumcm",
+    "source": null,
+    "version": null,
+    "sha256": "beffdfb2062dbc72f3d6050691ec9a3816d8f91fd85840720ddd8ec757a3ae61"
+  },
+  "template_files": {
+    "main.tex": "d606c76d66e26729d352fc81eae25c82850a5f5633c46167f626db402c7ae91b",
+    "references.bib": "c85fa9f8c7cdb3b0c8c2f394bebd7624f6ff5abdd6bac5b4f43b58e67ee7c222"
+  },
+  "resource_bindings": [
+    {
+      "source": "results/表5_水分浓度.tex",
+      "destination": "tables/table5.tex",
+      "sha256": "a0903cccc035621da0c7b77028d6ac26fd01ede8556c9ac92baa13dffd10a8a2",
+      "hash_mode": "content",
+      "bound_at": "2026-09-12T03:27:20.302580+00:00"
+    },
+    {
+      "source": "figures/process_q3_全域达标与边界延拓.pdf",
+      "destination": "figs/process_q3_全域达标与边界延拓.pdf",
+      "sha256": "78a2e0b4f4ec3c2bc4e2c389eb8bb485cd77131dd964d450cb05b145c1f0d33e",
+      "hash_mode": "content",
+      "bound_at": "2026-09-12T03:36:53.398428+00:00"
+    },
+    {
+      "source": "figures/result_q3_代表半径含水率.pdf",
+      "destination": "figs/result_q3_代表半径含水率.pdf",
+      "sha256": "8ce95933c3124d578154668cf8f30d5f59f6eef6835ed1ed15a64028562eccf5",
+      "hash_mode": "content",
+      "bound_at": "2026-09-12T03:36:53.436498+00:00"
+    },
+    {
+      "source": "figures/process_q3_结束时间收敛比较.pdf",
+      "destination": "figs/process_q3_结束时间收敛比较.pdf",
+      "sha256": "baf0ac13674aff4f0fbf3e372c20107146597cf6ef1f09ff915637418796178b",
+      "hash_mode": "content",
+      "bound_at": "2026-09-12T03:36:53.474504+00:00"
+    }
+  ],
+  "created_at": "2026-09-12T03:21:45.531745+00:00"
+}

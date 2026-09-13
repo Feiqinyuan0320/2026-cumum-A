@@ -1,0 +1,144 @@
+% 本文件可迁入文字手的整篇项目，章号由主文档决定。
+% 后续由 Sol 补足说明与衔接；公式、表格、算法口径沿用核验后交付版本。
+\section{问题一：预热阶段药材温度与含水率的变化}
+\label{sec:q1}
+
+\subsection{问题分析与模型简化}
+% 扩写任务：从空间分布需求、表面对流及内部传递解释模型选择。
+% 合并旧稿“问题一的分析”与“模型建立”引言，避免重复背景。
+问题一要求计算前 $1800\,\mathrm{s}$ 内不同径向位置的温度和干基含水率。
+药材干燥涉及内部水分迁移和表面交换过程\cite{wang2024}。
+以半径为特征长度，热 Biot 数为 $h_TR/k\approx1.3889$，
+因此保留内部导热与表面对流热阻。
+本文借鉴圆柱物料干燥的一维扩散方程和有限体积离散框架\cite{dasilva2014}。
+
+模型描述固定半径圆柱中段的径向响应，忽略端面影响；
+将外部水分输入解释为题目给定尺度下的等效浓度；
+忽略蒸发潜热对温度场的反馈。
+本问热物性为常数，水分扩散系数仅依赖含水率，两个场可分别求解。
+% 不将这些简化改写为已被实验验证，也不声称潜热影响很小。
+
+\subsection{径向传热与水分扩散模型}
+\subsubsection{变量与物性参数}
+设温度和干基含水率分别为 $T(r,t)$ 与 $C(r,t)$，
+$0\le r\le R$；$C$ 为水质量与干物质质量之比。
+取 $L=0.25\,\mathrm{m}$、$R=0.02\,\mathrm{m}$，以及
+\begin{equation}
+\rho=820\,\mathrm{kg/m^3},\qquad
+c_p=2600\,\mathrm{J/(kg\cdot K)},\qquad
+k=0.36\,\mathrm{W/(m\cdot K)}.
+\label{eq:q1-thermal-properties}
+\end{equation}
+\begin{equation}
+D(C)=7\times10^{-9}\exp\!\left(-\frac{0.89}{C}\right)
+\quad\mathrm{m^2/s}.
+\label{eq:q1-diffusivity}
+\end{equation}
+
+\subsubsection{控制方程}
+根据能量守恒及傅里叶定律，温度满足
+\begin{equation}
+\rho c_p\frac{\partial T}{\partial t}
+=\frac{1}{r}\frac{\partial}{\partial r}
+\left(rk\frac{\partial T}{\partial r}\right).
+\label{eq:q1-heat}
+\end{equation}
+干物质骨架静止且单位总体积内干物质量保持不变时，
+恒定干物质体积密度 $\rho_d$ 可从水分守恒式两侧约去，得到
+\begin{equation}
+\frac{\partial C}{\partial t}
+=\frac{1}{r}\frac{\partial}{\partial r}
+\left[rD(C)\frac{\partial C}{\partial r}\right].
+\label{eq:q1-moisture}
+\end{equation}
+两式适用于 $0<r<R$、$0<t\le1800\,\mathrm{s}$。
+式\eqref{eq:q1-moisture}保留扩散通量的散度形式，
+$\rho_d$ 不直接等同于热模型中的 $\rho$。
+% 可从旧稿补充含 rho_d 的守恒式，解释约去条件；不添加未知密度数值。
+
+\subsubsection{初始条件与边界条件}
+记 $T_s=T(R,t)$、$C_s=C(R,t)$，
+$T_\infty(t)$ 与 $C_\infty(t)$ 为外部环境输入。
+初态及轴线对称条件为
+\begin{equation}
+T(r,0)=28\,{}^\circ\mathrm C,\qquad C(r,0)=2.55;
+\qquad T_r(0,t)=C_r(0,t)=0.
+\label{eq:q1-initial-axis}
+\end{equation}
+以径向向外为正，表面条件为
+\begin{align}
+-kT_r(R,t)&=h_T[T_s-T_\infty(t)],
+&h_T&=25\,\mathrm{W/(m^2\cdot K)},\label{eq:q1-heat-robin}\\
+-D(C_s)C_r(R,t)&=h_m[C_s-C_\infty(t)],
+&h_m&=8\times10^{-7}\,\mathrm{m/s}.\label{eq:q1-mass-robin}
+\end{align}
+表面状态由内部传递与外部交换共同决定。
+$-D(C)C_r$ 为约化通量，乘以 $\rho_d$ 后才对应水质量通量。
+% 补充热边界负号的物理解释；不把 T_s 直接设为 T_infty。
+
+\subsection{环境输入与数值求解}
+\subsubsection{环境数据的分段线性插值}
+采用附件1中 $0$ 至 $1800\,\mathrm{s}$ 的31个环境节点。
+以 $B$ 代表 $T_\infty$ 或 $C_\infty$，相邻采样点间取
+\begin{equation}
+B(t)=B(\tau_j)+\frac{t-\tau_j}{\tau_{j+1}-\tau_j}
+[B(\tau_{j+1})-B(\tau_j)],\quad \tau_j\le t\le\tau_{j+1}.
+\label{eq:q1-interpolation}
+\end{equation}
+% 说明环境采样间隔60 s、积分步长与结果输出间隔1 s是不同概念。
+
+\subsubsection{有限体积离散与非线性迭代}
+设 $\Delta r=R/N$、$r_i=(i-1/2)\Delta r$，
+圆柱控制体的体积和界面面积为
+\begin{equation}
+V_i=\pi L(r_{i+1/2}^2-r_{i-1/2}^2),\qquad
+A_{i\pm1/2}=2\pi Lr_{i\pm1/2}.
+\label{eq:q1-cell-geometry}
+\end{equation}
+内部界面扩散系数采用调和平均。
+定义 $q=-kT_r$、$f=-D(C)C_r$，
+令 $m_T=\rho c_p$、$m_C=1$，$F_T=q$、$F_C=f$。
+第一步采用后向欧拉，从第二步开始采用 BDF2：
+\begin{equation}
+m_\phi V_i\frac{3\phi_i^{n+1}-4\phi_i^n+\phi_i^{n-1}}{2\Delta t}
+=A_{i-1/2}F_{i-1/2}^{n+1}-A_{i+1/2}F_{i+1/2}^{n+1}.
+\label{eq:q1-bdf2}
+\end{equation}
+水分方程在每步内更新 $D(C)$ 并作 Picard 迭代，线性子问题用追赶法求解。
+取 $N=6400$、$\Delta r=3.125\times10^{-6}\,\mathrm{m}$、
+$\Delta t=0.0078125\,\mathrm{s}$，迭代容差为 $10^{-10}$。
+轴线、内部及表面的输出重构见附录\ref{app:q1-numerics}。
+% 从旧稿补充最大迭代差包含全部单元与表面含水率。
+% 本段仅叙述已有计算，不再次运行求解。
+
+\subsection{计算结果及规律分析}
+\subsubsection{径向温度分布}
+表\ref{tab:q1-temperature}列出题目指定时刻和位置的温度。
+\input{tables/temperature}
+% 接续解释：1800 s时表面36.7856 ℃、中心33.5753 ℃，温差3.2102 ℃；
+% 烘房41.513 ℃，表面仍有响应滞后。沿用旧稿未舍入数值所得差值。
+
+\subsubsection{径向含水率分布}
+表\ref{tab:q1-moisture}列出对应的干基含水率。
+\input{tables/moisture}
+% 接续解释：表层失水明显，1800 s表面1.5102 kg/kg，较初值下降约40.78%；
+% 中心2.5500是四位小数显示结果，不表示内部没有迁移。
+
+\subsubsection{温度与水分响应的差别}
+% 补写一段有数值依据的解释：alpha约1.6886e-7 m²/s，D(2.55)约4.9377e-9 m²/s，
+% 二者约34.20倍。解释径向传播尺度差别，不将其称为实际干燥速度比。
+两张表合计70个数值。已有逐秒、径向每 $0.1\,\mathrm{cm}$
+的完整结果另存于 \texttt{result1.xlsx}。
+
+\subsection{数值可靠性与适用范围}
+网格与时间步细化的既有比较结果见表\ref{tab:q1-refinement}。
+\input{tables/refinement}
+空间比较固定 $\Delta t=0.0078125\,\mathrm{s}$，时间比较固定 $N=3200$。
+比较覆盖每个场37800个完整输出点，两组比较在论文35个取值点上的四位小数均保持一致。
+温度结果与800项圆柱导热级数解的最大差为 $2.746\times10^{-8}\,{}^\circ\mathrm C$。
+% 可用旧稿简述级数解与全局守恒检验，避免展开全部求解历史。
+% 不声称完整输出所有舍入末位获得严格真值保证。
+
+这些检验支持所用连续模型的数值一致性，不构成实验验证。
+模型适用于既定假设下的圆柱中段径向响应；端面影响、收缩及潜热反馈未纳入。
+% 本问适用范围到此为止，不生成第二问的模型或结果。

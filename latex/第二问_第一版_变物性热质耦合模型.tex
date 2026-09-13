@@ -1,0 +1,336 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+
+% ==================== 宏包 ====================
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{graphicx}
+
+\geometry{
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+\setlength{\parindent}{2em}
+\linespread{1.25}
+
+% ==================== 正文 ====================
+\begin{document}
+
+\section{问题二：整个烘干过程的变物性热质耦合模型}
+
+\subsection{问题分析}
+
+问题一在预热平衡阶段采用固定热物性参数，对药材内部温度场与水分场进行了初步描述。
+然而，在完整烘干过程中，药材含水率不断降低，其密度、比热容、导热系数以及水分扩散系数均随状态发生变化。
+因此，问题二在问题一径向传热传质模型的基础上，进一步引入随含水率和温度变化的热物性参数，
+建立一维径向变物性非稳态热质耦合模型。
+
+根据题意，问题二所涉及的预热平衡阶段与恒温干燥阶段统一采用附录3给出的经验公式。
+同时，考虑到药材尺寸变化已在问题四中单独研究，本问仍将药材近似为尺寸固定的圆柱体，
+其长度和半径分别为
+\begin{equation}
+L=0.25~\mathrm{m}, \qquad R=0.02~\mathrm{m}.
+\end{equation}
+
+由于圆柱长度明显大于半径，且研究重点为药材主体内部的径向温度和水分分布，
+本文继续选取圆柱中部截面作为研究对象，忽略轴向梯度及端面效应，
+将问题简化为关于径向坐标 $r$ 和时间 $t$ 的一维非稳态传热传质问题。
+
+\subsection{模型假设}
+
+为在保证物理合理性的同时控制模型复杂度，作如下假设：
+
+\begin{enumerate}
+  \item 药材为均质、各向同性的圆柱体，问题二中长度和半径保持不变；
+  \item 药材内部温度和水分浓度仅沿径向变化，忽略轴向梯度及端面影响；
+  \item 药材的密度、比热容、导热系数及水分扩散系数均采用附录3给出的经验关系；
+  \item 烘房与药材表面之间的对流换热系数和对流传质系数沿用问题一给定值；
+  \item 附件1给出的烘房温度和水分浓度作为时变外界边界条件，并采用分段线性插值；
+  \item 本问首先建立工程型变物性基准模型，暂不计蒸发潜热、水分迁移携带显热等高阶能量耦合效应。
+\end{enumerate}
+
+\subsection{变物性关系}
+
+根据附录3，药材密度、比热容和导热系数分别为
+\begin{align}
+\rho(C) &= 650+128C, \\
+c_p(C) &= 1450+2736\frac{C}{C+1}, \\
+k(C) &= 0.21+0.38\frac{C}{C+1}.
+\end{align}
+
+其中，$C$ 表示药材干基水分浓度，单位为 $\mathrm{kg/kg}$。
+
+水分有效扩散系数同时受到含水率和局部温度影响：
+\begin{equation}
+D(C,T_K)
+=
+2.4\times10^{-3}
+\exp\left(-\frac{0.45}{C}\right)
+\exp\left(-\frac{3850}{T_K}\right),
+\end{equation}
+其中
+\begin{equation}
+T_K=T+273.15
+\end{equation}
+为药材局部绝对温度，单位为 K。
+
+上述关系表明，药材内部水分状态的变化会进一步改变其热物性，
+而局部温度又会通过扩散系数影响水分迁移速度，因此温度场和水分场之间存在双向耦合。
+
+\subsection{温度场控制方程}
+
+在忽略内部热源及高阶相变能量项的条件下，
+将含水率相关热物性引入非稳态热传导方程，可得
+\begin{equation}
+\boxed{
+\rho(C)c_p(C)
+\frac{\partial T}{\partial t}
+=
+\frac{1}{r}
+\frac{\partial}{\partial r}
+\left[
+r k(C)
+\frac{\partial T}{\partial r}
+\right]
+}
+\label{eq:heat}
+\end{equation}
+
+式中，$\rho(C)c_p(C)$ 表征药材当前状态下的有效体积热容，
+$k(C)$ 表征药材内部的有效导热能力。
+
+本模型将题给的 $\rho(C)$、$c_p(C)$ 和 $k(C)$ 视为药材宏观有效热物性，
+用于描述含水率变化对传热过程的影响，
+而不进一步区分固相、水相和孔隙气相之间的微观能量输运。
+
+\subsection{水分场控制方程}
+
+药材内部水分迁移采用有效扩散模型描述。
+根据圆柱坐标系下的 Fick 第二定律，有
+\begin{equation}
+\boxed{
+\frac{\partial C}{\partial t}
+=
+\frac{1}{r}
+\frac{\partial}{\partial r}
+\left[
+rD(C,T_K)
+\frac{\partial C}{\partial r}
+\right]
+}
+\label{eq:mass}
+\end{equation}
+
+由于 $D$ 同时依赖 $C$ 和 $T_K$，
+温度场的变化会直接影响水分扩散速度。
+另一方面，$C$ 的变化又会改变 $\rho$、$c_p$ 和 $k$，
+因此式~\eqref{eq:heat} 与式~\eqref{eq:mass} 构成非线性双向耦合系统。
+
+其耦合关系可概括为
+\begin{equation}
+C
+\longrightarrow
+\{\rho,c_p,k\}
+\longrightarrow
+T,
+\qquad
+(T,C)
+\longrightarrow
+D
+\longrightarrow
+C.
+\end{equation}
+
+\subsection{初始条件}
+
+问题二从烘干初始时刻重新计算。
+初始时药材内部温度和水分浓度均匀分布，因此有
+\begin{align}
+T(r,0) &= 28~^\circ\mathrm{C}, \\
+C(r,0) &= 2.55~\mathrm{kg/kg},
+\qquad 0\le r\le R.
+\end{align}
+
+\subsection{边界条件}
+
+\subsubsection{圆柱中心}
+
+由轴对称性，在 $r=0$ 处无径向热流和水分通量，即
+\begin{align}
+\left.
+\frac{\partial T}{\partial r}
+\right|_{r=0}
+&=0, \\
+\left.
+\frac{\partial C}{\partial r}
+\right|_{r=0}
+&=0.
+\end{align}
+
+\subsubsection{药材表面}
+
+药材表面与烘房环境之间采用第三类边界条件。
+
+对于传热过程，
+\begin{equation}
+\boxed{
+-k(C_s)
+\left.
+\frac{\partial T}{\partial r}
+\right|_{r=R}
+=
+h_T
+\left[
+T_s-T_{\infty}(t)
+\right]
+}
+\label{eq:heat_boundary}
+\end{equation}
+
+其中
+\begin{equation}
+T_s=T(R,t),
+\qquad
+h_T=25~\mathrm{W/(m^2\cdot K)}.
+\end{equation}
+
+对于传质过程，
+\begin{equation}
+\boxed{
+-D(C_s,T_s)
+\left.
+\frac{\partial C}{\partial r}
+\right|_{r=R}
+=
+h_m
+\left[
+C_s-C_{\infty}(t)
+\right]
+}
+\label{eq:mass_boundary}
+\end{equation}
+
+其中
+\begin{equation}
+C_s=C(R,t),
+\qquad
+h_m=8\times10^{-7}~\mathrm{m/s}.
+\end{equation}
+
+$T_{\infty}(t)$ 与 $C_{\infty}(t)$ 分别表示附件1给出的烘房温度和水分浓度。
+由于原始数据以离散时间点给出，计算过程中采用分段线性插值获得任意时刻的外界条件。
+
+需要说明的是，本文将附件1中的烘房水分浓度视为表面传质过程的等效外界驱动力，
+从而与药材内部干基水分浓度构成经验型 Robin 边界条件。
+
+\subsection{预热平衡与恒温干燥阶段的统一描述}
+
+问题二要求相关经验关系在整个烘干过程中统一采用附录3公式，
+因此本文不在预热平衡阶段和恒温干燥阶段人为设置两套不同的控制方程。
+
+在预热阶段，外界温度和水分浓度随时间显著变化，
+药材内部温度与含水率也随之改变；
+进入恒温干燥阶段后，烘房温湿环境逐渐趋于稳定，
+而药材内部水分仍持续向外迁移。
+
+因此，两个阶段的差异主要通过
+\begin{equation}
+T_{\infty}(t),\qquad C_{\infty}(t)
+\end{equation}
+的时间变化以及
+\begin{equation}
+\rho(C),\quad c_p(C),\quad k(C),\quad D(C,T)
+\end{equation}
+的动态更新自然体现，无需人为设置突变的阶段参数。
+
+\subsection{模型合理性分析}
+
+为判断是否有必要保留药材内部的空间分布，
+对初始状态进行数量级分析。
+
+当
+\begin{equation}
+C_0=2.55,\qquad T_0=28^\circ\mathrm{C}
+\end{equation}
+时，由附录3可得初始热物性约为
+\begin{align}
+\rho_0 &\approx 976.4~\mathrm{kg/m^3},\\
+c_{p,0} &\approx 3415.3~\mathrm{J/(kg\cdot K)},\\
+k_0 &\approx 0.483~\mathrm{W/(m\cdot K)},\\
+D_0 &\approx 5.64\times10^{-9}~\mathrm{m^2/s}.
+\end{align}
+
+因此初始热扩散率为
+\begin{equation}
+\alpha_0
+=
+\frac{k_0}{\rho_0c_{p,0}}
+\approx
+1.45\times10^{-7}~\mathrm{m^2/s}.
+\end{equation}
+
+对应的径向热扩散特征时间约为
+\begin{equation}
+\tau_T
+\sim
+\frac{R^2}{\alpha_0}
+\approx
+0.77~\mathrm{h},
+\end{equation}
+
+而水分扩散特征时间约为
+\begin{equation}
+\tau_C
+\sim
+\frac{R^2}{D_0}
+\approx
+19.7~\mathrm{h}.
+\end{equation}
+
+可以看到
+\begin{equation}
+\tau_T\ll\tau_C,
+\end{equation}
+表明药材温度趋于平衡的速度明显快于内部水分扩散速度，
+与实际烘干过程中“先经历预热平衡、随后进行较长时间恒温干燥”的阶段特征一致。
+
+进一步计算初始传热 Biot 数
+\begin{equation}
+Bi_T
+=
+\frac{h_TR}{k_0}
+\approx1.04,
+\end{equation}
+以及等效传质 Biot 数
+\begin{equation}
+Bi_C
+=
+\frac{h_mR}{D_0}
+\approx2.84.
+\end{equation}
+
+二者均明显大于 $0.1$，
+说明药材内部存在不可忽略的径向温度梯度和水分浓度梯度，
+因此采用具有空间分布的一维径向偏微分模型具有必要性，
+不宜将药材直接简化为集中参数系统。
+
+\subsection{模型的局限性}
+
+本问以题给经验物性为基础建立宏观有效连续介质模型，
+其主要目的在于描述药材内部温度和水分浓度的时空演化规律。
+
+需要指出的是，本模型暂未计入蒸发潜热、水分迁移所携带的显热以及干燥收缩等效应。
+其中，尺寸收缩将在问题四中进一步研究；
+蒸发潜热对温度预测的影响则可在后续模型敏感性分析中进一步讨论。
+
+因此，本模型首先作为问题二的工程基准模型，
+在保证题给参数充分利用和模型可计算性的同时，
+避免在缺乏额外物性和质量通量信息的情况下引入过多不可辨识参数。
+
+\end{document}

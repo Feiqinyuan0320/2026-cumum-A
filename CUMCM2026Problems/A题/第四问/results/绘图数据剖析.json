@@ -1,0 +1,429 @@
+{
+  "source": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/results/绘图数据.csv",
+  "n_rows": 3066,
+  "n_cols": 8,
+  "columns": {
+    "time_h": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 25.558333333333334,
+      "median": 25.55833333333333,
+      "sd": 14.75370480779506,
+      "min": 0.0166666666666666,
+      "max": 51.1,
+      "skewness": 0.0,
+      "skew_label": "approximately symmetric",
+      "n_outliers_iqr": 0,
+      "outlier_lo": -25.525000000000002,
+      "outlier_hi": 76.64166666666667,
+      "needs_log_axis": true
+    },
+    "radius_cm": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 1.2616405740378343,
+      "median": 1.203,
+      "sd": 0.1365352997880476,
+      "min": 1.2,
+      "max": 1.995766666666667,
+      "skewness": 3.0092634602125945,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 496,
+      "outlier_lo": 1.1374500000000003,
+      "outlier_hi": 1.3042499999999997,
+      "needs_log_axis": false
+    },
+    "C_xi0": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.6141467086799898,
+      "median": 0.2660288298256731,
+      "sd": 0.7048586789365143,
+      "min": 0.1499898221662834,
+      "max": 2.55,
+      "skewness": 1.7553949514167349,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 441,
+      "outlier_lo": -0.548619549806503,
+      "outlier_hi": 1.4034946335728922,
+      "needs_log_axis": false
+    },
+    "C_xi025": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.5947387151189152,
+      "median": 0.2582695881296966,
+      "sd": 0.6874557112606865,
+      "min": 0.1469179152081058,
+      "max": 2.55,
+      "skewness": 1.8077481014274395,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 440,
+      "outlier_lo": -0.516008397957267,
+      "outlier_hi": 1.3377082772739797,
+      "needs_log_axis": false
+    },
+    "C_xi05": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.5339778694036273,
+      "median": 0.2343510749349491,
+      "sd": 0.631438684274702,
+      "min": 0.1371759554171897,
+      "max": 2.55,
+      "skewness": 1.994814777824538,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 436,
+      "outlier_lo": -0.42132403513109196,
+      "outlier_hi": 1.1439911009397363,
+      "needs_log_axis": false
+    },
+    "C_xi075": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.4205404274605959,
+      "median": 0.19052102479168645,
+      "sd": 0.5183658754267931,
+      "min": 0.1181278580706284,
+      "max": 2.55,
+      "skewness": 2.449254231486278,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 432,
+      "outlier_lo": -0.27165507956257984,
+      "outlier_hi": 0.8258764249292405,
+      "needs_log_axis": false
+    },
+    "C_surface": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.17274179008212348,
+      "median": 0.0645634213867056,
+      "sd": 0.24110665739404355,
+      "min": 0.052607002162807,
+      "max": 2.079449295898978,
+      "skewness": 2.894837942327846,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 498,
+      "outlier_lo": -0.08724958652684518,
+      "outlier_hi": 0.2923544271882422,
+      "needs_log_axis": false
+    },
+    "C_max": {
+      "type": "continuous",
+      "n_total": 3066,
+      "n_null": 0,
+      "missing_rate": 0.0,
+      "n": 3066,
+      "mean": 0.6141467086799898,
+      "median": 0.2660288298256731,
+      "sd": 0.7048586789365143,
+      "min": 0.1499898221662834,
+      "max": 2.55,
+      "skewness": 1.7553949514167349,
+      "skew_label": "highly skewed",
+      "n_outliers_iqr": 441,
+      "outlier_lo": -0.548619549806503,
+      "outlier_hi": 1.4034946335728922,
+      "needs_log_axis": false
+    }
+  },
+  "correlation": {
+    "columns": [
+      "time_h",
+      "radius_cm",
+      "C_xi0",
+      "C_xi025",
+      "C_xi05",
+      "C_xi075",
+      "C_surface",
+      "C_max"
+    ],
+    "matrix": {
+      "time_h": {
+        "time_h": 1.0,
+        "radius_cm": -0.645,
+        "C_xi0": -0.794,
+        "C_xi025": -0.789,
+        "C_xi05": -0.77,
+        "C_xi075": -0.729,
+        "C_surface": -0.681,
+        "C_max": -0.794
+      },
+      "radius_cm": {
+        "time_h": -0.645,
+        "radius_cm": 1.0,
+        "C_xi0": 0.923,
+        "C_xi025": 0.932,
+        "C_xi05": 0.957,
+        "C_xi075": 0.989,
+        "C_surface": 0.992,
+        "C_max": 0.923
+      },
+      "C_xi0": {
+        "time_h": -0.794,
+        "radius_cm": 0.923,
+        "C_xi0": 1.0,
+        "C_xi025": 1.0,
+        "C_xi05": 0.994,
+        "C_xi075": 0.966,
+        "C_surface": 0.94,
+        "C_max": 1.0
+      },
+      "C_xi025": {
+        "time_h": -0.789,
+        "radius_cm": 0.932,
+        "C_xi0": 1.0,
+        "C_xi025": 1.0,
+        "C_xi05": 0.996,
+        "C_xi075": 0.972,
+        "C_surface": 0.947,
+        "C_max": 1.0
+      },
+      "C_xi05": {
+        "time_h": -0.77,
+        "radius_cm": 0.957,
+        "C_xi0": 0.994,
+        "C_xi025": 0.996,
+        "C_xi05": 1.0,
+        "C_xi075": 0.987,
+        "C_surface": 0.966,
+        "C_max": 0.994
+      },
+      "C_xi075": {
+        "time_h": -0.729,
+        "radius_cm": 0.989,
+        "C_xi0": 0.966,
+        "C_xi025": 0.972,
+        "C_xi05": 0.987,
+        "C_xi075": 1.0,
+        "C_surface": 0.988,
+        "C_max": 0.966
+      },
+      "C_surface": {
+        "time_h": -0.681,
+        "radius_cm": 0.992,
+        "C_xi0": 0.94,
+        "C_xi025": 0.947,
+        "C_xi05": 0.966,
+        "C_xi075": 0.988,
+        "C_surface": 1.0,
+        "C_max": 0.94
+      },
+      "C_max": {
+        "time_h": -0.794,
+        "radius_cm": 0.923,
+        "C_xi0": 1.0,
+        "C_xi025": 1.0,
+        "C_xi05": 0.994,
+        "C_xi075": 0.966,
+        "C_surface": 0.94,
+        "C_max": 1.0
+      }
+    },
+    "pairs_sorted": [
+      {
+        "a": "C_xi0",
+        "b": "C_max",
+        "r": 1.0,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi0",
+        "b": "C_xi025",
+        "r": 0.9996342256222004,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi025",
+        "b": "C_max",
+        "r": 0.9996342256222004,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi025",
+        "b": "C_xi05",
+        "r": 0.9964176658123822,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi0",
+        "b": "C_xi05",
+        "r": 0.9938073090697088,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi05",
+        "b": "C_max",
+        "r": 0.9938073090697088,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_surface",
+        "r": 0.9920877641137157,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_xi075",
+        "r": 0.988947077009079,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi075",
+        "b": "C_surface",
+        "r": 0.987881399244816,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi05",
+        "b": "C_xi075",
+        "r": 0.9874786931449415,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi025",
+        "b": "C_xi075",
+        "r": 0.9717369068040334,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi05",
+        "b": "C_surface",
+        "r": 0.9660687904208861,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi0",
+        "b": "C_xi075",
+        "r": 0.9656102732599294,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi075",
+        "b": "C_max",
+        "r": 0.9656102732599294,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_xi05",
+        "r": 0.9570462715816439,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi025",
+        "b": "C_surface",
+        "r": 0.9473533504624859,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_xi0",
+        "b": "C_surface",
+        "r": 0.9404209811754767,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "C_surface",
+        "b": "C_max",
+        "r": 0.9404209811754767,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_xi025",
+        "r": 0.9317876814888536,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_xi0",
+        "r": 0.9227743092397674,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "radius_cm",
+        "b": "C_max",
+        "r": 0.9227743092397674,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_xi0",
+        "r": -0.7940022198774029,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_max",
+        "r": -0.7940022198774029,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_xi025",
+        "r": -0.7886410338294343,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_xi05",
+        "r": -0.7700235429137053,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_xi075",
+        "r": -0.7290835286469257,
+        "magnitude": "very strong"
+      },
+      {
+        "a": "time_h",
+        "b": "C_surface",
+        "r": -0.681078446381805,
+        "magnitude": "strong"
+      },
+      {
+        "a": "time_h",
+        "b": "radius_cm",
+        "r": -0.6446252006122635,
+        "magnitude": "strong"
+      }
+    ]
+  },
+  "group_summary": null,
+  "warnings": [],
+  "suggestions": [
+    "≥3 个连续变量 → 相关性热力图（['time_h', 'radius_cm', 'C_xi0', 'C_xi025', 'C_xi05']）或 pairplot 散点矩阵",
+    "单个连续变量 time_h → 直方图 / KDE / 箱线图看分布",
+    "time_h 跨数个量级（0.0167 ~ 51.1）→ 用对数 y 轴",
+    "radius_cm 高度偏态（skew=3.01）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_xi0 高度偏态（skew=1.76）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_xi025 高度偏态（skew=1.81）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_xi05 高度偏态（skew=1.99）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_xi075 高度偏态（skew=2.45）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_surface 高度偏态（skew=2.89）→ 考虑对数变换或小提琴图代替均值柱图",
+    "C_max 高度偏态（skew=1.76）→ 考虑对数变换或小提琴图代替均值柱图"
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "date": "2026-09-11",
+  "collection": "我的文库/数模/A题第二问｜变物性与热质耦合",
+  "items": [
+    {
+      "DOI": "10.1016/j.jfoodeng.2014.05.010",
+      "title": [
+        "Estimation of thermo-physical properties of products with cylindrical shape during drying: The coupling between mass and heat"
+      ],
+      "author": [
+        {
+          "family": "da Silva",
+          "given": "Wilton Pereira"
+        },
+        {
+          "family": "e Silva",
+          "given": "Cleide M. D. P. S."
+        },
+        {
+          "family": "Gama",
+          "given": "Fernando J. A."
+        }
+      ],
+      "container-title": [
+        "Journal of Food Engineering"
+      ],
+      "volume": "141",
+      "issue": null,
+      "page": "65-73",
+      "published": null,
+      "URL": "https://doi.org/10.1016/j.jfoodeng.2014.05.010",
+      "sources": [
+        "第一问已核验记录",
+        "本次Zotero已有条目"
+      ],
+      "cross_validated": false,
+      "cross_validated_note": "本字段仅指本次双引擎匹配；不代表题录未核对",
+      "zotero": "复用条目，已加入第二问分类",
+      "year": 2014,
+      "access": "已有PDF，已复制并转换MD；读取模型假设及简化比较章节"
+    },
+    {
+      "DOI": "10.1016/j.jfoodeng.2015.01.017",
+      "title": [
+        "Numerical modeling of heat and mass transfer during convective drying of cylindrical quince slices"
+      ],
+      "author": [
+        {
+          "given": "Dimitrios A.",
+          "family": "Tzempelikos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dimitris",
+          "family": "Mitrakos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandros P.",
+          "family": "Vouros",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Achilleas V.",
+          "family": "Bardakas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andronikos E.",
+          "family": "Filios",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dionissios P.",
+          "family": "Margaris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Food Engineering"
+      ],
+      "volume": "156",
+      "issue": null,
+      "page": "10-21",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            7
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1016/j.jfoodeng.2015.01.017",
+      "sources": [
+        "第一问已核验记录",
+        "本次Zotero已有条目"
+      ],
+      "cross_validated": false,
+      "cross_validated_note": "本字段仅指本次双引擎匹配；不代表题录未核对",
+      "zotero": "复用条目，已加入第二问分类"
+    },
+    {
+      "DOI": "10.11975/j.issn.1002-6819.202306104",
+      "title": [
+        "中药材干燥技术与装备研究现状"
+      ],
+      "author": null,
+      "container-title": [
+        "农业工程学报"
+      ],
+      "volume": "40",
+      "issue": "2",
+      "page": "1-28",
+      "published": null,
+      "URL": "https://www.aeeisp.com/nygcxb/article/doi/10.11975/j.issn.1002-6819.202306104",
+      "sources": [
+        "第一问已核验记录",
+        "本次Zotero已有条目"
+      ],
+      "cross_validated": false,
+      "cross_validated_note": "本字段仅指本次双引擎匹配；不代表题录未核对",
+      "zotero": "复用条目，已加入第二问分类",
+      "author_display": "王乐意，李长河，刘明政，等",
+      "year": 2024,
+      "access": "已有28页PDF，已复制并转换MD"
+    },
+    {
+      "DOI": "10.1016/j.jfoodeng.2012.02.021",
+      "title": [
+        "Computational modelling of the transport phenomena occurring during convective drying of prunes"
+      ],
+      "author": [
+        {
+          "family": "Sabarez",
+          "given": "Henry T."
+        }
+      ],
+      "container-title": [
+        "Journal of Food Engineering"
+      ],
+      "volume": "111",
+      "issue": "2",
+      "page": "279-288",
+      "year": 2012,
+      "URL": "https://www.sciencedirect.com/science/article/abs/pii/S026087741200091X",
+      "sources": [
+        "AnySearch",
+        "ScienceDirect",
+        "FAO AGRIS"
+      ],
+      "cross_validated": false,
+      "access": "摘要和题录；未取得完整PDF",
+      "zotero": "新增并确认"
+    },
+    {
+      "DOI": "10.1007/s42853-020-00056-9",
+      "title": [
+        "Convective Drying Modeling Approaches: a Review for Herbs, Vegetables, and Fruits"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2265-1763",
+          "authenticated-orcid": false,
+          "given": "Gibson P.",
+          "family": "Mutuli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ayub N.",
+          "family": "Gitau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Duncan O.",
+          "family": "Mbuge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Biosystems Engineering"
+      ],
+      "volume": "45",
+      "issue": "4",
+      "page": "197-212",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            11,
+            12
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/s42853-020-00056-9",
+      "sources": [
+        "Springer Nature",
+        "Crossref"
+      ],
+      "cross_validated": false,
+      "access": "摘要及参考文献列表；未取得完整PDF",
+      "zotero": "新增并确认"
+    },
+    {
+      "DOI": "10.7506/spkx1002-6630-20230306-055",
+      "title": [
+        "计算流体力学在果蔬干燥领域的研究进展"
+      ],
+      "author": [
+        {
+          "family": "李",
+          "given": "孟卿"
+        },
+        {
+          "family": "耿",
+          "given": "智化"
+        },
+        {
+          "family": "朱",
+          "given": "丽春"
+        },
+        {
+          "family": "张",
+          "given": "茜"
+        },
+        {
+          "family": "杨",
+          "given": "旭海"
+        }
+      ],
+      "container-title": [
+        "食品科学"
+      ],
+      "volume": "45",
+      "issue": "6",
+      "page": "294-305",
+      "year": 2024,
+      "URL": "https://www.spkx.net.cn/CN/10.7506/spkx1002-6630-20230306-055",
+      "sources": [
+        "食品科学期刊官网",
+        "Zotero DOI.org CSL JSON"
+      ],
+      "cross_validated": false,
+      "access": "摘要和检索可见片段；PDF请求403，Zotero未找到全文",
+      "zotero": "新增；已拆分作者并补全页码"
+    }
+  ],
+  "fulltext_pdf_and_md": [
+    "DaSilva2014_圆柱干燥变物性与热质耦合",
+    "中药材干燥技术与装备研究现状"
+  ],
+  "note": "cross_validated只表示本次OpenAlex和AnySearch双引擎匹配成功与否。已用出版社或机构记录核对文献，不把访问失败当成检索成功。"
+}

@@ -1,0 +1,120 @@
+\section{问题三：药材烘干所需时间的确定}
+\label{sec:q3}
+
+\subsection{问题分析与烘房条件的处理}
+
+药材达到烘干要求，意味着内部含水率最高的位置也已降到 $0.15~\mathrm{kg/kg}$ 以下。即使平均含水率达标，内部仍可能有尚未干燥的区域，因此需要在问题二给出的水分分布中寻找最大值，并跟踪它随时间的变化。计算继续沿用问题二的一维径向热质传递模型，药材半径保持为 $R=0.02~\mathrm m$，物性关系、初始状态和表面对流条件也保持一致。
+
+题目给出的烘房温度和水分浓度数据只覆盖前 $4~\mathrm h$，要继续计算，还需要确定此后的烘房条件。在已有数据覆盖的时段内，采用分段线性插值获得各计算时刻的环境值。从最后一小时的数据看，温度和水分浓度已分别接近 $50~^\circ\mathrm C$ 和 $0.05~\mathrm{kg/kg}$，因此假设后续维持这一小时的平均水平。取 $3$--$4~\mathrm h$ 内包含两端点的61个采样值，有
+\begin{equation}
+ T_\infty^\ast=\frac{1}{61}\sum_{j=0}^{60}T_\infty(10800+60j),
+ \qquad
+ C_\infty^\ast=\frac{1}{61}\sum_{j=0}^{60}C_\infty(10800+60j),
+ \label{eq:q3-boundary-mean}
+\end{equation}
+其中时间单位为秒。对 $t>14400~\mathrm s$，令
+\begin{equation}
+ T_\infty(t)=49.99893443~^\circ\mathrm C,\qquad
+ C_\infty(t)=0.0499875410~\mathrm{kg/kg}.
+ \label{eq:q3-boundary-extension}
+\end{equation}
+这里的烘房水分浓度仍用于表示问题二中的等效传质驱动力。式~\eqref{eq:q3-boundary-extension} 给出的是根据已有数据作出的后续环境假设。为考察取平均值对结果的影响，另计算后续环境始终保持最后一次观测值时的烘干时长。
+
+\subsection{烘干结束时间的确定}
+
+记药材内部最大干基含水率为
+\begin{equation}
+ C_{\max}(t)=\max_{0\le r\le R}C(r,t),\qquad
+ t_{\mathrm{dry}}=\inf\bigl\{t\ge0:C_{\max}(t)<0.15\bigr\}.
+ \label{eq:q3-endpoint}
+\end{equation}
+每推进一个时间步，就比较所有径向单元、轴心和表面的含水率，取其中的最大值判断是否达到烘干要求。轴心值由问题二的二次重构公式得到，内部指定位置的值通过线性插值获得，表面值则由 Robin 边界条件反算。
+
+温度和含水率仍采用后向欧拉格式推进。每个时间层内，通过 Picard 迭代反复更新局部物性和两个场的状态，迭代容差取 $10^{-10}$；扩散系数中的温度使用药材局部绝对温度 $T_K=T+273.15$。前期升温较快，前 $3~\mathrm h$ 保留 $0.0625~\mathrm s$ 的时间步长，之后放宽至 $0.5~\mathrm s$，最终径向网格数取 $N=3200$。各组网格都从原始均匀初态开始计算。
+
+当相邻两个时间层首次满足
+\begin{equation}
+ C_{\max}(t_n)\ge0.15,\qquad C_{\max}(t_{n+1})<0.15
+ \label{eq:q3-crossing}
+\end{equation}
+时，烘干终点便落在这两个时刻之间。此时从 $t_n$ 的状态出发，用二分法细化这一步内的计算，直到区间宽度小于 $0.001~\mathrm s$。由于阈值交点本身通常满足 $C_{\max}=0.15$，而题目要求严格低于该值，本文将区间上界换算为小时并向上取至四位小数，再计算一次该时刻的含水率，确认所有位置均已达标。这里的 $0.001~\mathrm s$ 仅表示最后一步内的定位区间，网格和时间步长造成的误差还需单独检验。
+
+\subsection{烘干时长与水分分布}
+
+采用最后一小时的平均烘房条件，细化后的阈值交点位于
+\[
+ [206919.613281250,\ 206919.614257812]~\mathrm s.
+\]
+据此取烘干所需时间为
+\begin{equation}
+ \boxed{\widehat t_{\mathrm{dry}}=57.4777~\mathrm h\approx2.3949~\mathrm d.}
+ \label{eq:q3-result}
+\end{equation}
+此时含水率最高的位置在轴心，其值为 $0.149999969013~\mathrm{kg/kg}$，已低于规定上限。因此，在所采用的烘房条件下，中心最后达到烘干要求。
+
+表~\ref{tab:q3-moisture} 列出了每隔 $6~\mathrm h$、沿半径每隔 $0.5~\mathrm{cm}$ 的水分浓度，最后一行为烘干结束时的结果。表中保留四位小数，所以末行中心值显示为 $0.1500$；实际判断使用的是舍入前的数值。
+
+\input{tables/table5.tex}
+
+从图~\ref{fig:q3-moisture} 可以看出，表层失水较快，中心附近的含水率下降得更慢。烘干至 $12~\mathrm h$ 时，表面含水率已降到 $0.1642~\mathrm{kg/kg}$，中心却仍有 $0.4562~\mathrm{kg/kg}$。此时表面已接近要求，内部还保留着较多水分，说明判断烘干终点必须考虑内部状态。
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.83\textwidth]{result_q3_代表半径含水率.pdf}
+ \caption{不同半径处的干基含水率随时间变化}
+ \label{fig:q3-moisture}
+\end{figure}
+
+题目给出的水分扩散系数表达式包含 $\exp(-0.45/C)$ 这一项，含水率越低，该项越小。后期药材温度已接近稳定，含水率继续降低使有效扩散系数减小，水分向外扩散的速度也随之减慢。这解释了图中后半段曲线逐渐变缓的现象。水分还需要通过表面与烘房环境交换，因此整个失水过程也受到表面传质条件的影响。
+
+按题目要求，\texttt{result3.xlsx} 中每隔 $60~\mathrm s$ 输出一次水分浓度，沿半径每隔 $0.1~\mathrm{cm}$ 取一个位置，共3449个时间点、21个半径位置。为使逐分钟结果覆盖烘干终点，文件保留到 $206940~\mathrm s$；结束时刻本身的结果单独列在表~\ref{tab:q3-moisture} 末行。
+
+\subsection{网格与时间步长的检验}
+
+计算前，先用第二问的网格数 $N=400$ 和步长 $0.0625~\mathrm s$ 重算前 $3~\mathrm h$，温度与含水率的全部输出在四位小数下均与原结果一致。随后加密径向网格、缩短后期时间步长，观察烘干结束时间是否还会明显变化。表~\ref{tab:q3-convergence} 列出的小时数对应阈值交点，保留了不同计算设置之间的细小差异；图~\ref{fig:q3-convergence} 以最终采用的网格和步长为基准展示这些差异。
+
+\begin{table}[H]
+ \centering
+ \caption{不同网格与时间步长下的烘干结束时间}
+ \label{tab:q3-convergence}
+ \begin{tabular}{rrr}
+  \toprule
+  网格数 $N$ & $3~\mathrm h$ 后步长/$\mathrm s$ & 阈值交点时间/$\mathrm h$\\
+  \midrule
+  400 & 2   & 57.701362\\
+  400 & 1   & 57.700549\\
+  400 & 0.5 & 57.700143\\
+  800 & 0.5 & 57.521396\\
+  1600 & 0.5 & 57.486448\\
+  3200 & 1 & 57.478076\\
+  3200 & 0.5 & 57.477670\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+在 $N=3200$ 时，将后期步长从 $1~\mathrm s$ 缩短到 $0.5~\mathrm s$，算得的结束时间相差 $1.4609~\mathrm s$。保持 $0.5~\mathrm s$ 的步长，把网格从 $N=1600$ 加密到 $N=3200$，结束时间变化 $31.5977~\mathrm s$，约为总时长的 $0.0153\%$。各级网格的结果逐渐接近，但最近两级仍相差约32秒。因此，结果写成四位小数是为了统一输出格式，不能据此认为末位数字都已具有相同的计算精度。
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.81\textwidth]{process_q3_结束时间收敛比较.pdf}
+ \caption{网格与步长变化引起的烘干时间差}
+ \label{fig:q3-convergence}
+\end{figure}
+
+\subsection{后续烘房条件对结果的影响}
+
+除了采用最后一小时的平均值，也可以假设烘房此后保持最后一次观测到的状态，即温度为 $50.165~^\circ\mathrm C$、水分浓度为 $0.04986~\mathrm{kg/kg}$。用这组条件继续计算，网格数仍取 $N=3200$，后期步长仍为 $0.5~\mathrm s$，得到烘干时间
+\begin{equation}
+ \widehat t_{\mathrm{dry,last}}=57.1731~\mathrm h.
+ \label{eq:q3-last-result}
+\end{equation}
+与均值方案相比，采用末次观测值时的阈值交点提前了 $1096.5869~\mathrm s$，约 $18.2764~\mathrm{min}$，相对变化为 $-0.5300\%$。这组条件的温度略高、外部水分浓度略低，两项变化都有利于药材失水，因此计算得到的烘干时间稍短。
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.83\textwidth]{process_q3_全域达标与边界延拓.pdf}
+ \caption{两种后续烘房条件下最大含水率在终点附近的变化}
+ \label{fig:q3-boundary}
+\end{figure}
+
+图~\ref{fig:q3-boundary} 给出了两种取值方式在烘干终点附近的结果。上述约18分钟的差别，只反映平均值和末次观测值这两组固定条件的影响，不能代表实际烘房任意波动下的预测误差。

@@ -1,0 +1,17 @@
+{
+  "scope": "仅三图英文标注更新，正文沿用本次开始前源稿",
+  "W2": "PASS",
+  "pages": 4,
+  "engine": "xelatex",
+  "build_exit_code": 0,
+  "build_warnings": [],
+  "font_verification": "pdffonts: all 3 figure PDFs emb/sub/uni=yes; check_figure PDF embedding warnings are false positives",
+  "numerical_recompute": false,
+  "preexisting_edit": "正文适用范围末段在本次改图前已删除，mtime 2026-09-12 11:33:52；保留现有工作区编辑",
+  "reviewed_pages": [
+    2,
+    3,
+    4
+  ],
+  "archive": "第三问_XeLaTeX源码_英文图版.zip"
+}

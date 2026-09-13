@@ -1,0 +1,39 @@
+{
+  "scope": "q4; 按用户节省额度及已确认方案，只生成3张核心图。",
+  "backend": "matplotlib",
+  "formats": [
+    "PDF",
+    "SVG editable text",
+    "PNG 300 dpi",
+    "grayscale PNG"
+  ],
+  "statistics": "确定性模型与题给半径数据，无抽样置信区间。材料位置曲线不等于固定物理半径曲线。",
+  "profile": {
+    "radius_rows": 145,
+    "missing_radius": 0,
+    "relative_output_rows": 3066,
+    "missing_relative_C": 0,
+    "outside_domain_blanks": 20099,
+    "units": "h, cm, kg/kg dry basis"
+  },
+  "figures": [
+    {
+      "name": "raw_q4_实测半径与插值",
+      "claim": "实测半径在前期快速下降，随后接近1.2 cm。",
+      "evidence": "145个真实半径节点与逐段直线",
+      "layout": "single axis scatter and line, 6.3 x 3.1 in"
+    },
+    {
+      "name": "process_q4_材料位置含水率",
+      "claim": "固定材料位置的失水进程呈径向差异。",
+      "evidence": "xi=0,.25,.5,.75,1的求解输出",
+      "layout": "single axis lines, 6.3 x 3.6 in"
+    },
+    {
+      "name": "result_q4_收缩与固定半径比较",
+      "claim": "相同物性下收缩使预测时长缩短60.65%。",
+      "evidence": "相同数值设置的两组全程独立计算",
+      "layout": "zero-baseline horizontal bars, 6.3 x 2.6 in"
+    }
+  ]
+}

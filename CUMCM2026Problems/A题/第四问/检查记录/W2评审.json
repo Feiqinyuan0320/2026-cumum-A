@@ -1,0 +1,46 @@
+{
+  "gate": "W2",
+  "status": "PASS",
+  "scope": "第四问独立中文LaTeX章节、4页PDF及同源Markdown；不包含整篇摘要关键词、Word、比赛提交与截止审查。",
+  "input_snapshot": {
+    "pdf_sha256": "a9ed6e4d46232753fd3e507c08dfe402557b22f1976c5e5506f5d2e55fbde397",
+    "main_tex_sha256": "c5a21c5fc734d4facb419b38e70569b5d1299335fc38bffa1ec1653a00551d7a",
+    "chapter_tex_sha256": "98be6b4e1bfae766a3caa8633b461f65df9d1b08a138c9ef6f28dcb42669b65e",
+    "markdown_sha256": "50e4dc2ee79610d662b8d38c5536a86e6e664ddd5e4854831f4e65ca68053400",
+    "compiled_project_source_sha256": "97c50b22db28d18ade87794d865f239efa590ede66d07caadd8219928f0b3472",
+    "validation_sha256": "ca773fce56b008bb407e28d04d7024ef4e06ba366393e3c0bd52dd9beb773a09"
+  },
+  "evidence": {
+    "build_engine": "xelatex",
+    "build_returncodes": [
+      0
+    ],
+    "build_warnings": [],
+    "pages": 4,
+    "body_pages": 4,
+    "equations": 12,
+    "figures": 3,
+    "tables": 2,
+    "equation_numbers": "4.1—4.12",
+    "figure_numbers": "1—3",
+    "table_numbers": "6、7",
+    "new_citations": 0,
+    "resource_bindings_checked": 4,
+    "preview": "实际查看当前PDF最终预览的全部4页；非留存5页版。第4页为2图1表完整浮动页，无空白页或孤立末行，全部图表及题注可读，无裁切。",
+    "model": "材料坐标及干基守恒、R因子、局部Kelvin、动态Robin、有效蓄热限制均与M1/P1一致；没有新增潜热闭合或重复收缩项。",
+    "numbers": "51.0945h、129.8592h、78.7647h、60.65%、终点最大值0.1499999871及表6数据与P2归档一致。",
+    "output": "3066分钟点、0—1.9cm固定列+真实表面、等半径填值、域外留空及末点183960s描述一致。",
+    "convergence": "空间差21.5264s和步长差1.2188s可追溯；明确四位显示与事件括区并非完整预测误差。",
+    "captions": "过程图横虚线已注明C=0.15 kg/kg，相对材料位置与固定物理位置明确区分；对照图注明同物性同数值设置。",
+    "chapter_exemption": "完整论文检查仅提示缺摘要、关键词，与独立第四问章节范围不适用；其余实际PDF、字体、资源、引用和编译检查通过。",
+    "markdown": "与TeX数值及模型含义一致，12个显示公式带4.x标签、3张PNG图与2表完整保留。"
+  },
+  "findings": {
+    "P0": [],
+    "P1": [],
+    "P2": [
+      "第3页“覆盖精确结束时刻”可在后续文字润色时改为“覆盖所求结束时刻”，与数值精度限定更统一；现有末段已明确精度限制，不阻塞本次交付。"
+    ]
+  },
+  "rework": "无必须返工，可按第四问独立章节范围交付。"
+}

@@ -1,0 +1,90 @@
+{
+  "gate": "P1",
+  "scope": "independent bounded numerical checks; no full drying run",
+  "solver_sha256": "a1e1e10fe3f5a42e6b6e49f42956a03fdfc4b4fcb80459643bab3b998ebecf89",
+  "checks": {
+    "dimensional_dense_matrix": {
+      "max_state_difference": 1.1102230246251565e-16,
+      "surface_difference": 2.7755575615628914e-17,
+      "surface_flux_difference": 0.0
+    },
+    "radius_nodes": {
+      "count": 145,
+      "max_difference": 0.0,
+      "last_radius_m": 0.01198
+    },
+    "closed_shrinkage": {
+      "weighted_water_change": 0.0,
+      "constant_water_error": 0.0
+    },
+    "physical_output": {
+      "6h_inside_count": 14,
+      "equal_surface_value": 0.5,
+      "surface_column_value": 0.5
+    },
+    "maximum_search": {
+      "interior": {
+        "maximum": 0.2,
+        "position_m": 0.0075
+      },
+      "axis": {
+        "maximum": 0.2125,
+        "position_m": 0.0
+      },
+      "surface": {
+        "maximum": 0.3,
+        "position_m": 0.012
+      }
+    },
+    "event": {
+      "lower_s": 10800.263671875,
+      "upper_s": 10800.2646484375,
+      "width_s": 0.0009765625,
+      "bracket_Cmax": [
+        0.1500000000416556,
+        0.149999999671438
+      ],
+      "reported_s": 10800.36,
+      "reported_Cmax": 0.14999996352334455,
+      "last_regular_output_s": 10860.0
+    },
+    "real_input_cli": {
+      "command": [
+        "/opt/anaconda3/bin/python",
+        "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第四问/solve_q4.py",
+        "--mode",
+        "smoke",
+        "--end",
+        "60",
+        "--label",
+        "reviewer_smoke60"
+      ],
+      "exit_code": 0,
+      "n": 400,
+      "end_s": 60.0,
+      "radius_m": 0.01995766666666667,
+      "Cmax": 2.55,
+      "Cs": 2.078750015394875,
+      "common_row_difference": 0.0,
+      "max_Picard_iterations": 5.0
+    }
+  },
+  "status": "PASS",
+  "findings": {
+    "P0": [],
+    "P1": [],
+    "P2": [
+      "Event bracketing tolerance is not full PDE error; full-run convergence remains required."
+    ]
+  },
+  "not_covered": [
+    "long-time convergence",
+    "final result4 workbook",
+    "full report figures"
+  ],
+  "input_hashes": {
+    "environment": "7ef32870abeef420b89560b2530ff60dfe4255917805151d89988d0311af9dd7",
+    "radius": "5563acbfa4b4afb10cc6c03e2207e5369bf39da27576672aff14cc5c32e704af"
+  },
+  "solver_unchanged_during_review": true
+}

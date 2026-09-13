@@ -1,0 +1,72 @@
+[
+  {
+    "DOI": "10.1016/j.jfoodeng.2012.02.021",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "DOI": "10.1007/s42853-020-00056-9",
+    "title": [
+      "Convective Drying Modeling Approaches: a Review for Herbs, Vegetables, and Fruits"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2265-1763",
+        "authenticated-orcid": false,
+        "given": "Gibson P.",
+        "family": "Mutuli",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayub N.",
+        "family": "Gitau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duncan O.",
+        "family": "Mbuge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Biosystems Engineering"
+    ],
+    "volume": "45",
+    "issue": "4",
+    "page": "197-212",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1007/s42853-020-00056-9"
+  },
+  {
+    "DOI": "10.7506/spkx1002-6630-20230306-055",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

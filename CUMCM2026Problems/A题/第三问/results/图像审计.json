@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "directory": "/Users/baitutu/大学资料/数模/CUMCM2026Problems/A题/第三问/figures",
+  "questions": [
+    "q3"
+  ],
+  "files": {
+    "process_q3_全域达标与边界延拓.png": {
+      "width_px": 1890,
+      "height_px": 990,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.300012600025201,
+      "height_in": 3.3000066000132002
+    },
+    "process_q3_全域达标与边界延拓.svg": {
+      "text_count": 17,
+      "embedded_raster": false
+    },
+    "process_q3_结束时间收敛比较.png": {
+      "width_px": 1890,
+      "height_px": 1050,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.300012600025201,
+      "height_in": 3.5000070000140004
+    },
+    "process_q3_结束时间收敛比较.svg": {
+      "text_count": 18,
+      "embedded_raster": false
+    },
+    "result_q3_代表半径含水率.png": {
+      "width_px": 1890,
+      "height_px": 1110,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.300012600025201,
+      "height_in": 3.7000074000148
+    },
+    "result_q3_代表半径含水率.svg": {
+      "text_count": 19,
+      "embedded_raster": false
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,200 @@
+{
+  "query": "cylindrical drying heat mass transfer diffusion",
+  "cross_validated": [
+    {
+      "title": "Numerical modeling of heat and mass transfer during convective drying of cylindrical quince slices",
+      "authors": [
+        "Dimitrios Tzempelikos",
+        "D. Mitrakos",
+        "Alexandros Vouros",
+        "Achilleas Bardakas",
+        "Andronikos Filios",
+        "Dionissios P. Margaris"
+      ],
+      "year": 2015,
+      "citations": 130,
+      "doi": "10.1016/j.jfoodeng.2015.01.017",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Journal of Food Engineering",
+      "volume": "156",
+      "issue": null,
+      "pages": "10-21",
+      "url": "https://doi.org/10.1016/j.jfoodeng.2015.01.017"
+    },
+    {
+      "title": "Skin effect in the heat and mass transfer model for sewage sludge drying",
+      "authors": [
+        "Rafael Font",
+        "María Francisca Gómez-Rico",
+        "Andrés Fullana"
+      ],
+      "year": 2010,
+      "citations": 65,
+      "doi": "10.1016/j.seppur.2010.12.001",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Separation and Purification Technology",
+      "volume": "77",
+      "issue": "1",
+      "pages": "146-161",
+      "url": "https://doi.org/10.1016/j.seppur.2010.12.001"
+    },
+    {
+      "title": "Numerical and experimental investigation of paper drying: Heat and mass transfer with phase change in porous media",
+      "authors": [
+        "Tao Lu",
+        "S. Q. Shen"
+      ],
+      "year": 2007,
+      "citations": 57,
+      "doi": "10.1016/j.applthermaleng.2006.11.005",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Applied Thermal Engineering",
+      "volume": "27",
+      "issue": "8-9",
+      "pages": "1248-1258",
+      "url": "https://doi.org/10.1016/j.applthermaleng.2006.11.005"
+    },
+    {
+      "title": "Enhancement of mass transfer by ultrasound: Application to adsorbent regeneration and food drying/dehydration",
+      "authors": [
+        "Ye Yao"
+      ],
+      "year": 2016,
+      "citations": 189,
+      "doi": "10.1016/j.ultsonch.2016.01.039",
+      "abstract": "The physical mechanisms of heat and mass transfer enhancement by ultrasound have been identified by people. Basically, the effect of 'cavitation' induced by ultrasound is the main reason for the enhancement of heat and mass transfer in a liquid environment, and the acoustic streaming and vibration are the main reasons for that in a gaseous environment. The adsorbent regeneration and food drying/dehydration are typical heat and mass transfer process, and the intensification of the two processes by ultrasound is of complete feasibility. This paper makes an overview on recent studies regarding applications of power ultrasound to adsorbent regeneration and food drying/dehydration. The concerned adsorbents include desiccant materials (typically like silica gel) for air dehumidification and other ones (typically active carbon and polymeric resin) for water treatment. The applications of ultrasound in the regeneration of these adsorbents have been proved to be energy saving. The concerned foods are mostly fruits and vegetables. Although the ultrasonic treatment may cause food degradation or nutrient loss, it can greatly reduce the food processing time and decrease drying temperature. From the literature, it can be seen that the ultrasonic conditions (i.e., acoustic frequency and power levels) are always focused on during the study of ultrasonic applications. The increasing number of relevant studies argues that ultrasound is a very promising technology applied to the adsorbent regeneration and food drying/dehydration.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Ultrasonics Sonochemistry",
+      "volume": "31",
+      "issue": null,
+      "pages": "512-531",
+      "url": "https://doi.org/10.1016/j.ultsonch.2016.01.039"
+    },
+    {
+      "title": "Power Ultrasound Mass Transfer Enhancement in Food Drying",
+      "authors": [
+        "J.V. García‐Pérez",
+        "Juan A. Cárcel",
+        "J. Benedito",
+        "A. Mulet"
+      ],
+      "year": 2007,
+      "citations": 175,
+      "doi": "10.1205/fbp07010",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Food and Bioproducts Processing",
+      "volume": "85",
+      "issue": "3",
+      "pages": "247-254",
+      "url": "https://doi.org/10.1205/fbp07010"
+    },
+    {
+      "title": "UTCI-Fiala multi-node model of human heat transfer and temperature regulation",
+      "authors": [
+        "Dusan Fiala",
+        "George Havenith",
+        "Peter Bröde",
+        "Bernhard Kampmann",
+        "Gerd Jendritzky"
+      ],
+      "year": 2011,
+      "citations": 978,
+      "doi": "10.1007/s00484-011-0424-7",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "International Journal of Biometeorology",
+      "volume": "56",
+      "issue": "3",
+      "pages": "429-441",
+      "url": "https://doi.org/10.1007/s00484-011-0424-7"
+    },
+    {
+      "title": "Lattice Boltzmann methods for multiphase flow and phase-change heat transfer",
+      "authors": [
+        "Q. Li",
+        "K.H. Luo",
+        "Q.J. Kang",
+        "Y.L. He",
+        "Q. Chen",
+        "Q. Liu"
+      ],
+      "year": 2015,
+      "citations": 933,
+      "doi": "10.1016/j.pecs.2015.10.001",
+      "abstract": null,
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Progress in Energy and Combustion Science",
+      "volume": "52",
+      "issue": null,
+      "pages": "62-105",
+      "url": "https://doi.org/10.1016/j.pecs.2015.10.001"
+    },
+    {
+      "title": "An updated review of nanofluids in various heat transfer devices",
+      "authors": [
+        "Eric C. Okonkwo",
+        "Ifeoluwa Wole‐Osho",
+        "Ismail W. Almanassra",
+        "Yasser M. Abdullatif",
+        "Tareq Al‐Ansari"
+      ],
+      "year": 2020,
+      "citations": 368,
+      "doi": "10.1007/s10973-020-09760-2",
+      "abstract": "Abstract The field of nanofluids has received interesting attention since the concept of dispersing nanoscaled particles into a fluid was first introduced in the later part of the twentieth century. This is evident from the increased number of studies related to nanofluids published annually. The increasing attention on nanofluids is primarily due to their enhanced thermophysical properties and their ability to be incorporated into a wide range of thermal applications ranging from enhancing the effectiveness of heat exchangers used in industries to solar energy harvesting for renewable energy production. Owing to the increasing number of studies relating to nanofluids, there is a need for a holistic review of the progress and steps taken in 2019 concerning their application in heat transfer devices. This review takes a retrospective look at the year 2019 by reviewing the progress made in the area of nanofluids preparation and the applications of nanofluids in various heat transfer devices such as solar collectors, heat exchangers, refrigeration systems, radiators, thermal storage systems and electronic cooling. This review aims to update readers on recent progress while also highlighting the challenges and future of nanofluids as the next-generation heat transfer fluids. Finally, a conclusion on the merits and demerits of nanofluids is presented along with recommendations for future studies that would mobilise the rapid commercialisation of nanofluids.",
+      "sources": [
+        "openalex",
+        "anysearch"
+      ],
+      "cross_validated": true,
+      "venue": "Journal of Thermal Analysis and Calorimetry",
+      "volume": "145",
+      "issue": "6",
+      "pages": "2817-2872",
+      "url": "https://doi.org/10.1007/s10973-020-09760-2"
+    }
+  ],
+  "openalex_only": [],
+  "anysearch_only": [],
+  "stats": {
+    "openalex_total": 16,
+    "anysearch_total": 10,
+    "cross_validated": 9,
+    "openalex_unique": 6,
+    "anysearch_unique": 0,
+    "filtered_irrelevant": 1,
+    "collapsed_duplicates": 0
+  }
+}

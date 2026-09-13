@@ -1,0 +1,31 @@
+{
+  "final_setting": {
+    "N": 1600,
+    "dr_m": 1.25e-05,
+    "dt_s": 0.015625,
+    "scheme": "cell-centered radial finite volume + backward Euler",
+    "nonlinear_solver": "Picard",
+    "picard_tolerance": 1e-10,
+    "max_picard_iterations": 4,
+    "D_face": "harmonic mean",
+    "boundary_interpolation": "piecewise linear"
+  },
+  "convergence": {
+    "space_N800_to_N1600_dt0.125": {
+      "E_T_C": 1.0161462995483816e-06,
+      "E_C_kgkg": 1.5218300739139323e-05
+    },
+    "time_dt0.03125_to_dt0.015625_N1600": {
+      "E_T_C": 2.9864975317650533e-05,
+      "E_C_kgkg": 6.38622356996521e-06
+    },
+    "picard_tol1e-8_to1e-10_N800_dt0.125": {
+      "E_T_C": 0.0,
+      "E_C_kgkg": 2.149391775674303e-13
+    }
+  },
+  "conservation": {
+    "max_relative_heat_residual": 3.9189360989848566e-07,
+    "max_relative_moisture_residual": 3.1034010429361483e-11
+  }
+}
